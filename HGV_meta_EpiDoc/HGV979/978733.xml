@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv978733">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eidliche Verpflichtung im Zusammenhang mit einem Sarapis&#x2028;heiligtum</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">978733</idno>
+            <idno type="TM">978733</idno>
+            <idno type="ddb-filename">p.louvre.3.177</idno>
+            <idno type="ddb-hybrid">p.louvre;3;177</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Paris</settlement>
+                  </placeName>
+                  <collection>Louvre</collection>
+                  <idno type="invNo">E 11091 i</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>unbekannt</origPlace>
+                     <origDate notBefore="0049-10" notAfter="0049-11">Okt. 49 - Nov. 49</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Eid</term>
+               <term n="2">Sarapis</term>
+               <term n="3">Heiligtum</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-11-12T14:36:57-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2022-11-12T14:27:10-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Yes</change>
+         <change when="2022-11-09T06:07:00-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Eingabe des Textes und einer Übersetzung nach P.Louvre III 177 sowie Korrektur der Datierung in den Metadaten.</change>
+         <change who="HGV" when="2022-10-13">Record created</change>
+         <change who="HGV" when="2022-10-13">Xwalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Louvre</title>
+                  <biblScope n="1" type="volume">3</biblScope>
+                  <biblScope n="2" type="numbers">177</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Tafel 5</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://collections.louvre.fr/ark:/53355/cl010432777"/>
+               </figure>
+            </p>
+         </div>
+         <div type="commentary" subtype="mentionedDates"/>
+      </body>
+  </text>
+</TEI>

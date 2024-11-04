@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Census declaration</title>
+            <author>Sansneus, son of N.N.</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.66</idno>
+            <idno type="controlNo">(CU)66</idno>
+            <idno type="ddbdp">sb.20.14164</idno>
+            <idno type="HGV">14836b</idno>
+            <idno type="TM">14836</idno>
+            <idno type="ddb-hybrid">sb;20;14164colii</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0481 (2)</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Sansneus registers his property and household therein in Talei.</summary>
+                  <msItemStruct>
+                     <note type="general">verso unpublished</note>
+                     <note type="general">The text is pasted to another census declaration (P.Tebt.481(1)) so as to form a tomos sunkollesimos</note>
+                     <note type="general">24th year of the Emperor Antoninus Pius, 30th of the Egyptian month Pharmouthi</note>
+                     <note type="related">The second hand is the same as the second hand of P.Tebt.481 (1)</note>
+                     <note type="local_note">1436</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 22.3 x 7.9 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">30 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">On verso, across the fibers, four lines of unrelated writing</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>2 different hands: 1, body of declaration (lines 1-28); 2, date (lines 29-30)</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="0161">25 April 161 A.D.</origDate>
+                     <origPlace>Talei</origPlace>
+                     <persName type="asn">Apollonios, Brother of Sansneus</persName>
+                     <persName type="asn">Heron</persName>
+                     <persName type="asn">Sarapous</persName>
+                     <persName type="asn">Sochotes, Brother of Sansneus</persName>
+                     <persName type="asn">Tamysthas</persName>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T143</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Census -- 161 A.D.</term>
+               <term>Real property</term>
+               <term>Talei</term>
+               <term type="genre_form">Declarations, Roman Period; Census records, Roman Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto UC 1436.</desc>
+            <graphic url="http://papyri.info/images/26/AP00529a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso UC 1436.</desc>
+            <graphic url="http://papyri.info/images/4f/AP00980a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="translation">
+            <ab>To Heron --- from Sansneus son of N.N., grandson of Patynis, his mother being N.N. daughter of Sansneus, public farmer from the village of Talei. In accordance with the orders, I register for the house-by-house census of the past 23rd year of Antoninus Caesar the Lord in the 3rd share of a paternal house, owned in common with my brothers, in the same village. And I am Sansneus the aforementioned, 3[.], with a scar on the small finger of my left hand; and my brother from the same father and mother, Apollonios [3?], scarless; Sochotes another brother by the same mother, 33, scarless; � the wife of Apollonios, 32, scarless; and Tamystha, daughter from both parents, --, scarless; and the wife of Sochotes, N.N. daughter of Hatres, granddaughter of N.N., her mother being Sarapous, --, scarless; and the daughter from both parents � with a scar on her middle?, and Sarapous, 3, scarless. And there belong � a house and courtyard in which � Year 24 of Antoninus Caesar the Lord, Pharmouthi 30.</ab>
+         </div>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.481; SB, XX, no. 14164 <note>Bagnall, R.S. Aegyptus v. 72 (1992), p. 67-71, no. 3 with photo (Tav. 2-3)</note>
+               </bibl>
+               <bibl type="ddbdp">SB:20:14164</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/66">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

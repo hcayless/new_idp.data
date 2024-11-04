@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv412061">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ordine di comparizione</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">412061</idno>
+            <idno type="TM">412061</idno>
+            <idno type="ddb-perseus-style">;1;7</idno>
+            <idno type="ddb-filename">p.tebt.pad.1.7</idno>
+            <idno type="ddb-hybrid">p.tebt.pad;1;7</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt. Pad. inv. 21</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Tebtynis (Arsinoites, Ägypten)</origPlace>
+                     <origDate when="-0221-08-03">
+                3. Aug. 221 v.Chr. (Jahr unsicher)
+                <certainty locus="value" match="../year-from-date(@when)"/>
+                     </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/737072 https://www.trismegistos.org/place/2287">Tebtynis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Auftrag zur Überstellung einer Person vor das Gericht</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-06-23T10:09:42-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2023-06-23T10:05:54-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Yes</change>
+         <change when="2023-06-23T07:27:34-04:00"
+                 who="http://papyri.info/editor/users/LaviniaFerretti">Submit - Added link to digital image</change>
+         <change who="HGV" when="2015-12-09">Record created</change>
+         <change who="HGV" when="2016-06-09">Record last modified</change>
+         <change when="2016-06-15" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Tebt. Pad.</title>
+                  <biblScope n="1" type="volume">1</biblScope>
+                  <biblScope n="2" type="numbers">7</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Tav. VII a-b</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.psi-online.it/documents/p-tebt-pad-i-7"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Declaration on oath, Roman CE 54-55</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0007220000</idno>
+            <idno type="controlNo">(CtY)722</idno>
+            <idno type="HGV">974975</idno>
+            <idno type="TM">974975</idno>
+            <idno type="ddb-hybrid">p.yale;4;157</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 722</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Of a weaver (?) in the first year of Nero</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: Left, right</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 151 x 95 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">16</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0054" notAfter="0055">Roman CE 54-55</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Oxyrhynchus</p>
+                  </provenance>
+                  <acquisition>
+                     <p>1931a</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Declaration on oath</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Yale inv. 722a</bibl>
+               <bibl>Rost. b 145A</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2757553"/>
+                  <note>Images of P.CtYBR inv. 722 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

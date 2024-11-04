@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv9151">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Erklärung</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">9151</idno>
+            <idno type="TM">9151</idno>
+            <idno type="ddb-perseus-style">0001;2;405</idno>
+            <idno type="ddb-filename">bgu.2.405</idno>
+            <idno type="ddb-hybrid">bgu;2;405</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Berlin</settlement>
+                  </placeName>
+                  <collection>Staatliche Museen</collection>
+                  <idno type="invNo">P. 7822</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Philadelphia (Arsinoites, Ägypten)</origPlace>
+                     <origDate when="0348-03-06">6. März 348</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/737008 https://www.trismegistos.org/place/1760">Philadelphia</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Erklärung (Verzicht)</term>
+               <term n="2">Mühle (Getreide)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-09-15T09:04:59-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2021-09-15T08:35:32-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Metadata looks good. Collection information could be added at finalization (Berlin, Staatliche Museen, P. 7822); title could be Erklärung.</change>
+         <change when="2021-09-13T04:17:56-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Korrektur Rechtschreibfehler in Metadaten (Subjects: Erkläruing -&gt; Erklärung); Korrektur Lesefehler in Z. 5 (ὁμογαστρίᾳ -&gt; ὁμογαστρίῳ) und Z. 17 (ἀσφαλία -&gt; ἀσφαλίαν): Diese Stellen sind im Papyrus deutlich zu lesen (so auch in der Erstedition).</change>
+         <change who="HGV" when="1996-01-26">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">BGU</title>
+                  <biblScope n="1" type="volume">2</biblScope>
+                  <biblScope n="2" type="numbers">405</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XI</biblScope>
+                  <biblScope type="pages">18</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">Schubart, Papyri Graecae Berolinenses, 38 b</bibl>
+               <bibl type="illustration" n="2">Sigalas, Historia (1934), S. 189 (Z. 11 - 15) und (1974), S. 211 ( Z. 11 - 15)</bibl>
+               <bibl type="illustration" n="3">Mandilaras, Papyroi (1980), 63, S. 196 und (1994), 65, S. 413</bibl>
+               <bibl type="illustration" n="4">Cavallo, Scrittura, S. 123 [98]</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">Sel. Pap. I 56</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations">Rowlandson, Women and Society (1998), 194</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://berlpap.smb.museum/02276/"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

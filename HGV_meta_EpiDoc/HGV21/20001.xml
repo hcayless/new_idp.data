@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv20001">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>keiner</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">20001</idno>
+            <idno type="TM">20001</idno>
+            <idno type="ddb-perseus-style">0154;1;119</idno>
+            <idno type="ddb-filename">p.lond.1.119</idno>
+            <idno type="ddb-hybrid">p.lond;1;119</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>London</settlement>
+                  </placeName>
+                  <collection>British Library</collection>
+                  <idno type="invNo">Papyrus 119</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Theben (Ägypten)</origPlace>
+                     <origDate notBefore="0143" notAfter="0144" cert="low">
+                        <offset n="1" type="after">nach</offset>
+                143 -
+                144 (?)
+              </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://www.trismegistos.org/place/576 https://pleiades.stoa.org/places/786017">Theben</placeName>
+                        <placeName n="2"
+                                   type="ancient" 
+                                   subtype="nome" 
+                                   ref="https://www.trismegistos.org/place/1690">Peri Thebas</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Register</term>
+               <term n="2">Steuern</term>
+               <term n="3">geordnet nach Straßen und Bezirken</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-12-18T04:30:18-05:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2019-12-18T04:15:36-05:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2019-12-17T21:28:17-05:00"
+                 who="http://papyri.info/users/gwschwendner">Submit - Added link to BL image.</change>
+         <change when="2019-12-17T21:28:09-05:00"
+                 who="http://papyri.info/users/gwschwendner">Commit - Added link to BL image</change>
+         <change who="HGV" when="1995-11-13">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Gehört zu SB XIV 11704. Zur Datierung vgl. BL I, S. 219. Vgl. O.Strasb. II, S. 155-157 mit Anm. 507 und 508.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Lond.</title>
+                  <biblScope n="1" type="volume">1</biblScope>
+                  <biblScope n="2" type="numbers">119</biblScope>
+                  <biblScope n="3" type="pages">(S. 140)</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">IX</biblScope>
+                  <biblScope type="pages">125/126</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">P.Lond. I, Plate 80 - 89</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Papyrus_119"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

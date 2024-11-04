@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv24002">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tableau de service en latin sur une amphore tronquée</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">24002</idno>
+            <idno type="TM">24002</idno>
+            <idno type="ddb-perseus-style">0020;2;304</idno>
+            <idno type="ddb-filename">o.claud.2.304</idno>
+            <idno type="ddb-hybrid">o.claud;2;304</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Qift</settlement>
+                  </placeName>
+                  <collection>Archaeological storeroom</collection>
+                  <idno type="invNo">Claud., 5704 + 6099</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Mons Claudianus</origPlace>
+                     <origDate when="0150" precision="medium">ca. 150</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/766348 https://www.trismegistos.org/place/2783">Mons Claudianus</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Tabelle</term>
+               <term>Dienste</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="1998-10-15">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Lateinisch. Vgl. Cuvigny, Route de Myos Hormos, S. 218. Vgl. Stauner, Schriftwesen, S. 31-34.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">O.Claud.</title>
+                  <biblScope type="volume">2</biblScope>
+                  <biblScope type="numbers">304</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/24002"/>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">272</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Planches XXXIII - XXXVI</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.8dad07qm/089c4bf0f4c34edc452bffd314da1dd7cdc2e73d"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.ef710tnl/3efec626de908eab9b1941227eed1f0f306d348d"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.ee56t49d/166c2218fb23692383fa3e31e540aedbe400d8cb"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.f821n2u8/7d426f64f626a78ab225fe4e75f9b059f01f2a17"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.22444z3w/47a753006fc29f1ed22812229ba50b5ced7b99fa"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.2ed671kz/f00df5802ed05d6b51bf415d667d3f0507da1085"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.f2a1dg8t/ab8b19ccece15e35b49e9c29c1a6d69002a8703e"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.aa61dmf9/9032959a422eb8b437e8e4938256f32d3cd50312"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.1ee71626/a56b827e15d330b25675c291e9658e48b1bf2215"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.15fa1ddl/52694a5903d011ccdd207a2f2e1da60d53371903"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.75b0zxm7/d4731579a9312fed854a240cf64c6248c13da1a0"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

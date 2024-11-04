@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hearst medical papyrus.</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.4970</idno>
+            <idno type="controlNo">(CU)4970</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Hearst.0001</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A collection of medical prescriptions. The ailments for which cure is offered range from "a tooth which falls out" (Col. I, l. 7) and "remedy for treatment of the lung" (Col. IV, l. 8) to bites by human beings (Col. II, ll. 6-7), and pigs and hippopotami (Col. XVI, ll. 5-7).</summary>
+                  <msItemStruct>
+                     <note type="related">Bears great resemblance to another Egyptian medical papyrus (the so-called Papyrus Ebers) at Leipzig University Library, Germany.</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="egy-Egyh">Hieratic</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>18 papyri ; Various sizes</support>
+                        <condition>
+                           <ab type="conservation">OUT TO CONSERVATION 7/21/04 pjr. Some mildew present needs removal. Some damage to last several sections. Being removed from present mounts, "backing taken off, and re-mounted. Frame 8 sent to PhotoLab 8/09/05 for exhibition loan. Send remaining frames to PhotoLab when completed in Conservation.</ab>
+                           <ab type="preservation">The papyrus is in a surprisingly good condition. It is almost too good to be true. This set against the rather unusual provenenance of the papyrus, raises doubts as to whether this papyrus is real, or whether it is a fake.</ab>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">18 columns</ab>
+                           <ab type="recto-verso">Verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-2000" notAfter="-1500">First half of the 2nd millenium B.C.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Uncertain. In the Spring of 1901 was brought to the camp of the Hearst Egyptian Expedition near Der-el-Ballas, Egypt, by a peasant of the village, who said he found it while digging 2 years before.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="egy-Egyh">Hieratic</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Medicine, Egyptian</term>
+               <term type="genre_form">Sub-literary papyri; Prescriptions, Medical; Formulae; Medical works</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="15">
+         <surface n="recto">
+            <desc>Frame 8/18 Recto</desc>
+            <graphic url="http://papyri.info/images/35/AP04626a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="16">
+         <surface n="verso">
+            <desc>Frame 8/18 Verso</desc>
+            <graphic url="http://papyri.info/images/30/AP04627a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>Reisner, G. The Hearst medical papyrus <note>On uncertain provenance see George A. Reisner's publication The Hearst medical papyrus (1904)</note>
+               </bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/4970">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

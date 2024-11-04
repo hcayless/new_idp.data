@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Record of exacted penalties.</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.1402</idno>
+            <idno type="controlNo">(CU)1402</idno>
+            <idno type="ddbdp">p.tebt.3.2.1067</idno>
+            <idno type="ddb-perseus-style">0206;3.2;1067</idno>
+            <idno type="ddb-hybrid">p.tebt;3.2;1067</idno>
+            <idno type="HGV">4402</idno>
+            <idno type="TM">4402</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.1067</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItemStruct>
+                     <note type="local_note">1085</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>2 papyri ; Frag. 1, 12 x 18 cm.; frag. 2, 8.5 x 6.5 cm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">3 cols. (25 lines) on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0205" notAfter="-0180">Reign of Epiphanes? (between 205 and 180 B.C.)</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Mummy cartonnage at Tebtunis 6?</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Penalties (Law)</term>
+               <term>Law and legislation</term>
+               <term type="genre_form">Official legal documents, Ptolemaic Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto</desc>
+            <graphic url="http://papyri.info/images/51/AP03295a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/5f/AP03296a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., III.1067 (desc.)</bibl>
+               <bibl type="ddbdp">P.Tebt.:3.2:1067</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/1402">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

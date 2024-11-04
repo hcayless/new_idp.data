@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv30784">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief des Asklepiades an Hierax</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">30784</idno>
+            <idno type="TM">30784</idno>
+            <idno type="ddb-perseus-style">0197;3;4</idno>
+            <idno type="ddb-filename">p.ross.georg.3.4</idno>
+            <idno type="ddb-hybrid">p.ross.georg;3;4</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Tbilisi</settlement>
+                  </placeName>
+                  <collection>Kekelidze Georgian National Centre of Manuscripts</collection>
+                  <idno type="invNo">241</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>unbekannt</origPlace>
+                     <origDate notBefore="0201" notAfter="0225" precision="low">Anfang III</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (privat)</term>
+               <term n="2">Asklepiades an Hierax</term>
+               <term n="3">Erhalt von Briefen</term>
+               <term n="4">Bitte um Erscheinen</term>
+               <term n="5">Unsicherheit über Abreise</term>
+               <term n="6">doppelte Ausführung des Briefes</term>
+               <term n="7">Grüße</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-08-23T12:13:58-04:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2019-08-23T11:50:27-04:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2019-08-22T04:59:29-04:00"
+                 who="http://papyri.info/users/elenachepel">Submit - I have added corrections to the text according to my recent article in ZPE 211 (2019), pp184-188, as well as the collection and inv.number, and the reference to a print image in ZPE 211. </change>
+         <change when="2019-08-22T04:55:22-04:00"
+                 who="http://papyri.info/users/elenachepel">Commit - Collection and inv. added; ref. to print image added</change>
+         <change who="HGV" when="1993-11-23">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Tag: 6. März. Zu Z. 14 u. 27-28 vgl. ZPE 2011 (2019) 187-188.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Ross. Georg.</title>
+                  <biblScope n="1" type="volume">3</biblScope>
+                  <biblScope n="2" type="numbers">4</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+          keine
+          <bibl type="illustration">ZPE 211, 2019, S. 185, Fig. 1</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">SB I 4650</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

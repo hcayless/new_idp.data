@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Court transcript (?), Roman CE late i [CBW]|Roman CE early ii [GMP]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0011584100</idno>
+            <idno type="controlNo">(CtY)1158(A)</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 1158(A)</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Containing writing in red ink</summary>
+                  <msItemStruct>
+                     <note type="general">Another fragment of this manuscript is P.Mich. 456 + 457</note>
+                     <textLang mainLang="lat">Latin</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 131 x 39 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">15</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0075" notAfter="0099">Roman CE late i [CBW]<lb/> Roman CE early ii [GMP]</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Tell Umm el-Breigat? or Abutig?</p>
+                  </provenance>
+                  <acquisition>
+                     <p>1931b or 1931c</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Court transcript (?)</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>Parássoglou 1974f: 31-33, pl. facing p. 34</bibl>
+               <bibl>Seider, Pal.Lat.Pap. II 2, 1981: no. 4, pp. 41-43, pl. 1</bibl>
+               <bibl>l. D'ORS, "Agere cum deductione. Un nuevo intento sobre el fragmento jurisprudencial P. Mich. 456 (+ P. Yale inv. 1158). Avec résumé en latin.," Studia et Documenta Historiae et Iuris, 59 (1993 [1995]): 1-14</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2757993"/>
+                  <note>Images of P.CtYBR inv. 1158(A) are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

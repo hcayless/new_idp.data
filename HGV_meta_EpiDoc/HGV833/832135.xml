@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Protokoll</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">832135</idno>
+            <idno type="TM">832135</idno>
+            <idno type="ddb-filename">apf.65.121</idno>
+            <idno type="ddb-hybrid">apf;65;121</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Paris</settlement>
+                  </placeName>
+                  <collection>Bibliothèque Nationale</collection>
+                  <idno type="invNo">Copte 164 II (fol. 16m Ro)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>White Monastery (Panopolites, Ägypten)</origPlace>
+                     <origDate notBefore="0401" notAfter="0450" cert="low" precision="low">1. Hälfte V (?)</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p xml:id="geoGAHF5D">
+                        <placeName n="1" type="ancient" ref="www.trismegistos.org/place/3121">White Monastery</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="www.trismegistos.org/place/2719 https://pleiades.stoa.org/places/756614">Panopolites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="http://papyri.info/biblio/95850"/>
+                  <biblScope type="pp">121</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Protokoll</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-12T05:43:41-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-10-12T05:38:46-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2023-06-15T06:06:54-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Eingabe von Metadaten, Text und Übersetzung nach APF 65, 2019, S. 121.</change>
+         <change when="2023-06-15T05:49:08-04:00" who="http://papyri.info/editor">Automated creation from template</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">APF</title>
+                  <biblScope n="1" type="volume">65</biblScope>
+                  <biblScope n="2" type="fascicle">(2019)</biblScope>
+                  <biblScope n="3" type="pages">S. 121</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">S. 123</bibl>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

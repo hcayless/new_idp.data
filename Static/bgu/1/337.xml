@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+  xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>BGU 1.337</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+        <availability>
+          <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1" ident="dc"></prefixDef>
+        <prefixDef matchPattern="([-a-zA-Z]+)" replacementPattern="https://papyri.info/charDecl.xml#$1" ident="c"></prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+        <language ident="grc">Greek</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2024-11-01" who="https://papyri.info/editor/users/hcayless">Created stub for BGU 1 337.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head about="https://papyri.info/static/bgu/1/337">BGU 1 337 = <seg property="dc:isReplacedBy" resource="https://papyri.info/static/chr.wilck/92#col_1">Chr.Wilck (col 1)</seg> = <seg property="dc:isReplacedBy" resource="https://papyri.info/static/p.louvre/1/4#col_1">P.Louvre 1 4 (col 1)</seg></head>
+      <div type="edition" facs="https://papyri.info/images/bgu/1/337"></div>
+    </body>
+  </text>
+</TEI>

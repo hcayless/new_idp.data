@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv9134">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>keiner</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">9134</idno>
+            <idno type="TM">9134</idno>
+            <idno type="ddb-perseus-style">0001;1;94</idno>
+            <idno type="ddb-filename">bgu.1.94</idno>
+            <idno type="ddb-hybrid">bgu;1;94</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Ptolemais Euergetis (Arsinoites, Ägypten)</origPlace>
+                     <origDate when="0289-12-04">4. Dez. 289</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736948 https://www.trismegistos.org/place/327 https://www.trismegistos.org/place/1343">Ptolemais Euergetis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag</term>
+               <term n="2">Kauf</term>
+               <term n="3">Land</term>
+               <term n="4">zwei Frauen</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-08-26T09:47:23-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Bereit.</change>
+         <change when="2024-08-26T09:45:12-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Sieht gut aus.</change>
+         <change when="2024-07-22T03:11:51-04:00"
+                 who="http://papyri.info/editor/users/jostrauss">Submit - added the journal article corrections from Tyche 36 and the BL-correction in l. 22.</change>
+         <change who="HGV" when="1996-02-12">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">BGU</title>
+                  <biblScope n="1" type="volume">1</biblScope>
+                  <biblScope n="2" type="numbers">94</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">X</biblScope>
+                  <biblScope type="pages">11</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Schubart, Griechische Paläographie, S. 84 (Z. 1 - 20 teilweise)</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://berlpap.smb.museum/01652/"/>
+               </figure>
+            </p>
+         </div>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 3 und 22 vgl. Tyche 36, 2021, S. 186, Korr. Tyche 1003.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

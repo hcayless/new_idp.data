@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter, Roman CE 210-220  [CBW]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.4400280000</idno>
+            <idno type="controlNo">(CtY)DP 28 qua</idno>
+            <idno type="HGV">44804</idno>
+            <idno type="TM">44804</idno>
+            <idno type="ddb-hybrid">chla;7;330</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. DP 28 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Correspondence with other units and lower ranking civilian officials  [CBW]</summary>
+                  <msItemStruct>
+                     <note type="general">Versos are blank. Traces on rectos p, s, t, w-y, aa-cc, and hh. Rectos q and dd-gg are blank.</note>
+                     <textLang mainLang="lat" otherLangs="grc">Latin; Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus Fragments: a: 25 x 33; b: 23 x 35; c: 26 x 30; d: 30 x 27; e: 25 x 33; f: 25 x 36; g: 25 x 36; h: 24 x 33; i1: 26 x 31; i2: 26 x 65; j: 21 x 33; k: 22 x 31; l: 22 x 31; m: 20 x 32; n: 22 x 32; o: 24 x 31; p: 24 x 31; q: 18 x 31; r: 25 x 43; s: 27 x 48; t: 26 x 52; u: 25 x 26; v: 25 x 28; x: 16 x 7; y: 16 x 7; z: 16 x 6; aa: 16 x7; bb: 15 x 6; cc: 15 x 6; dd: 15 x 7; ee: 15 x 6; ff: 19 x 11; gg: 20 x 12; hh: 5 x 18 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto a, 3<lb/>  Recto b, 2<lb/>  Recto c, 2<lb/>  Recto d, 2<lb/>  Recto e, 2<lb/>  Recto f, 2<lb/>  Recto g, 2<lb/>  Recto h, 1<lb/>  Recto i1, 2<lb/>  Recto i2, 2<lb/>  Recto j, 2<lb/>  Recto k, 2<lb/>  Recto l, 2<lb/>  Recto m, 1<lb/>  Recto n, 2<lb/>  Recto o, 1<lb/>  Recto r, 2<lb/>  Recto u, 1<lb/>  Recto v, 3<lb/>  Recto z, 2</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0210" notAfter="0220">Roman CE 210-220  [CBW]</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Dura-Europos</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Letter</term>
+               <term>Papyri Fragments</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Dura, pp. 266-267</bibl>
+               <bibl>Rom.Mil.Rec., p. 413</bibl>
+               <bibl>Ch.L.A. VII: pp. 18-19, pl. 19</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Dura 75</bibl>
+               <bibl>Rom.Mil.Rec. 107</bibl>
+               <bibl>Ch.L.A. VII 330</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2771444"/>
+                  <note>Images of P.CtYBR inv. DP 28 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

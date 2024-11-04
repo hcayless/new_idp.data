@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv35226">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettera di affari</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">35226</idno>
+            <idno type="TM">35226</idno>
+            <idno type="ddb-perseus-style">0238;5;481</idno>
+            <idno type="ddb-filename">psi.5.481</idno>
+            <idno type="ddb-hybrid">psi;5;481</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>unbekannt</origPlace>
+                     <origDate notBefore="0401" notAfter="0600" precision="low">V - VI</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (privat)</term>
+               <term n="2">Menas an N.N.</term>
+               <term n="3">Empfang (Geld)</term>
+               <term n="4">Bitte um Bestätigung (Empfang)</term>
+               <term n="5">Brief</term>
+               <term n="6">Geschäfte</term>
+               <term n="7">Mitteilungen</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-05-10T08:04:37-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2023-05-09T08:51:07-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Looks good.</change>
+         <change when="2023-05-02T05:37:23-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Eingabe einer Korrektur zum Verso, Z. 2 nach R. Pintaudi, AnalPap 23-24, 2011-2012, S. 147, sowie eines Verweises auf die dortige Abbildung in den Metadaten.</change>
+         <change who="HGV" when="1995-08-25">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Rückseite: SB XVI 12254. Zur Adresse auf der Rückseite vgl. AnalPap 23-24, 2011-2012, S. 145-147.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">PSI</title>
+                  <biblScope n="1" type="volume">5</biblScope>
+                  <biblScope n="2" type="numbers">481</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">398/399</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">XI</biblScope>
+                  <biblScope type="pages">245</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">Pap.Flor. XXX, Tav. CLVII</bibl>
+               <bibl type="illustration" n="2">AnalPap 23-24 (2011-2012) S. 146</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.psi-online.it/documents/psi;5;481"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

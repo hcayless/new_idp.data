@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Account of receipts and expenditures</title>
+            <author>Menches</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.866</idno>
+            <idno type="controlNo">(CU)866</idno>
+            <idno type="ddbdp">p.tebt.1.112</idno>
+            <idno type="ddb-perseus-style">0206;1;112</idno>
+            <idno type="ddb-hybrid">p.tebt;1;112</idno>
+            <idno type="HGV">3748</idno>
+            <idno type="TM">3748</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0112</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Account listing receipts and various expenditures made during the survey according to crops at Kerkeosiris.</summary>
+                  <msItemStruct>
+                     <note type="general">5th year of Ptolemy IX Soter II, Mecheir 6 and following</note>
+                     <note type="general">Menches archive</note>
+                     <note type="related">Similar to P.Tebt. 212 and P.Tebt.213</note>
+                     <note type="local_note">1898, 1899, 1900, 1911, 2568, 2569, 3918, 3030</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>8 papyri</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">12+ cols. (318 lines) on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="-0112">22 Feb. 112 B.C. and following days.</origDate>
+                     <origPlace>Kerkeosiris</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>Crocodile cartonnage at Tebtunis 28.14</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Expense accounts</term>
+               <term>Kerkeosiris</term>
+               <term type="genre_form">Official accounts, Ptolemaic Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Frame 1/5 Recto</desc>
+            <graphic url="http://papyri.info/images/4c/AP04109a"/>
+            <graphic url="http://papyri.info/images/05/AP04109_11_a"/>
+            <graphic url="http://papyri.info/images/74/AP04109_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Frame 1/5 Verso</desc>
+            <graphic url="http://papyri.info/images/8e/AP04110a"/>
+            <graphic url="http://papyri.info/images/af/AP04110_11_a"/>
+            <graphic url="http://papyri.info/images/1b/AP04110_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="3">
+         <surface n="recto">
+            <desc>Frame 2/5 Recto</desc>
+            <graphic url="http://papyri.info/images/19/AP04111a"/>
+            <graphic url="http://papyri.info/images/03/AP04111_11_a"/>
+            <graphic url="http://papyri.info/images/8e/AP04111_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="4">
+         <surface n="verso">
+            <desc>Frame 2/5 Verso</desc>
+            <graphic url="http://papyri.info/images/8b/AP04112a"/>
+            <graphic url="http://papyri.info/images/81/AP04112_11_a"/>
+            <graphic url="http://papyri.info/images/53/AP04112_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="5">
+         <surface n="recto">
+            <desc>Frame 3/5 Recto</desc>
+            <graphic url="http://papyri.info/images/82/AP04113a"/>
+            <graphic url="http://papyri.info/images/af/AP04113_11_a"/>
+            <graphic url="http://papyri.info/images/60/AP04113_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="6">
+         <surface n="verso">
+            <desc>Frame 3/5 Verso</desc>
+            <graphic url="http://papyri.info/images/6f/AP04114a"/>
+            <graphic url="http://papyri.info/images/99/AP04114_11_a"/>
+            <graphic url="http://papyri.info/images/8f/AP04114_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="7">
+         <surface n="recto">
+            <desc>Frame 4/5 Recto</desc>
+            <graphic url="http://papyri.info/images/8f/AP04115a"/>
+            <graphic url="http://papyri.info/images/96/AP04115_11_a"/>
+            <graphic url="http://papyri.info/images/b6/AP04115_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="8">
+         <surface n="verso">
+            <desc>Frame 4/5 Verso</desc>
+            <graphic url="http://papyri.info/images/d1/AP04116a"/>
+            <graphic url="http://papyri.info/images/a0/AP04116_11_a"/>
+            <graphic url="http://papyri.info/images/90/AP04116_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="9">
+         <surface n="recto">
+            <desc>Frame 5/5 Recto</desc>
+            <graphic url="http://papyri.info/images/8e/AP04117a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="10">
+         <surface n="verso">
+            <desc>Frame 5/5 Verso</desc>
+            <graphic url="http://papyri.info/images/0c/AP04118a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.112; the text is to be republished by Verhoogt. <note>See P. L. Bat. 29, p. 134-140 for interpretation and p. 193 for various corrections.</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:1:112</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/866">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

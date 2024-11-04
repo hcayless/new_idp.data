@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0051750000</idno>
+            <idno type="controlNo">(CtY)5175 qua</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 5175 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Related fragments</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: 1, left; 7, bottom</note>
+                     <note type="general">Traces on rectos 4? and 9.  Rectos 10 and 11 are blank.  All versos are blank.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 1: 143 x 57; 2: 45 x 37; 3: 99 x 70; 4: 42 x 24; 5: 44 x 10; 6: 25 x 27; 7: 39 x 42; 8: 33 x 16; 9: 29 x 4; 10: 12 x 8; 11: 9 x 16 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto 1, 12; Recto 2, 2; Recto 3, 4; Recto 5, 3; Recto 6, 1?; Recto 7, 1; Recto 8, 3</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate/>
+                  </origin>
+                  <acquisition>
+                     <p>1997a</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Document</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <p>No citations.</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2768713"/>
+                  <note>Images of P.CtYBR inv. 5175 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

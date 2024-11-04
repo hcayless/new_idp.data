@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eingabe an den Syntaxisschreiber wegen eines Stathmos</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">703689</idno>
+            <idno type="TM">703689</idno>
+            <idno type="ddb-filename">p.koeln.16.650</idno>
+            <idno type="ddb-hybrid">p.koeln;16;650</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Cologne, Papyrussammlung 21540</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Herakleopolites, Ägypten</origPlace>
+                     <origDate notAfter="-0138-12-26">
+                        <offset n="1" type="before">vor</offset>
+                26. Dez. 138 v.Chr.
+              </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2713 https://pleiades.stoa.org/places/736921">Herakleopolites</placeName>
+                        <placeName n="2" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Eingabe</term>
+               <term n="2">Soldaten</term>
+               <term n="3">Quartier (Stathmos)</term>
+               <term n="4">Verhandlung</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-03-02T23:25:37-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go</change>
+         <change when="2023-03-02T23:16:46-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Ok. The file also needs to be renamed with the correct TM number and the old version expunged from HGV.</change>
+         <change when="2023-02-26T04:44:23-05:00"
+                 who="http://papyri.info/editor/users/LaviniaFerretti">Submit - Corrected TM number in HGV und DDBDP: TM 754293 is no longer in use because it was a double, this document is now known as TM 703689 (cf. https://www.trismegistos.org/tm/detail.php?tex_id=754293). Added link to digital image</change>
+         <change who="HGV" when="2018-10-22">Record created</change>
+         <change who="HGV" when="2020-01-29">Record last modified</change>
+         <change when="2020-01-29" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Köln</title>
+                  <biblScope n="1" type="volume">16</biblScope>
+                  <biblScope n="2" type="numbers">650</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Tafel XVI</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://papyri.uni-koeln.de/stueck/tm703689"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

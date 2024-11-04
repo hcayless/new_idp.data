@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Literary work, Medieval CE viii-ix [TCP]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0020950000</idno>
+            <idno type="controlNo">(CtY)2095</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 2095</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItemStruct>
+                     <note type="general">Margins: Recto, top and left<lb/>  Verso, top and right</note>
+                     <note type="general">Recto: (col. i) 9 lines; (col. ii) 8 lines.<lb/>  Verso: (col. i) 6 lines; (col. ii) 8 lines.</note>
+                     <textLang mainLang="cop">Egyptian\Coptic</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 122 x 172 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto, 9<lb/>  Verso, 8</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0700" notAfter="0899">Medieval CE viii-ix [TCP]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1966b</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="cop">Egyptian\Coptic</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Literary work</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>MacCoull 1975: 217</bibl>
+               <bibl>MacCoull 1989: 33-34</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2760651"/>
+                  <note>Images of P.CtYBR inv. 2095 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Literary work, Byzantine</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0050000034</idno>
+            <idno type="controlNo">(CtY)5000:4 qua</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 5000:4 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Martyrdom of St. Viktor the General; unplaced fragments</summary>
+                  <msItemStruct>
+                     <note type="general">Mounted in 5 frames, 5000:1-5 qua; additional unplaced fragments set aside for conservations</note>
+                     <note type="general">Margins: Recto 1, left; Verso 1, right; Recto 2, left; Verso 2, right; Recto 3, left; Verso 3, right; Recto 4, top and right; Verso 4, top and left; Recto 6, left and bottom; Verso 6, right and bottom</note>
+                     <note type="general">6 fragments.  Recto 5: 2 cols. (col.i) 3 lines; (col.ii) 7 lines. Verso 5: 2 cols., (col.i) 7 lines; (col.ii) 5 lines.</note>
+                     <textLang mainLang="cop">Egyptian\Coptic</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 1: 79 x 37; 2: 69 x 41; 3: 103 x 59; 4: 44 x 84; 5: 45 x 50; 6: 132 x 81 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto 1, 9; Verso 1, 6; Recto 2, 10; Verso 2, 9; Recto 3, 6; Verso 3, 9?; Recto 4, 2; Verso 4, 2; Recto 5, 7; Verso 5, 7; Recto 6, 14; Verso 6, 13</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0300" notAfter="0699">Byzantine</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1998a</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="cop">Egyptian\Coptic</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Literary work</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <p>No citations.</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2767948"/>
+                  <note>Images of P.CtYBR inv. 5000:4 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

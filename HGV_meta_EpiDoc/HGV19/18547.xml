@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv18547">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vertrag mit einer Amme (τροφῖτις) , Alexandrien</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">18547</idno>
+            <idno type="TM">18547</idno>
+            <idno type="ddb-perseus-style">0006;1;5</idno>
+            <idno type="ddb-filename">c.pap.gr.1.5</idno>
+            <idno type="ddb-hybrid">c.pap.gr;1;5</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Alexandria</origPlace>
+                     <origDate notAfter="-0013-02-26">
+                        <offset n="1" type="before">vor</offset>
+                26. Febr. 13 v.Chr.
+              </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/727070 https://www.trismegistos.org/place/100">Alexandria</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag</term>
+               <term n="2">Amme</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-09-06T09:31:18-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Bereit.</change>
+         <change when="2024-09-06T06:48:32-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2024-07-21T07:54:44-04:00"
+                 who="http://papyri.info/editor/users/jostrauss">Submit - added the journal article corrections from Tyche 36 (Korr. Tyche 1041)</change>
+         <change who="HGV" when="1994-10-28">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Rückseite von Z. 54-56: BGU IV 1124.
+Zu Z. 25 und 40 vgl. Tyche 36, 2021, S. 195, Korr. Tyche 1041.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">BGU</title>
+                  <biblScope n="1" type="volume">4</biblScope>
+                  <biblScope n="2" type="numbers">1106</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">41</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">CPGr I, Tav. VII - VIII</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikationen</head>
+            <listBibl>
+               <bibl type="publication" subtype="other" n="1">M.Chr. 108</bibl>
+               <bibl type="publication" subtype="other" n="2">C.Pap. Hengstl 77</bibl>
+               <bibl type="publication" subtype="other" n="3">CPGr I 5</bibl>
+               <bibl type="publication" subtype="other" n="4">C.Pap.Jud. II 146</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="de">
+               <head xml:lang="de">Deutsch:</head>
+               <bibl type="translations" n="1">Metzger, Nachrichten aus dem Wüstensand (1974), Nr. 34 (Z.26-52)</bibl>
+               <bibl type="translations" n="2">TUAT, N.F. 1 (2004), VII 31.</bibl>
+            </listBibl>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations">Kraemer, Women's Religions (2004), Nr. 51</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="http://ipap.csad.ox.ac.uk/4DLink4/4DACTION/IPAPwebquery?vPub=BGU&amp;vVol=4&amp;vNum=1106&amp;vSide=recto"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="http://berlpap.smb.museum/00623/"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

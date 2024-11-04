@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Contract, Roman CE ii-iii [HIB], after CE 161  [RD]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0001080000</idno>
+            <idno type="controlNo">(CtY)108</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 108</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Of sale concerning agricultural or residential property (house, vineyard); Marcus Aurelius (?)</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: Top</note>
+                     <note type="general">Verso is partly covered with red color.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 118 x 82 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto, 17</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0100" notAfter="0299">Roman CE ii-iii [HIB], after CE 161  [RD]</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Aphrodito</p>
+                  </provenance>
+                  <acquisition>
+                     <p>Acquisition Information, 1927: Purchased in Egypt on behalf of Yale, with funds that may have been donated by the General Education Fund of the Rockefeller Foundation's General Education Board. The dealers' names are given as Harold Idris Bell reported them in his 1927 report.  P.CtYBR inv. 79-109, 2058-2067 were purchased by Dr. David L. Askren, before 1927.</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Contract</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Yale inv. 108 + 109d + 109e</bibl>
+               <bibl>Bell II 81A + II 81B + II 81C</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2756879"/>
+                  <note>Images of P.CtYBR inv. 108 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

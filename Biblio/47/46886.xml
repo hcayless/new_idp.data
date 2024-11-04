@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0"
+      xml:id="b46886"
+      type="article"
+      subtype="book">
+   <title level="a" type="main">Zemel'nye otnosenija v Oksirinche iv-v vv. n.e. [Les relations foncières à Oxyrhynchus au IVe-Ve siècle de notre ère.]</title>
+   <author n="1">
+      <forename>I.F.</forename>
+      <surname>Fikhman</surname>
+   </author>
+   <biblScope type="pp" from="14" to="15">14-15</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7179"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">IV sessija po Drevnemu Vostoku. Tezisy dokladov</title>
+         <date>1968</date>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">46886</idno>
+   <idno type="bp">1968-0134</idno>
+   <seg type="original" subtype="index" resp="#BP">241 Oxyrhynchus 640</seg>
+   <seg type="original" subtype="titre" resp="#BP">Fikhman I.F., Zemel'nye otnosenija v Oksirinche iv-v vv. n.e. [Les relations foncières à Oxyrhynchus au IVe-Ve siècle de notre ère.]</seg>
+   <seg type="original" subtype="publication" resp="#BP">IV sessija po Drevnemu Vostoku. Tezisy dokladov (Moscow, 1968) pp. 14-15.</seg>
+   <seg type="original" subtype="nom" resp="#BP">Fikhman</seg>
+</bibl>

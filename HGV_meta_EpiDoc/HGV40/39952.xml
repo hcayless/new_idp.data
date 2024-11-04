@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv39952">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Neuedition von SPP III 2 46 + SPP III 420</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">39952</idno>
+            <idno type="TM">39952</idno>
+            <idno type="ddb-perseus-style">0240;3;46</idno>
+            <idno type="ddb-filename">tyche.35.68</idno>
+            <idno type="ddb-hybrid">tyche;35;68</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                  <collection>Nationalbibliothek</collection>
+                  <idno type="invNo">G 11046 + G 11324</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Herakleopolis (Herakleopolites, Ägypten)</origPlace>
+                     <origDate notBefore="0601" notAfter="0800" precision="low">VII - VIII</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736920 https://www.trismegistos.org/place/799">Herakleopolis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="www.trismegistos.org/place/2713 https://pleiades.stoa.org/places/736921">Herakleopolites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="https://papyri.info/biblio/96142"/>
+                  <biblScope type="pp">68</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Quittung</term>
+               <term n="2">Preis für gelieferte Waren</term>
+               <term n="3">Kauf</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-15T05:17:17-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-11-15T05:04:24-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - OK.</change>
+         <change when="2022-10-26T05:48:06-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Ersetzung des Textes nach Tyche 35, 2020, S. 68 D, Eingabe einer Übersetzung aus gleicher Quelle sowie Anpassung der Metadaten. Regularization in Z. 4 (σῶνκληρ(ονόμων) → σῶγκληρ(ονόμων)) erforderlich? Durch den hier veröffentlichten Join ist der Datensatz zu SPP 3 420 obsolet (redirect ergänzen).</change>
+         <change who="HGV" when="2007-05-04">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">Tyche</title>
+                  <biblScope n="1" type="volume">35</biblScope>
+                  <biblScope n="2" type="fascicle">(2020)</biblScope>
+                  <biblScope n="3" type="pages">S. 68</biblScope>
+                  <biblScope n="4" type="null">D</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XII</biblScope>
+                  <biblScope type="pages">264</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">Tafel 12</bibl>
+               <bibl type="illustration" n="2">SPP 3 2.1, Tafel XXXVIII</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://data.onb.ac.at/rec/RZ00000201"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other" n="1">SPP 3 2.1 46</bibl>
+               <bibl type="publication" subtype="other" n="2">SPP 3 420</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

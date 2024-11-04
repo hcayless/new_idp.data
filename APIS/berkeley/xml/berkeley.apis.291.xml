@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prose work</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.291</idno>
+            <idno type="controlNo">(CU)291</idno>
+            <idno type="dclp">63323</idno>
+            <idno type="TM">63323</idno>
+            <idno type="dclp-hybrid">p.tebt;2;269</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0269</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>The mention of the Sophists in the fragments suggests that this prose work was a philosophical treatise, unidentified.</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: left, 6.5 cm.; right (or intercolumnal space?), 2.6 cm.; bottom, 6 cm.; on verso, in black ink: T 685.</note>
+                     <note type="local_note">2225</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 11.7 x 14.5 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">8 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Round and good-sized upright uncials</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0100" notAfter="0125">Early 2nd century A.D.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T685</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Philosophy</term>
+               <term>Philosophers</term>
+               <term type="genre_form">Literary papyri, Unidentified authors; Philosophical texts</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>UC 2225 Recto.</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>UC 2225 Verso.</desc>
+            <graphic url="http://papyri.info/images/d1/AP01205a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.269</bibl>
+               <bibl type="ddbdp">P.Tebt.:2:269</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/291">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

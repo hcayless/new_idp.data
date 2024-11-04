@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>List</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.1413</idno>
+            <idno type="controlNo">(CU)1413</idno>
+            <idno type="ddbdp">p.tebt.3.2.1075</idno>
+            <idno type="ddb-perseus-style">0206;3.2;1075</idno>
+            <idno type="ddb-hybrid">p.tebt;3.2;1075</idno>
+            <idno type="HGV">7870</idno>
+            <idno type="TM">7870</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.1075</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A list of men classified as Jews and Macedonians.</summary>
+                  <msItemStruct>
+                     <note type="general">Reserved, M. Zellmann-Rohrer</note>
+                     <note type="local_note">1093</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>9 papyri ; 15.5 x 26 cm. or smaller.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">2 cols. (22 lines) on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="-0150">Mid 2nd century B.C.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Mummy cartonnage at Tebtunis 58</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Jews</term>
+               <term>Macedonians</term>
+               <term type="genre_form">Lists, Ptolemaic Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto</desc>
+            <graphic url="http://papyri.info/images/47/AP03313a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/d0/AP03314a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., III.1075 (desc.)</bibl>
+               <bibl type="ddbdp">P.Tebt.:3.2:1075</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/1413">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

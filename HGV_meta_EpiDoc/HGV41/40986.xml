@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv40986">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prêt mixte d'or et d'étoupe</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">40986</idno>
+            <idno type="TM">40986</idno>
+            <idno type="ddb-perseus-style">0117;4;194</idno>
+            <idno type="ddb-filename">p.gen.4.194</idno>
+            <idno type="ddb-hybrid">p.gen;4;194</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Gen. inv. 399 + P.Vindob. G 31497</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Arsinoiton Polis</origPlace>
+                     <origDate when="0556-05-11">11. Mai 556</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736948 https://www.trismegistos.org/place/327">Arsinoiton Polis</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Vertrag (Darlehen, Schuldschein)</term>
+               <term>Geld und Werg</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="2010-09-12">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 12-13, 16 und 26/27 vgl. APF 59, 2013, S. 234. Zu Z. 5,14 und 25 vgl. BASP 50, 2013, S. 326. Zu Z. 28 vgl. P.Köln XIV, S. 204, Anm. 2.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Gen.</title>
+                  <biblScope type="volume">4</biblScope>
+                  <biblScope type="numbers">194</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Planche LXIV und LXV</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">Z. 1-16: SB VI 9283</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://data.onb.ac.at/rec/RZ00006311"/>
+               </figure>
+               <figure>
+                  <graphic url="http://www.ville-ge.ch/musinfo/imageZoom/?iip=bgeiip/papyrus/pgen399-vi.ptif"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vtac62fbec48d1865d7"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vtaff7884ca07407135"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Register of unusable Crown land</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.492</idno>
+            <idno type="controlNo">(CU)492</idno>
+            <idno type="ddbdp">p.tebt.4.1127</idno>
+            <idno type="ddb-perseus-style">0206;4;1127</idno>
+            <idno type="ddb-hybrid">p.tebt;4;1127</idno>
+            <idno type="HGV">3866</idno>
+            <idno type="TM">3866</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.1127</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A listing by perichoma of salty, dry and water-logged land at Kerkeosiris.</summary>
+                  <msItemStruct>
+                     <note type="general">Verso published.</note>
+                     <note type="general">Left margin: 1.9 cm.; sheet join 2.1 cm. from left edge.</note>
+                     <note type="general">Menches archive</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 21 x 22.1 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">2 cols. (27 lines) on recto along the fibers.</ab>
+                           <ab type="recto-verso">On verso, Register of land (P.Tebt.1124)</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0125" notAfter="-0100">Late 2nd century B.C.</origDate>
+                     <origPlace>Kerkeosiris</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>Crocodile cartonnage at Tebtunis 27.29</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>land use</term>
+               <term>Kerkeosiris</term>
+               <term type="genre_form">Registers of land, Ptolemaic period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto (233r)</desc>
+            <graphic url="http://papyri.info/images/cd/AP01547a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.233 (desc. only); P.Tebt., IV.1127</bibl>
+               <bibl type="ddbdp">P.Tebt.:4:1127</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/492">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

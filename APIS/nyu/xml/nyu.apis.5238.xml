@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Order for Transportation</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="controlNo">(NNU)5238</idno>
+           <idno type="apisid">nyu.apis.5238</idno>
+           <idno type="TM">121966</idno>
+           <idno type="HGV">121966</idno>
+           <idno type="ddb-hybrid">p.nyu;2;10</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                 <idno type="invNo">NYU inv 0452</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItemStruct>
+                    <note type="general">Location: Bobst; Rehoused in Box 8 </note>
+                    <note type="related">P.Oxy . LVI 3861</note>
+                    <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                       <support>1 papyrus ; 7.0 x 8.5</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <ab type="lines">6</ab>
+                          <ab type="recto-verso">Source of description: R</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                 <handDesc>
+                     <p>Writing across the fibers</p>
+                 </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                    <origDate notBefore="0400" notAfter="0430">July 4, 407 BCE</origDate>
+                    <origPlace>Oxyrhynchite Nome</origPlace>
+                  </origin>
+                  <provenance>
+                    <p>Unknown</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+              <term>Documentary</term>
+              <term>Papyrus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+         </div>
+        <div type="translation">
+            <ab>Diogenes to N.N. Put on board (of your ship) and hand over – – – from the crop of the sixth indiction for – – – two hundred and for the 1% tax – – and bring the receipt of the transfer – –. Year 83 = 52, Epeiph 10 – –. </ab>
+        </div>
+      </body>
+   </text>
+</TEI>

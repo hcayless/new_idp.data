@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv129791">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Début de pétition d'une religieuse</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">129791</idno>
+            <idno type="TM">129791</idno>
+            <idno type="ddb-perseus-style">0117;4;167</idno>
+            <idno type="ddb-filename">p.gen.4.167</idno>
+            <idno type="ddb-hybrid">p.gen;4;167</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Gen. inv. 318</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Hermontis?</origPlace>
+                     <origDate notBefore="0539" notAfter="0570">
+                        <precision match="../@notBefore" degree="0.5"/>ca. 539 - 570</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   cert="low"
+                                   ref="https://pleiades.stoa.org/places/786036 https://www.trismegistos.org/place/2981 https://www.trismegistos.org/place/812">Hermonthis</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Eingabe</term>
+               <term>Marina (ἀσκήτρια) an Phoibammon (cancellarius und τοποτηρητὴς ἀνὰ τὸ λίμιτον)</term>
+               <term>Inhalt unbestimmbar</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="2010-09-03">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu 3 vgl. APF 59, 2013, S. 227.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Gen.</title>
+                  <biblScope type="volume">4</biblScope>
+                  <biblScope type="numbers">167</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Planche XXX</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.ville-ge.ch/musinfo/imageZoom/?iip=bgeiip/papyrus/pgen318-ri.ptif"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta5ad4e7a6d88aaf5b"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vtac9ef0514b3a5fd8e"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

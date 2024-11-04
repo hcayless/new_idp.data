@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv16521">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notification of Death</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">16521</idno>
+            <idno type="TM">16521</idno>
+            <idno type="ddb-perseus-style">0006;2.1;17</idno>
+            <idno type="ddb-filename">c.pap.gr.2.1.17</idno>
+            <idno type="ddb-hybrid">c.pap.gr;2.1;17</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oxyrhynchos</origPlace>
+                     <origDate notBefore="0091-01-26" notAfter="0091-02-24">26. Jan. - 24. Febr. 91</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736983 https://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://pleiades.stoa.org/places/736982 https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Anzeige</term>
+               <term n="2">Tod (Sklave)</term>
+               <term n="3">Eid</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-02-24T12:15:13-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2023-02-24T12:02:28-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Looks good.</change>
+         <change when="2023-02-23T10:43:04-05:00"
+                 who="http://papyri.info/editor/users/LaviniaFerretti">Submit - Added new link to digital image</change>
+         <change who="HGV" when="1991-07-15">Record created</change>
+         <change who="HGV" when="2010-09-24">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 1-2 vgl. Reiter, Nomarchen, S. 119. Anm. 39.</p>
+         </div>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 18: 27. Nov. - 26. Dez. 90</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item>
+                  <ref>Z. 18</ref>
+                  <date type="mentioned" notBefore="0090-11-27" notAfter="0090-12-26">27. Nov. 90 - 26. Dez. 90</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Oxy.</title>
+                  <biblScope n="1" type="volume">41</biblScope>
+                  <biblScope n="2" type="numbers">2957</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">263</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">CPGr II, Tav. XVIII</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">CPGr II 17</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="2">
+                  <graphic url="https://doi.org/10.25446/oxford.21166684.v1"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

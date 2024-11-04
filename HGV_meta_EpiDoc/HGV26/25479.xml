@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv25479">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bilingual Sale of House</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">25479</idno>
+            <idno type="TM">25479</idno>
+            <idno type="ddb-perseus-style">0198;2;306</idno>
+            <idno type="ddb-filename">p.ryl.2.306</idno>
+            <idno type="ddb-hybrid">p.ryl;2;306</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Soknopaiu Nesos (Arsinoites)</origPlace>
+                     <origDate notBefore="0001" notAfter="0050" precision="low">1. Hälfte I</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/737053 https://www.trismegistos.org/place/2157">Soknopaiu Nesos</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Vertrag</term>
+               <term>Verkauf (Haus)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="1994-11-28">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Griechisch - demotisch. Descr.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Ryl.</title>
+                  <biblScope type="volume">2</biblScope>
+                  <biblScope type="numbers">306</biblScope>
+               </bibl>
+               <bibl>
+                  <title>DAHT</title>
+                  <biblScope>25479</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://luna.manchester.ac.uk/luna/servlet/view/search?q=metadata_schema=25479"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

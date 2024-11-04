@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Literary work, Medieval CE xiii-xiv [TCP]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0017900000</idno>
+            <idno type="controlNo">(CtY)1790 qua</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 1790 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Christian liturgy</summary>
+                  <msItemStruct>
+                     <note type="general">In the codex from which these fragments derive, fragment (1)(B) faced (2)(A), (2)(B) faced (3)(A), (3)(B) faced (4)(A), (4)(B) faced (5)(A), (5)(B) faced (6)(A), and (6)(B) faced (7)(A); but it is uncertain whether the first page of this sequence was fragment (1)(A) or (7)(B)</note>
+                     <note type="general">Margins: Front 2-7, top and left; back 2-7, top and right</note>
+                     <textLang mainLang="cop">Egyptian\Coptic</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Paper (.194 mm thick): 1: 39 x 32; 2: 96 x 73; 3: 97 x 70; 4: 96 x 70; 5: 96 x 70; 6: 98 x 70; 7: 98 x 70 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Front 1, 4; Back 1, 5; Front 2, 10; Back 2, 10; Front 3, 9; Back 3, 11; Front 4, 10; Back 4, 10; Front 5, 10; Back 5, 10; Front 6, 9; Back 6, 12; Front 7, 11; Back 7, 8</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1399">Medieval CE xiii-xiv [TCP]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1964</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="cop">Egyptian\Coptic</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Literary work</term>
+               <term>Paper</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>Petersen 1964: 37</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Yale inv. 1790a</bibl>
+               <bibl>Kraus 52</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2759448"/>
+                  <note>Images of P.CtYBR inv. 1790 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

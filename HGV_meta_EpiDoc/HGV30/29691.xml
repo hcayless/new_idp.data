@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv29691">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettre à Loukios</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">29691</idno>
+            <idno type="TM">29691</idno>
+            <idno type="ddb-perseus-style">0020;2;274</idno>
+            <idno type="ddb-filename">o.claud.2.274</idno>
+            <idno type="ddb-hybrid">o.claud;2;274</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Qift</settlement>
+                  </placeName>
+                  <collection>Archaeological storeroom</collection>
+                  <idno type="invNo">Claud., 4928</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Raima</origPlace>
+                     <origDate notBefore="0126" notAfter="0175" precision="low">Mitte II</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/767854 https://www.trismegistos.org/place/2643">Raima</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief</term>
+               <term n="2">Menodoros an Lukios</term>
+               <term n="3">Sendungen von Lebensmitteln</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-16T05:19:14-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2024-02-12T15:52:16-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2024-02-09T05:53:02-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Standardisierung der Korrektur zu Z. 1 (jetzt mit Papyrologica-Nr.) und Eingabe eines entsprechenden Verweises unter "Bemerkungen" auf CdE 95, 2020, S. 181f. (Papyrologica 98).</change>
+         <change who="HGV" when="1998-10-14">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 1 vgl. CdE 95, 2020, S. 181f. (Papyrologica 98). Zu Z. 12 vgl. BO 62, 2005, Sp. 50.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">O.Claud.</title>
+                  <biblScope n="1" type="volume">2</biblScope>
+                  <biblScope n="2" type="numbers">274</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.875c863m/1e0243458f4aacacf8dbb6aab0108fb3949cf15c"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.35edjgzr/6fa473d0c7bc236bb25391ce98755638d96895fc"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

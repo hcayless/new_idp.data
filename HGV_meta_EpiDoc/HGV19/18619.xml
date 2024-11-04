@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv18619">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Darlehen mit Hypothek, Alexandrien</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">18619</idno>
+            <idno type="TM">18619</idno>
+            <idno type="ddb-perseus-style">0001;4;1167iii</idno>
+            <idno type="ddb-filename">bgu.4.1167iii</idno>
+            <idno type="ddb-hybrid">bgu;4;1167iii</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Alexandria</origPlace>
+                     <origDate notBefore="-0013-08-29" notAfter="-0012-03-26">29. Aug. 13 - 26. März 12 v.Chr.</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/727070 https://www.trismegistos.org/place/100">Alexandria</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag</term>
+               <term n="2">Darlehn</term>
+               <term n="3">Geld</term>
+               <term n="4">Hypothek</term>
+               <term n="5">Land</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-09-20T09:28:52-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Bereit.</change>
+         <change when="2024-09-20T09:27:38-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Sieht gut aus.</change>
+         <change when="2024-09-19T07:38:20-04:00"
+                 who="http://papyri.info/editor/users/jostrauss">Submit - added the journal article correction from P. van Minnen (Tyche 36, Korr. Tyche 1084)</change>
+         <change who="HGV" when="1994-11-04">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">BGU</title>
+                  <biblScope n="1" type="volume">4</biblScope>
+                  <biblScope n="2" type="numbers">1167</biblScope>
+                  <biblScope n="3" type="generic">III</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="http://berlpap.smb.museum/00586/"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="http://berlpap.smb.museum/16961/"/>
+               </figure>
+               <figure n="3">
+                  <graphic url="http://berlpap.smb.museum/16963/"/>
+               </figure>
+            </p>
+         </div>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 50-51 vgl. Tyche 36, 2021, S. 208, Korr. Tyche 1084.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

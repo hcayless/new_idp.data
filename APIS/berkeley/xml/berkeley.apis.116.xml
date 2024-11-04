@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Account of receipts in kind</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.116</idno>
+            <idno type="controlNo">(CU)116</idno>
+            <idno type="ddbdp">p.tebt.3.2.851</idno>
+            <idno type="ddb-perseus-style">0206;3.2;851</idno>
+            <idno type="ddb-hybrid">p.tebt;3.2;851</idno>
+            <idno type="HGV">5420</idno>
+            <idno type="TM">5420</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0851</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>List of payment of wheat and olyra by crown tenants for rents, repayments of loans and seed, and arrears from the preceding seasons.</summary>
+                  <msItemStruct>
+                     <note type="general">Verso published</note>
+                     <note type="general">Top margin: 2.5 cm.; Fr. 2 has a bottom margin of 4 cm.</note>
+                     <note type="general">25th year of Ptolemy V Epiphanes, second through fifth years of Ptolemy VI Philometor</note>
+                     <note type="local_note">1150; 1151; 2117; 2118; 2119</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>7 papyri ; Frag. 1: 30.5 x 17.6 cm.; Frag. 2: 30 x 14.2 cm.; Frag. 3: 15 x 11.1 cm.; Frag. 4: 10 x 12.3 cm.; Frag. 5: 3 x 8.3 cm.; Frag. 6: 10 x 7 cm.; Frag. 7: 7 x 1.2 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">9+ cols. (106+ lines) on recto along the fibers.</ab>
+                           <ab type="recto-verso">On verso, Account of receipts in kind (P.Tebt.850)</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Small regular cursive</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0181" notAfter="-0176">181-176 B.C.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>mummy cartonnage at Tebtunis 43</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Wheat</term>
+               <term>Olyra</term>
+               <term>Crown tenants</term>
+               <term>Hephaistias</term>
+               <term>Kerkesis</term>
+               <term>Pharbaitha</term>
+               <term>Philadelpheia</term>
+               <term type="genre_form">Official accounts, Ptolemaic period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Frame 1/4</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface>
+            <desc>Frame 2/4</desc>
+            <graphic url="http://papyri.info/images/d6/AP01659a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="3">
+         <surface>
+            <desc>Frame 3/4</desc>
+            <graphic url="http://papyri.info/images/65/AP01660a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="4">
+         <surface>
+            <desc>Frame 4/4</desc>
+            <graphic url="http://papyri.info/images/33/AP01661a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., III.851 <note>On line 44 see BL v. 3, p. 246 and BL v. 9, p. 359.</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:3.2:851</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/116">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

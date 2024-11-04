@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Magical text, Medieval CE viii [TCP]|Medieval CE xi-xiii [?]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0021220000</idno>
+            <idno type="controlNo">(CtY)2122 fol</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 2122 fol</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItemStruct>
+                     <note type="general">The two fragments are mounted in two frames</note>
+                     <note type="general">Margins: 1, Top, left, and right; 2, Top, left, and bottom</note>
+                     <note type="general">1: (col. i) 4 lines; (col. ii) 26 lines; (col. iii) 33 lines; (col. iv) 6 lines. Accompanied by drawing with 22 additional lines of text, and 2 lines in bottom border. 2: (col. i) 2 lines; (col. ii) 26 lines; (col. iii) 2 lines; (col. iv) 9 lines. Accompanied by 3 lines in bottom border.</note>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Paper (.263 mm thick): 1: 401 x 304; 2: 441 x 154 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">1, 33; 2, 26</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0700" notAfter="0799">Medieval CE viii [TCP]<lb/> Medieval CE xi-xiii [?]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1966b</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Magical text</term>
+               <term>Paper</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <p>No citations.</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2760469"/>
+                  <note>Images of P.CtYBR inv. 2122 fol are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

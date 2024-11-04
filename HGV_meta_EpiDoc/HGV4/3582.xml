@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv3582">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Neuer Vertrag Horos’ II. mit seinen Kindern</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">3582</idno>
+            <idno type="TM">3582</idno>
+            <idno type="ddb-perseus-style">0245;2;180</idno>
+            <idno type="ddb-filename">upz.2.180a</idno>
+            <idno type="ddb-hybrid">upz;2;180a</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Hermonthis</origPlace>
+                     <origDate when="-0113-07-25">25. Juli 113 v.Chr.</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/786036 https://www.trismegistos.org/place/2981 https://www.trismegistos.org/place/812">Hermonthis</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag</term>
+               <term n="2">Verkauf (?)</term>
+               <term n="3">Schenkungsurkunde (?)</term>
+               <term n="4">Personenbeschreibung</term>
+               <term n="5">Liste (Namen)</term>
+               <term n="6">Quittung</term>
+               <term n="7">Bank (τέλος δόσεως)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-07-20T05:51:59-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2022-07-20T05:47:24-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2022-07-20T03:51:11-04:00"
+                 who="http://papyri.info/editor/users/christianf%C3%B6rstel">Submit - Added link to digital images (Gallica)</change>
+         <change when="2022-07-20T03:48:53-04:00"
+                 who="http://papyri.info/editor/users/christianf%C3%B6rstel">Commit - link to digital images added</change>
+         <change who="HGV" when="1992-07-28">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung vgl. ZPE 107, 1995, S. 84. Zu Kol. 48,8 vgl. AnalPap 21-22, 2009-2010, S. 154, Anm. 36.</p>
+         </div>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Kol. 50, Z. 1 Bearbeitungsvermerk: 12. Sept. 113 v. Chr.</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item>
+                  <ref>Kol 50 Z. 1</ref>
+                  <date type="mentioned" when="-0113-09-12">12. Sept. 113 v.Chr.</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">UPZ</title>
+                  <biblScope n="1" type="volume">2</biblScope>
+                  <biblScope n="2" type="numbers">180</biblScope>
+                  <biblScope n="3" type="generic">a</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">501</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">IX</biblScope>
+                  <biblScope type="pages">364/366</biblScope>
+               </bibl>
+               <bibl type="BL" n="3">
+                  <biblScope type="volume">X</biblScope>
+                  <biblScope type="pages">281</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">P.Par., pl. XIII - XVI</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">P.Par. 5</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://gallica.bnf.fr/ark:/12148/btv1b10538859v"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

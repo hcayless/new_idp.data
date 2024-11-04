@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv38427">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">38427</idno>
+            <idno type="TM">38427</idno>
+            <idno type="ddb-perseus-style">0239;20;14118</idno>
+            <idno type="ddb-filename">sb.20.14118</idno>
+            <idno type="ddb-hybrid">sb;20;14118</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>unbekannt</origPlace>
+                     <origDate notBefore="0501" notAfter="0700" precision="low">VI - VII</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief</term>
+               <term n="2">N.N. an N.N.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-29T07:50:45-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2022-12-29T07:38:31-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - The entry should be moved to the top long box, which is for digital images.</change>
+         <change when="2022-12-28T09:50:21-05:00"
+                 who="http://papyri.info/editor/users/ngonis">Submit - Meta: added link to digital image. Text: lin1 *stauros* =&gt; *rho-cross* || lin9  \&lt;#η=8#&gt;/ ἐξι̣ωμένος̣ =&gt; &lt;:ἠξι̣ωμένος̣|subst|εξι̣ωμενος̣:&gt;; cf. Aegyptus 70 (1990) 41: ‘the superposed η was probably added to replace the ε’ (there seems to be a small cancelling stroke)</change>
+         <change who="HGV" when="1997-09-15">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Rückseite: koptischer Brief.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope n="1" type="volume">20</biblScope>
+                  <biblScope n="2" type="numbers">14118</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://dpul.princeton.edu/papyri/catalog/7w62fd67w"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

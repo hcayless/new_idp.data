@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b32711" type="review">
+   <author>
+      <forename>Günter</forename>
+      <surname>Poethke</surname>
+   </author>
+   <date>2006</date>
+   <biblScope type="pp" from="63" to="65">63-65</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/83"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">ArchPF</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">52</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/18251"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Das Dekret von Kanopos (238 v.Chr.): Kommentar und historische Auswertung eines dreisprachigen Synodaldekretes der ägyptischen Priester zu Ehren Ptolemaios' III. und seiner Familie.</title>
+         <author>PFEIFFER, Stefan</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">32711</idno>
+   <seg type="original" subtype="cr" resp="#BP">C.R. par Günter Poethke, ArchPF 52 (2006) pp. 63-65.</seg>
+</bibl>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter, Roman CE ii-iii [MIR]|Roman CE ii (Jul 24) [GMP]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0005544100</idno>
+            <idno type="controlNo">(CtY)554(A)</idno>
+            <idno type="HGV">26547</idno>
+            <idno type="TM">26547</idno>
+            <idno type="ddb-hybrid">sb;14;11898</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 554(A)</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Sarapion to Diogenes</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: All</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 175 x 105 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">12</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0100" notAfter="0299">Roman CE ii-iii [MIR]<lb/> Roman CE ii (Jul 24) [GMP]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1931a</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Letter</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>Parássoglou 1973a: 272-74, pl. 34</bibl>
+               <bibl>Parássoglou 1974: 253</bibl>
+               <bibl>Bingen 1974</bibl>
+               <bibl>Tsantsanoglou 1975</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>Rost. b 49</bibl>
+               <bibl>SB XIV 11898</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2792231"/>
+                  <note>Images of P.CtYBR inv. 554(A) are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

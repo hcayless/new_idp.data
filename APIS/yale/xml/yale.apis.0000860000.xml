@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document, Roman CE ii [HIB]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0000860000</idno>
+            <idno type="controlNo">(CtY)86</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 86</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Perhaps an account, "tomos synkollesimos"<lb/> Trajan/Hadrian</summary>
+                  <msItemStruct>
+                     <note type="general">Fragments (2)-(6) were stuck to fragment (1) but perhaps are not related to it</note>
+                     <note type="general">Margins: 1, bottom; 2, left?</note>
+                     <note type="general">Recto 1: (col. i) 10 lines; (col. ii) 17 lines. All versos are blank.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 1: 122 x 123; 2: 15 x 14; 3: 6 x 10; 4: 6 x 5; 5: 3 x 11; 6: 9 x 3 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto 1, 17; Recto 2, 2; Recto 3, 1; Recto 4, 1; Recto 5, 1; Recto 6, 1</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0100" notAfter="0199">Roman CE ii [HIB]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>Acquisition Information, 1927: Purchased in Egypt on behalf of Yale, with funds that may have been donated by the General Education Fund of the Rockefeller Foundation's General Education Board. The dealers' names are given as Harold Idris Bell reported them in his 1927 report.  P.CtYBR inv. 79-109, 2058-2067 were purchased by Dr. David L. Askren, before 1927.</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Document</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Yale inv. 86a</bibl>
+               <bibl>Bell II 46A + II 46B + II 46C + II 46D + II 46E + II 46F</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2756864"/>
+                  <note>Images of P.CtYBR inv. 86 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

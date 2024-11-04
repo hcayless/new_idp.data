@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b25576" type="review">
+   <author>
+      <forename>R.B.</forename>
+      <surname>Lloyd</surname>
+   </author>
+   <date>1968</date>
+   <biblScope type="pp" from="302" to="302">302</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/185"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">CW</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">61</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/6799"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">New Fragments of the Misoumenos of Menander.</title>
+         <author>Turner, Eric G.</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">25576</idno>
+   <seg type="original" subtype="cr" resp="#BP">R.B. Lloyd, CW 61 (1968) p. 302.</seg>
+</bibl>

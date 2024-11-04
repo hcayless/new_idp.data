@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv20889">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notification of a Victory at the Games</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">20889</idno>
+            <idno type="TM">20889</idno>
+            <idno type="ddb-perseus-style">0230;;9</idno>
+            <idno type="ddb-filename">pap.agon.9</idno>
+            <idno type="ddb-hybrid">pap.agon;;9</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oxyrhynchos</origPlace>
+                     <origDate when="0272-01-15">15. Jan. 272</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736983 https://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://pleiades.stoa.org/places/736982 https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Brief (amtlich)</term>
+               <term>an die Archonten von Oxyrhynchos; Aurelius Stephanos hat in den Kapitolinischen Spielen im Wagenrennen gewonnen</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="1996-11-02">Record created</change>
+         <change who="HGV" when="2010-09-24">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung vgl. BL IX, S. 58.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Coll. Youtie</title>
+                  <biblScope type="volume">2</biblScope>
+                  <biblScope type="numbers">69</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/20889"/>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">85</biblScope>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">IX</biblScope>
+                  <biblScope type="pages">58</biblScope>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">62</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Plate XXIV</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikationen</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">P.Oxy. XLVII 3367</bibl>
+               <bibl type="publication" subtype="other">Pap. Agon. 9</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            
+         </div>
+      </body>
+   </text>
+</TEI>

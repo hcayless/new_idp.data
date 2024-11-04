@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv121853">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Contrat de prêt de fourrage</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">121853</idno>
+            <idno type="TM">121853</idno>
+            <idno type="ddb-perseus-style">;3;71</idno>
+            <idno type="ddb-filename">p.sorb.3.71</idno>
+            <idno type="ddb-hybrid">p.sorb;3;71</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Sorb. inv. 2440</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Fundort: Ghoran (Arsinoites, Ägypten); Schreibort: Takona (Oxyrhynchites, Ägypten)</origPlace>
+                     <origDate notBefore="-0268-12-28" notAfter="-0267-01-26">28. Dez. 268 - 26. Jan. 267 v.Chr.</origDate>
+                  </origin>
+                  <provenance n="1" type="found">
+                     <p>
+                        <placeName n="1" type="ancient">Ghoran</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+                  <provenance n="2" type="composed">
+                     <p xml:id="geoHEBID4">
+                        <placeName n="1" type="ancient">Takona</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2722 https://pleiades.stoa.org/places/736982">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag (Sechszeugenurkunde)</term>
+               <term n="2">Zenodoros mit Polyanthes</term>
+               <term n="3">Darlehen von 1050 Bündeln Heu</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-08-22T05:33:44-04:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2018-08-22T04:34:37-04:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2018-08-16T02:41:28-04:00"
+                 who="http://papyri.info/users/ThomasBackhuys">Submit - added link to digital image (online)</change>
+         <change when="2018-08-16T02:41:23-04:00"
+                 who="http://papyri.info/users/ThomasBackhuys">Commit - added link to digital image (online)</change>
+         <change who="HGV" when="2011-04-09">Record created</change>
+         <change who="HGV" when="2011-11-23">Record last modified</change>
+         <change when="2012-02-09" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Gehört zum Dossier des Lochagos Zenodoros.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Sorb.</title>
+                  <biblScope n="1" type="volume">3</biblScope>
+                  <biblScope n="2" type="numbers">71</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Planche I und beiliegende CD</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="http://www.papyrologie.paris-sorbonne.fr/photos/PSorbiii/Sorb071.jpg"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="http://www.papyrologie.paris-sorbonne.fr/photos/PSorbiii/Sorb071v.jpg"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

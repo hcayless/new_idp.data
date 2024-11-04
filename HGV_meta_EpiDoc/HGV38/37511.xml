@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv37511">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Loan of Money</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">37511</idno>
+            <idno type="TM">37511</idno>
+            <idno type="ddb-perseus-style">0057;2;149</idno>
+            <idno type="ddb-filename">p.amh.2.149</idno>
+            <idno type="ddb-hybrid">p.amh;2;149</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>New York</settlement>
+                  </placeName>
+                  <collection>Pierpont Morgan Library</collection>
+                  <idno type="invNo">Amherst Gr. 149</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oxyrhynchos (Oxyrhynchites, Ägypten)</origPlace>
+                     <origDate notBefore="0526" notAfter="0575" precision="low">Mitte VI</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://www.trismegistos.org/place/1524 https://pleiades.stoa.org/places/736983">Oxyrhynchos</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2722 https://pleiades.stoa.org/places/736982">Oxyrhynchites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Bestätigung</term>
+               <term n="2">Darlehen</term>
+               <term n="3">Geld</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-22T05:14:06-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-11-22T05:07:19-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2023-11-17T08:01:17-05:00"
+                 who="http://papyri.info/editor/users/jostrauss">Submit - added the journal article corrections from N. Gonis (ZPE 208 (2018)), changed and added information to the metadata accordingly</change>
+         <change who="HGV" when="1996-12-09">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Amh.</title>
+                  <biblScope n="1" type="volume">2</biblScope>
+                  <biblScope n="2" type="numbers">149</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?BBID=350410"/>
+               </figure>
+            </p>
+         </div>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung und zum Adressaten vgl. ZPE 208, 2018, S. 187.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

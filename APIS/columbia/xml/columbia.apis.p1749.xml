@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Receipt [June 6, 207 CE]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="controlNo">(NNC)p1749</idno>
+           <idno type="apisid">columbia.apis.p1749</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                 <idno type="invNo">Col. inv. 532</idno>
+               </msIdentifier>
+               <msContents>
+                 <summary>Receipt given by Aurelios Ptolemaios aka Aperos for rent paid. Dated to the joint reign of Septimius Severus, Caracall, and Geta.</summary>
+                 <msItemStruct>
+                     <note type="general">13 lines. Written along the fibers; two thirds of the surface are unwritten; back should be checked.</note>
+                     <note type="general">Competent hand bent to the right</note>
+                     <note type="general">Would benefit from infrared photography</note>
+                     <note type="local_note">Not glassed</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                 </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                       <support>1 papyrus fragment; 7.7 x 23.5 cm.</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                    <origDate when="0207-06-06">June 6, 207</origDate>
+                  </origin>
+                  <provenance>
+                    <p>Purchased by Columbia University through H.I. Bell, in 1930; no. II.22 in Bell's inventory</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">In Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+              <term>Papyri</term>
+              <term>Receipt</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+         </div>
+      </body>
+   </text>
+</TEI>

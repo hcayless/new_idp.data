@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b26126" type="review">
+   <author>
+      <forename>Eckart</forename>
+      <surname>Olshausen</surname>
+   </author>
+   <date>1972</date>
+   <biblScope type="col">coll. 93-96</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/70"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">AnzAW</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">25</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7137"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Antidorum W. Peremans sexagenario ab alumnis oblatum.</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">26126</idno>
+   <seg type="original" subtype="cr" resp="#BP">Eckart Olshausen, AnzAW 25 (1972) coll. 93-96</seg>
+</bibl>

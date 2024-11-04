@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv290">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Greek letter from Esthladas to Dryton and Apollonia</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">290</idno>
+            <idno type="TM">290</idno>
+            <idno type="ddb-perseus-style">0270;1;36</idno>
+            <idno type="ddb-filename">p.dryton.1.36</idno>
+            <idno type="ddb-hybrid">p.dryton;1;36</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Paris</settlement>
+                  </placeName>
+                  <collection>Louvre</collection>
+                  <idno type="invNo">E 10594</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Pathyris</origPlace>
+                     <origDate when="-0130-01-15">15. Jan. 130 v.Chr.</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                           n="1"
+                           ref="https://pleiades.stoa.org/places/786084 https://www.trismegistos.org/place/1628">
+                           Pathyris</placeName>
+                        <placeName type="ancient" subtype="nome" n="2"
+                           ref="https://www.trismegistos.org/place/2849">Pathyrites</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p> This file encoded to comply with EpiDoc Guidelines and Schema version 8 <ref>
+            http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (privat)</term>
+               <term n="2">Esthladas an seine Eltern</term>
+               <term n="3">Nachricht über bevorstehende Strafaktion gegen das aufständische
+                  Hermonthis</term>
+               <term n="4">Ermutigung</term>
+               <term n="5">Soldat</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-17T08:39:08-04:00"
+            who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2023-09-17T08:34:56-04:00"
+            who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2023-09-16T11:42:44-04:00"
+            who="http://papyri.info/editor/users/Laudenbach">Submit - Link to image added (and
+            button "add" pressed!)</change>
+         <change when="2023-09-16T11:42:27-04:00"
+            who="http://papyri.info/editor/users/Laudenbach">Commit - Link added (and button "add"
+            pressed!)</change>
+         <change when="2023-09-15T06:14:32-04:00"
+            who="http://papyri.info/editor/users/paulpeters">Vote - ReturnToSender - See Cowey's
+            comment.</change>
+         <change when="2023-09-11T09:58:49-04:00"
+            who="http://papyri.info/editor/users/james.cowey">Vote - ReturnToSender - In the section
+            Bibliography, when you add the link, please click on the English word "add" at the end
+            of the long entry box. If you do not click on the word add then the link is not
+            preserved.</change>
+         <change when="2023-09-11T04:27:11-04:00"
+            who="http://papyri.info/editor/users/Laudenbach">Submit - Link to digital images added</change>
+         <change when="2023-09-11T04:26:54-04:00"
+            who="http://papyri.info/editor/users/Laudenbach">Commit - Link to digital images added</change>
+         <change who="HGV" when="2003-06-20">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Dryton</title>
+                  <biblScope type="numbers">36</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://aquila.zaw.uni-heidelberg.de/bl/hgv/290" />
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">87</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">XIV</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikationen</head>
+            <listBibl>
+               <bibl type="publication" subtype="other" n="1">W.Chr. 10</bibl>
+               <bibl type="publication" subtype="other" n="2">Sel. Pap. I 101</bibl>
+               <bibl type="publication" subtype="other" n="3">Witkowski, Epistulae privatae 52</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations" n="1">Lewis, Greeks in Ptolemaic Egypt (1986), S. 98</bibl>
+               <bibl type="translations" n="2">White, Ancient Letters (1986), 43</bibl>
+               <bibl type="translations" n="3">Bagnall &amp; Derow, The Hellenistic Period (2004),
+                  Nr. 53</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://collections.louvre.fr/ark:/53355/cl010429505" />
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0"
+      xml:id="b78505"
+      type="article"
+      subtype="journal">
+   <title level="a" type="main">Ostraca Upsaliensia (Part I). Avec résumé en anglais.</title>
+   <author n="1">
+      <forename>Todd</forename>
+      <surname>Hickey</surname>
+   </author>
+   <date>2010</date>
+   <biblScope type="pp" from="258" to="273">258-273</biblScope>
+   <note resp="#BP">16 Greek ostraka from the collection of the Victoria Museum of Egyptian Antiquities at Uppsala University. - 1. Inv. 1127. A poll tax receipt from Roman Elephantine. 23.viii.79. - 2. Inv. 966. A poll tax receipt from Roman Edfu. Probably 107. - 3-16. Receipts from Roman Thebes. - 3-4. From the dossier of Nepheros and his sons. - 3. Inv. 653. Receipt for the poll and bath taxes. 12.v.88. - 4. Inv. 1589. Receipt for the bath tax. 14.vi.98. - 5-12. Receipts for payments of money taxes. - 5. Inv. 2440. Receipt for the poll and bath taxes. 15.viii.44. - 6-7. Two receipts from the dossier of Pamonthes, son of Haryothes. - 6. Inv. 1243. Receipt for the poll and bath taxes. 29.iii.50(?). - 7. Inv. 920. Receipt for the poll and bath taxes. 11.ix.56. - 8. Inv. 1383. Receipt for the dike (and bath taxes). 17.viii.113. - 9. Inv. 1361. Receipt for the dike and bath taxes. 19.ix.117. - 10. Inv. 2505. Receipt for a tax on two mummies. 15(?).vii.127. - 11. Inv. 2444. Receipt for the dike and bath taxes. 1.xii.149. - 12. Inv. 2382. Receipt for the tax on weavers. 21.ii.167. - 13-16. Receipts for tax payments in kind. - 13. Inv. 1362. Receipt for payment to the granary of the villages. 13.viii.151. - 14-16. From the dossier of Panameus, son of Pekysis. - 14. Inv. 754. Receipt for payment to the granary of the villages. 28.v.192. - 15. Inv. 1133. Receipt for payment to the granary of the villages. 194. - 16. Inv. 2555. Receipt for payment to the granary of the villages. 23.vi.195.</note>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/83"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">ArchPF</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">56</biblScope>
+   <relatedItem type="mentions" n="1">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">259_1</biblScope>
+         <idno type="ddb">apf;56;259_1</idno>
+         <idno type="tm">133428</idno>
+         <idno type="invNo">VM 1127</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="2">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">260_2</biblScope>
+         <idno type="ddb">apf;56;260_2</idno>
+         <idno type="tm">133429</idno>
+         <idno type="invNo">VM 966</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="3">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">263_3</biblScope>
+         <idno type="ddb">apf;56;263_3</idno>
+         <idno type="tm">133430</idno>
+         <idno type="invNo">VM 653</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="4">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">264_4</biblScope>
+         <idno type="ddb">apf;56;264_4</idno>
+         <idno type="tm">133431</idno>
+         <idno type="invNo">VM 1589</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="5">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">265_5</biblScope>
+         <idno type="ddb">apf;56;265_5</idno>
+         <idno type="tm">133432</idno>
+         <idno type="invNo">VM 2440</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="6">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">266_6</biblScope>
+         <idno type="ddb">apf;56;266_6</idno>
+         <idno type="tm">133433</idno>
+         <idno type="invNo">VM 1243</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="7">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">266_7</biblScope>
+         <idno type="ddb">apf;56;266_7</idno>
+         <idno type="tm">133434</idno>
+         <idno type="invNo">VM 920</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="8">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">267_8</biblScope>
+         <idno type="ddb">apf;56;267_8</idno>
+         <idno type="tm">133435</idno>
+         <idno type="invNo">VM 1383</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="9">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">268_9</biblScope>
+         <idno type="ddb">apf;56;268_9</idno>
+         <idno type="tm">133436</idno>
+         <idno type="invNo">VM 1361</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="10">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">269_10</biblScope>
+         <idno type="ddb">apf;56;269_10</idno>
+         <idno type="tm">133437</idno>
+         <idno type="invNo">VM 2505</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="11">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">269_11</biblScope>
+         <idno type="ddb">apf;56;269_11</idno>
+         <idno type="tm">133438</idno>
+         <idno type="invNo">VM 2444</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="12">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">270_12</biblScope>
+         <idno type="ddb">apf;56;270_12</idno>
+         <idno type="tm">133439</idno>
+         <idno type="invNo">VM 2382</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="13">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">271_13</biblScope>
+         <idno type="ddb">apf;56;271_13</idno>
+         <idno type="tm">133440</idno>
+         <idno type="invNo">VM 1362</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="14">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">271_14</biblScope>
+         <idno type="ddb">apf;56;271_14</idno>
+         <idno type="tm">133441</idno>
+         <idno type="invNo">VM 754</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="15">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">272_15</biblScope>
+         <idno type="ddb">apf;56;272_15</idno>
+         <idno type="tm">133442</idno>
+         <idno type="invNo">VM 1133</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="16">
+      <bibl>
+         <title level="s" type="short">APF</title>
+         <biblScope type="vol">56</biblScope>
+         <biblScope type="num">272_16</biblScope>
+         <idno type="ddb">apf;56;272_16</idno>
+         <idno type="tm">133443</idno>
+         <idno type="invNo">VM 2555</idno>
+      </bibl>
+   </relatedItem>
+   <idno type="pi">78505</idno>
+   <idno type="bp">2010-0305</idno>
+   <seg type="original" subtype="index" resp="#BP">142.4 146 630</seg>
+   <seg type="original" subtype="indexBis" resp="#BP">142.4 O. Ups. Victoria Mus. Inv. 653; 754; 920; 966; 1127; 1133; 1243; 1361; 1362; 1383; 1589; 2382; 2440; 2444; 2505; 2555</seg>
+   <seg type="original" subtype="titre" resp="#BP">HICKEY Todd, Ostraca Upsaliensia (Part I). Avec résumé en anglais.</seg>
+   <seg type="original" subtype="publication" resp="#BP">ArchPF 56 (2010) pp. 258-273, 1 tabl. et pll. VIII[b] - XVI[a].</seg>
+   <seg type="original" subtype="resume" resp="#BP">16 Greek ostraka from the collection of the Victoria Museum of Egyptian Antiquities at Uppsala University. - 1. Inv. 1127. A poll tax receipt from Roman Elephantine. 23.viii.79. - 2. Inv. 966. A poll tax receipt from Roman Edfu. Probably 107. - 3-16. Receipts from Roman Thebes. - 3-4. From the dossier of Nepheros and his sons. - 3. Inv. 653. Receipt for the poll and bath taxes. 12.v.88. - 4. Inv. 1589. Receipt for the bath tax. 14.vi.98. - 5-12. Receipts for payments of money taxes. - 5. Inv. 2440. Receipt for the poll and bath taxes. 15.viii.44. - 6-7. Two receipts from the dossier of Pamonthes, son of Haryothes. - 6. Inv. 1243. Receipt for the poll and bath taxes. 29.iii.50(?). - 7. Inv. 920. Receipt for the poll and bath taxes. 11.ix.56. - 8. Inv. 1383. Receipt for the dike (and bath taxes). 17.viii.113. - 9. Inv. 1361. Receipt for the dike and bath taxes. 19.ix.117. - 10. Inv. 2505. Receipt for a tax on two mummies. 15(?).vii.127. - 11. Inv. 2444. Receipt for the dike and bath taxes. 1.xii.149. - 12. Inv. 2382. Receipt for the tax on weavers. 21.ii.167. - 13-16. Receipts for tax payments in kind. - 13. Inv. 1362. Receipt for payment to the granary of the villages. 13.viii.151. - 14-16. From the dossier of Panameus, son of Pekysis. - 14. Inv. 754. Receipt for payment to the granary of the villages. 28.v.192. - 15. Inv. 1133. Receipt for payment to the granary of the villages. 194. - 16. Inv. 2555. Receipt for payment to the granary of the villages. 23.vi.195.</seg>
+   <seg type="original" subtype="nom" resp="#BP">Hickey</seg>
+</bibl>

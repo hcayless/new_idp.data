@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv15452">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Neuedition von P.Rain.Cent. 121</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">15452</idno>
+            <idno type="TM">15452</idno>
+            <idno type="ddb-perseus-style">0194;;121</idno>
+            <idno type="ddb-filename">tyche.35.60</idno>
+            <idno type="ddb-hybrid">tyche;35;60</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Wien</settlement>
+                  </placeName>
+                  <collection>Nationalbibliothek</collection>
+                  <idno type="invNo">G 31502</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Herakleopolis (Herakleopolites, Ägypten)</origPlace>
+                     <origDate when="0719-10-07">7. Okt. 719</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736920 https://www.trismegistos.org/place/799">Herakleopolis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="www.trismegistos.org/place/2713 https://pleiades.stoa.org/places/736921">Herakleopolites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="https://papyri.info/biblio/96142"/>
+                  <biblScope type="pp">60</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Kompromiß</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-11-15T05:41:01-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-11-15T05:33:09-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2022-10-19T05:58:15-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Eingabe des Textes und einer Übersetzung nach Tyche 35, 2020, S. 60 A sowie Anpassung der Metadaten an Neuedition. Diese hat eine verschobene Zeilenzählung, sodass ein Verweis in den Metadaten unter "commentary" nicht mehr zutreffend sein sollte (konnte aber noch nicht gegengeprüft werden). Zudem gibt es in der Neuedition keinen Hinweis auf das verso.</change>
+         <change who="HGV" when="1990-05-10">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 2-3 vgl. CPR XXII, S. 85-86.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">Tyche</title>
+                  <biblScope n="1" type="volume">35</biblScope>
+                  <biblScope n="2" type="fascicle">(2020)</biblScope>
+                  <biblScope n="3" type="pages">S. 60</biblScope>
+                  <biblScope n="4" type="generic">A</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XII</biblScope>
+                  <biblScope type="pages">165</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">P.Rainer Cent., Tafel 94</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://data.onb.ac.at/rec/RZ00002397"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">P.Rainer Cent. 121</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

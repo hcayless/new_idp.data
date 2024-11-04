@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Contract, Roman CE late i-early ii [BPG]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0000530000</idno>
+            <idno type="controlNo">(CtY)53</idno>
+            <idno type="HGV">25692</idno>
+            <idno type="TM">25692</idno>
+            <idno type="ddb-hybrid">sb;28;17047</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 53</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Of marriage</summary>
+                  <msItemStruct>
+                     <note type="general">Verso 1 is blank.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 1: 15 x 42; 2: 35 x 75 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto 1, 4; Recto 2, 7; Verso 2, 1-2</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0075" notAfter="0125">Roman CE late i-early ii [BPG]</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Oxyrhynchus</p>
+                  </provenance>
+                  <acquisition>
+                     <p>1904</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Contract</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Oxy. III, p. 283</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Oxy. 606 descr.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

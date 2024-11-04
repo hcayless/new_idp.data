@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Register of rents and taxes</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.855</idno>
+            <idno type="controlNo">(CU)855</idno>
+            <idno type="ddbdp">p.tebt.4.1107</idno>
+            <idno type="ddb-perseus-style">0206;4;1107</idno>
+            <idno type="ddb-hybrid">p.tebt;4;1107</idno>
+            <idno type="HGV">3798b</idno>
+            <idno type="TM">3798</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.1107</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Register of holders of crown lands with the extent of their plots and the rents due from them, followed as a rule by (1) amounts payable on account of a number of taxes, and (2) a statement of amounts actually paid, which have been filled in at different times.</summary>
+                  <msItemStruct>
+                     <note type="general">Verso published.</note>
+                     <note type="general">Menches archive</note>
+                     <note type="related">Immediately preceding cols. are published as P.Tebt.94.</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 30.5 x 273 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">19 cols. (315 lines) on recto along the fibers</ab>
+                           <ab type="recto-verso">On verso: Register of rents and taxes (P.Tebt.1106)</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0113" notAfter="-0112">113/112 B.C.</origDate>
+                     <origPlace>Kerkeosiris</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>Crocodile cartonnage at Tebtunis 27.36, 15.5, 14.11, 12.10, 15.2</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Crown land taxation</term>
+               <term>Rent charges</term>
+               <term type="genre_form">Registers of land, Ptolemaic Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface>
+            <desc>Frame 1/12</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface>
+            <desc>Frame 2/12</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="3">
+         <surface>
+            <desc>Frame 3/12</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="4">
+         <surface>
+            <desc>Frame 4/12</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="5">
+         <surface>
+            <desc>Frame 5/12</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="6">
+         <surface>
+            <desc>Frame 6/12</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="7">
+         <surface>
+            <desc>Frame 7/12</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="8">
+         <surface>
+            <desc>Frame 8/12</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="9">
+         <surface>
+            <desc>Frame 9/12</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="10">
+         <surface>
+            <desc>Frame 10/12</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="11">
+         <surface>
+            <desc>Frame 11/12</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="12">
+         <surface>
+            <desc>Frame 12/12</desc>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.94; P.Tebt., I.163; P.Tebt., I.247; P.Tebt., I.248; P.Tebt., I.249; P.Tebt., IV.1107. <note>On line 57 see BL v. 7, p. 274; on line 114 see P. L. Bat. 29, p. 196.</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:4:1107</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/855">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

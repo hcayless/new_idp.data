@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Leaase of land</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.6499</idno>
+            <idno type="controlNo">(CU)6499</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.Frag.14,172 + 14,181 + 14,185 + 14,442</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Lease of land between a bak Sobek (servant of Sobek) annd (more than one? Royal farmer</summary>
+                  <msItemStruct>
+                     <note type="general">Fragments 4 and 5 are covered by geometric painting.</note>
+                     <note type="general">Geometric painting covers fragments 4 and 5</note>
+                     <note type="general">Year 10 of Ptolemy VI</note>
+                     <note type="general">Reserved for Lippert - Arlt, 5/23/2014 Date restored based on Eponymous priests.</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="egy-Egyd">Demotic</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>5 papyri ; Frag. 1, 24 x 23 cm.; frag. 2, 9.7 x 3.4 cm., frag. 3, 18.3 x 12 cm.; frag. 4, 8 x 4 cm.; frag. 5, 10 x 3.5 cm.</support>
+                        <condition>
+                           <ab type="preservation">Several pieces have been joined to form frag. 1. resulting in 5 pieces.</ab>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">20+ lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="-0172">172/171 B.C.</origDate>
+                     <persName type="asn">Tithoes, son of Onnophris</persName>
+                  </origin>
+                  <provenance>
+                     <p>Mummy cartonnage at Tebtunis</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="egy-Egyd">Demotic</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Farmers</term>
+               <term>Land use</term>
+               <term type="genre_form">Leases, Ptolemaic Period; Paintings</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto</desc>
+            <graphic url="http://papyri.info/images/5d/AP04354a"/>
+            <graphic url="http://papyri.info/images/f0/AP04354_11_a"/>
+            <graphic url="http://papyri.info/images/98/AP04354_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/df/AP04355a"/>
+            <graphic url="http://papyri.info/images/05/AP04355_11_a"/>
+            <graphic url="http://papyri.info/images/7d/AP04355_12_a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <p>No citations.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

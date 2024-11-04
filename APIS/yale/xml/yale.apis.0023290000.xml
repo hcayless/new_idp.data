@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter, Byzantine-Medieval CE vii [TCP]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0023290000</idno>
+            <idno type="controlNo">(CtY)2329 qua</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 2329 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItemStruct>
+                     <note type="general">The relative positions of fragments (1) and (2) are certain along the horizontal axis; the vertical distance between them is uncertain</note>
+                     <note type="general">Margins: Recto 1, top and left; Verso 1, top, right, and bottom; 2, left, right, and bottom</note>
+                     <note type="general">Verso 2 is blank.</note>
+                     <textLang mainLang="cop">Egyptian\Coptic</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 1: 75 x 94; 2: 88 x 311 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto 1, 5; Verso 1, 2; Recto 2, 6</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0600" notAfter="0699">Byzantine-Medieval CE vii [TCP]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1965b</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="cop">Egyptian\Coptic</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Letter</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>BRBL MS 481 139 + 141b</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2761150"/>
+                  <note>Images of P.CtYBR inv. 2329 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

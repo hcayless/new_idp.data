@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv34764">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Verkaufserklärung über einen Hof und Bestellung einer servitus oneris ferendi</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">34764</idno>
+            <idno type="TM">34764</idno>
+            <idno type="ddb-perseus-style">0171;1;16</idno>
+            <idno type="ddb-filename">p.muench.1.16</idno>
+            <idno type="ddb-hybrid">p.muench;1;16</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Syene</origPlace>
+                     <origDate notBefore="0476" notAfter="0500" precision="low">Ende V</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/786123 https://www.trismegistos.org/place/2207">Syene</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag</term>
+               <term n="2">Verkauf</term>
+               <term n="3">Grundstück</term>
+               <term n="4">Servitus</term>
+               <term n="5">Notarsunterschrift</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-29T11:58:45-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2022-12-29T10:31:33-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Looks good</change>
+         <change when="2022-12-13T04:35:05-05:00"
+                 who="http://papyri.info/editor/users/anetaskalec">Submit - I added link to the digital image.</change>
+         <change when="2022-12-13T04:34:56-05:00"
+                 who="http://papyri.info/editor/users/anetaskalec">Commit - I added link to the digital image.</change>
+         <change who="HGV" when="1990-02-26">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung vgl. BL VIII, S. 227. Gehört zum Patermuthis - Archiv. Vgl. Fournet, Les archives de Dioscore, S. 96, Anm. 14. Zu Z. 11 vgl. P.Bingen, S. 516, Anm. 28.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Münch.</title>
+                  <biblScope n="1" type="volume">1</biblScope>
+                  <biblScope n="2" type="numbers">16</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">227</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">XI</biblScope>
+                  <biblScope type="pages">138</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Tafeln XXXV b und XXXVI</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">FIRA III 107 (Auszüge)</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations">Pap.Eleph.Eng. (1996) D21</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00116045-2"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

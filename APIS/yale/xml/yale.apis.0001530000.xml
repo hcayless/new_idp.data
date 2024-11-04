@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document, Byzantine CE vi [HIB]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0001530000</idno>
+            <idno type="controlNo">(CtY)153</idno>
+            <idno type="HGV">381311</idno>
+            <idno type="TM">381311</idno>
+            <idno type="ddb-filename">apf.60.199_2</idno>
+            <idno type="ddb-hybrid">apf;60;199_2</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 153</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItemStruct>
+                     <note type="general">Margins: Recto, Right</note>
+                     <note type="general">Bound in acrylic, but not yet conserved.<lb/>  Verso is blank.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 115 x 79 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto, 13</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0500" notAfter="0599">Byzantine CE vi [HIB]</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Provenance Purchased: Medinet el-Faiyum<lb/>  Provenance Written: Oxyrhynchus</p>
+                  </provenance>
+                  <acquisition>
+                     <p>Acquisition Information, 1927: Purchased in Egypt on behalf of Yale, with funds that may have been donated by the General Education Fund of the Rockefeller Foundation's General Education Board. The dealers' names are given as Harold Idris Bell reported them in his 1927 report.<lb/>   P.CtYBR inv. 152-159 and 2079 were purchased by Harold Idris Bell from Tadaros in Medinet el-Faiyum, 24 December 1926.</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Document</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl> "A. Benaissa" Frustula Beineckiana" Archiv für Papyrusforschung und verwandte Gebiete, vol. 60/1 (2014): 196–208</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>Bell II 174B</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2756960"/>
+                  <note>Images of P.CtYBR inv. 153 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

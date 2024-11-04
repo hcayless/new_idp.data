@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv64742">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>From Egypt to Constantinople: a Pilgrimage Route in a Forgotten Late Antique Itinerary (SB XXVI 16607)?</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">64742</idno>
+            <idno type="TM">64742</idno>
+            <idno type="ddb-perseus-style">0239;26;16607</idno>
+            <idno type="ddb-filename">zpe.199.156</idno>
+            <idno type="ddb-hybrid">zpe;199;156</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Minneapolis</settlement>
+                  </placeName>
+                  <collection>University of Minnesota, Bell Library</collection>
+                  <idno type="invNo">UMN Bell 400</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Panopolis ? (Panopolites, Ägypten)</origPlace>
+                     <origDate notBefore="0401" notAfter="0500" cert="low" precision="low">V (?)</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   cert="low"
+                                   ref="https://www.trismegistos.org/place/1589 https://pleiades.stoa.org/places/756613">Panopolis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="www.trismegistos.org/place/2719 https://pleiades.stoa.org/places/756614">Panopolites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="papyri.info/biblio/86975"/>
+                  <biblScope type="pp">156</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Liste (Orte in Ägypten, Palästina und Kleinasien)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-12-12T04:55:58-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-11-09T08:55:04-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2023-05-04T09:10:35-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Anpassung von Metadaten und Text an ZPE 199, 2016, S. 156: Der Kommentar zum Text könnte noch angepasst werden.</change>
+         <change when="2021-01-02T05:52:44-05:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2020-12-31T05:40:09-05:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2020-12-31T03:13:18-05:00"
+                 who="http://papyri.info/users/dkaltsas">Submit - Added bibliographical references under ‘Notes / Bemerkungen’ and ‘Print Illustration’.</change>
+         <change who="HGV" when="2006-07-12">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>= Pack [1965] 2274; LDAB 5976. Vgl. CdE 82, 2007, S. 362. Vgl. Living for Eternity, Appendix: Text, S. 25-26 = 169-170 und 40 = 184.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">ZPE</title>
+                  <biblScope n="1" type="volume">199</biblScope>
+                  <biblScope n="2" type="fascicle">(2016)</biblScope>
+                  <biblScope n="3" type="pages">S. 156</biblScope>
+               </bibl>
+               <bibl>
+                  <title>LDAB</title>
+                  <biblScope>64742</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+          keine
+          <bibl type="illustration">S. 159–160</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://www.jstor.org/stable/26603706?seq=5"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">SB 26 16607</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

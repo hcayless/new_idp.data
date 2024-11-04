@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b26714" type="review">
+   <author>
+      <forename>Michel</forename>
+      <surname>Malaise</surname>
+   </author>
+   <date>1971</date>
+   <biblScope type="pp" from="304" to="305">304-305</biblScope>
+   <biblScope type="no">No. 92</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/174"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">ChrEg</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">46</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7518"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Herodots ägyptischer Logos und die Glaubwürdigkeit Herodots. Mit einem metrologischen Beitrag und Anhang.</title>
+         <author>Oertel, Friedrich</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">26714</idno>
+   <seg type="original" subtype="cr" resp="#BP">Michel Malaise, ChrEg 46 (1971) No. 92, pp. 304-305.</seg>
+</bibl>

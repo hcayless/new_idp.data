@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document, Roman</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0042890000</idno>
+            <idno type="controlNo">(CtY)4289 qua</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 4289 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Unrelated fragments<lb/> (4) letter (?)</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: 1, left; 3, right; 4, top and right; Recto 5, top and right; Verso 5, left; 7, right; 10, top; 11, right; 12, left?; 13, left; 14, right; 15, right</note>
+                     <note type="general">Versos 1-4, 6-8, and 10-15 are blank. Traces on verso 9.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus Fragments: 1: 31 x 48; 2: 39 x 52; 3: 59 x 33; 4: 42 x 46; 5: 47 x 26; 6: 30 x 49; 7: 45 x 48; 8: 44 x 16; 9: 43 x 44; 10: 47 x 21; 11: 81 x 60; 12: 51 x 57; 13: 73 x 30; 14: 53 x 23; 15: 63 x 18 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto 1, 4; Recto 2, 5; Recto 3, 7; Recto 4, 3; Recto 5, 4; Verso 5, 6; Recto 6, 2; Recto 7, 7; Recto 8, 9; Recto 9, 6; Recto 10, 5; Recto 11, 6; Recto 12, 8; Recto 13, 4; Recto 14, 8; Recto 15, 7</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0099" notAfter="0299">Roman</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1992b</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Document</term>
+               <term>Papyri Fragments</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <p>No citations.</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2766658"/>
+                  <note>Images of P.CtYBR inv. 4289 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

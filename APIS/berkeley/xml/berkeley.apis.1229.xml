@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Penthemeros certificate.</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.1229</idno>
+            <idno type="controlNo">(CU)1229</idno>
+            <idno type="ddbdp">sb.10.10547</idno>
+            <idno type="ddb-perseus-style">0239;10;10547</idno>
+            <idno type="ddb-hybrid">sb;10;10547</idno>
+            <idno type="HGV">14323</idno>
+            <idno type="TM">14323</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0648</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Certificate of 5 days labor for dike corvee.</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: top, 0.7 cm.; bottom, 0.3 cm. On verso in black ink: T604</note>
+                     <note type="general">11th year of Antoninus.</note>
+                     <note type="local_note">1485</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 4.7 x 6 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">7 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Small regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="0171">June 171 A.D.</origDate>
+                     <origPlace>Tebtunis</origPlace>
+                     <persName type="asn">Satorneilos son of Tyrannos</persName>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T604</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Dikes (Engineering)</term>
+               <term>Tebtunis</term>
+               <term type="genre_form">Certificates</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto</desc>
+            <graphic url="http://papyri.info/images/c9/AP02948a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/99/AP02949a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="translation">
+            <ab>The 11th year of Aurelius Antoninus Caesar the lord. Work performed on the dikes for the 11th year, Epeiph 22 until Mesore 1, at the desert (canal) of Polemon, on behalf of Tebtunis, Satorneilos son of Tyrannos son of Kronion, his mother being Kronia.</ab>
+         </div>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.648 (desc. only); SB, v. 10, no. 10547</bibl>
+               <bibl type="ddbdp">SB:10:10547</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/1229">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

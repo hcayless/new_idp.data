@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv25118">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Private Letter</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">25118</idno>
+            <idno type="TM">25118</idno>
+            <idno type="ddb-perseus-style">0228;1;78</idno>
+            <idno type="ddb-filename">basp.55.280</idno>
+            <idno type="ddb-hybrid">basp;55;280</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>New Haven</settlement>
+                  </placeName>
+                  <collection>Yale University, Beinecke Library</collection>
+                  <idno type="invNo">P. CtYBR 169</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Arsinoites, Ägypten; erworben: Medinet el Fayum - 1927</origPlace>
+                     <origDate notBefore="0001" notAfter="0050" precision="low">1. Hälfte I</origDate>
+                  </origin>
+                  <provenance n="1" type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+                  <provenance n="2" type="acquired" when="1927">
+                     <p xml:id="geoFHIGB6">
+                        <placeName type="modern">Medinet el Fayum</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="http://papyri.info/biblio/95684"/>
+                  <biblScope type="pp">280</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (privat)</term>
+               <term n="2">Isidoros an Chenanubis</term>
+               <term n="3">Notwendigkeit von Anwesenheit</term>
+               <term n="4">Hochzeit</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-03T10:23:04-05:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2020-12-30T07:56:20-05:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2020-07-09T04:55:08-04:00"
+                 who="http://papyri.info/users/ALBADEFRUTOS">Submit - I have updated both the text and meta as offered in the new edition of the papyrus  (i.e. Maravela -Stolk (BASP) 2018 275 ss.)</change>
+         <change when="2020-07-09T04:06:00-04:00"
+                 who="http://papyri.info/users/ALBADEFRUTOS">Commit - Updated data regarding publication (new is BASP 55 (2018). P.Yale I 78 has been moved to 'other publications'), collection info and acquisition. </change>
+         <change who="HGV" when="1991-11-27">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">BASP</title>
+                  <biblScope n="1" type="volume">55</biblScope>
+                  <biblScope n="2" type="fascicle">(2018)</biblScope>
+                  <biblScope n="3" type="pages">S. 280</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://wwwapp.cc.columbia.edu/ldpd/app/apis/item?mode=item&amp;key=yale.apis.0001690000"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">P.Yale I 78</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

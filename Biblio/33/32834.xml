@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b32834" type="review">
+   <author>
+      <forename>Walter</forename>
+      <surname>Lapini</surname>
+   </author>
+   <date>2006</date>
+   <biblScope type="pp" from="185" to="188">185-188</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/1702"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">Prometheus</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">32</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/18612"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">The New Posidippus. A Hellenistic Poetry Book.</title>
+         <author>GUTZWILLER, Kathryn</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">32834</idno>
+   <seg type="original" subtype="cr" resp="#BP">Walter Lapini, Prometheus 32 (2006) pp. 185-188.</seg>
+</bibl>

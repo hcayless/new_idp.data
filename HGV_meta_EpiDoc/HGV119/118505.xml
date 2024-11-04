@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv118505">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to Probus the Procurator from the Workers (Pagani)</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">118505</idno>
+            <idno type="TM">118505</idno>
+            <idno type="ddb-perseus-style">0020;4;853</idno>
+            <idno type="ddb-filename">o.claud.4.853</idno>
+            <idno type="ddb-hybrid">o.claud;4;853</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Qift</settlement>
+                  </placeName>
+                  <collection>Archaeological storeroom</collection>
+                  <idno type="invNo">Claud., 4488 + 4667 + 4814</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Mons Claudianus</origPlace>
+                     <origDate notBefore="0186" notAfter="0187">
+                        <precision match="../@notBefore" degree="0.5"/>ca. 186 - 187</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/766348 https://www.trismegistos.org/place/2783">Mons Claudianus</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Brief (amtlich)</term>
+               <term>Arbeiter (Steinbruch) an Probus (procurator Caesaris)</term>
+               <term>Bericht über Fortschritte bei der Arbeit</term>
+               <term>Antwort auf Frage nach dem Namen des Steinbruchs</term>
+               <term>Bitte um Lohn (?) und Nahrung (?)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="2009-05-11">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Tage: 23.(24.) - 26.(27.) Nov.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">O.Claud.</title>
+                  <biblScope type="volume">4</biblScope>
+                  <biblScope type="numbers">853</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">S. 348-349</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.e3f9m2pd/23adc9b8b80fb2b92d44b569018dc334227b8e04"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.632a7kqd/a45e56c88dfc8776d7ebb7752e7a66d9a8454a8b"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

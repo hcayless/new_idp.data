@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0"
+      xml:id="b86146"
+      type="article"
+      subtype="book"
+      xml:lang="en">
+   <title level="a" type="main">The Gerontios-Archive: A Sub-archive to the Abinnaeus-Archive?</title>
+   <author>
+      <forename>Nadine</forename>
+      <surname>Quenouille</surname>
+   </author>
+   <date>2016</date>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/84377"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Proceedings of the 27th International Congress of Papyrology Warsaw, 29 July - 3 August 2013.</title>
+         <editor>
+            <forename>Tomasz</forename>
+            <surname>Derda</surname>
+         </editor>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="pp" from="975" to="990">975-990</biblScope>
+   <note resp="#BP">1. Physical description. - 2. Content of the ostraca. - 3. Context. - 4. The ostraca: edition of 11 orders of delivery of wheat from the Arsinoites, dating from 325-375.</note>
+   <relatedItem type="mentions" n="1">
+      <bibl>
+         <title level="s" type="short">PapCongr. 27</title>
+         <biblScope type="num">984_1007</biblScope>
+         <idno type="ddb">pap.congr.27;;984_1007</idno>
+         <idno type="tm">702332</idno>
+         <idno type="invNo">1007</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="2">
+      <bibl>
+         <title level="s" type="short">PapCongr. 27</title>
+         <biblScope type="num">985_950</biblScope>
+         <idno type="ddb">pap.congr.27;;985_950</idno>
+         <idno type="tm">702333</idno>
+         <idno type="invNo">950</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="3">
+      <bibl>
+         <title level="s" type="short">PapCongr. 27</title>
+         <biblScope type="num">985_1002</biblScope>
+         <idno type="ddb">pap.congr.27;;985_1002</idno>
+         <idno type="tm">702334</idno>
+         <idno type="invNo">1002</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="4">
+      <bibl>
+         <title level="s" type="short">PapCongr. 27</title>
+         <biblScope type="num">986_1003</biblScope>
+         <idno type="ddb">pap.congr.27;;986_1003</idno>
+         <idno type="tm">702335</idno>
+         <idno type="invNo">1003</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="5">
+      <bibl>
+         <title level="s" type="short">PapCongr. 27</title>
+         <biblScope type="num">986_1004</biblScope>
+         <idno type="ddb">pap.congr.27;;986_1004</idno>
+         <idno type="tm">702336</idno>
+         <idno type="invNo">1004</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="6">
+      <bibl>
+         <title level="s" type="short">PapCongr. 27</title>
+         <biblScope type="num">987_1005</biblScope>
+         <idno type="ddb">pap.congr.27;;987_1005</idno>
+         <idno type="tm">702337</idno>
+         <idno type="invNo">1005</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="7">
+      <bibl>
+         <title level="s" type="short">PapCongr. 27</title>
+         <biblScope type="num">987_1086</biblScope>
+         <idno type="ddb">pap.congr.27;;987_1086</idno>
+         <idno type="tm">702338</idno>
+         <idno type="invNo">1086</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="8">
+      <bibl>
+         <title level="s" type="short">PapCongr. 27</title>
+         <biblScope type="num">988_992</biblScope>
+         <idno type="ddb">pap.congr.27;;988_992</idno>
+         <idno type="tm">702339</idno>
+         <idno type="invNo">992</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="9">
+      <bibl>
+         <title level="s" type="short">PapCongr. 27</title>
+         <biblScope type="num">988_1006</biblScope>
+         <idno type="ddb">pap.congr.27;;988_1006</idno>
+         <idno type="tm">702340</idno>
+         <idno type="invNo">1006</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="10">
+      <bibl>
+         <title level="s" type="short">PapCongr. 27</title>
+         <biblScope type="num">989_945</biblScope>
+         <idno type="ddb">pap.congr.27;;989_945</idno>
+         <idno type="tm">702341</idno>
+         <idno type="invNo">945</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="11">
+      <bibl>
+         <title level="s" type="short">PapCongr. 27</title>
+         <biblScope type="num">989_998</biblScope>
+         <idno type="ddb">pap.congr.27;;989_998</idno>
+         <idno type="tm">702342</idno>
+         <idno type="invNo">998</idno>
+      </bibl>
+   </relatedItem>
+   <relatedItem type="mentions" n="12">
+      <bibl>
+         <title level="s" type="short">PapCongr. 27</title>
+         <biblScope type="num">990_1001</biblScope>
+         <idno type="ddb">pap.congr.27;;990_1001</idno>
+         <idno type="tm">702343</idno>
+         <idno type="invNo">1001</idno>
+      </bibl>
+   </relatedItem>
+   <idno type="pi">86146</idno>
+   <idno type="bp">2016-0510</idno>
+   <seg type="original" subtype="index" resp="#BP">142.4 146</seg>
+   <seg type="original" subtype="indexBis" resp="#BP">142.4 O. Lips. Inv. 945; 950; 992; 998; 1001; 1002; 1003; 1004; 1005; 1006; 1007; 1086</seg>
+   <seg type="original" subtype="titre" resp="#BP">Nadine Quenouille, The Gerontios-Archive: A Sub-archive to the Abinnaeus-Archive?</seg>
+   <seg type="original" subtype="publication" resp="#BP">Tomasz Derda, Adam Łajtar &amp; Jakub Urbanik (edd.), in cooperation with Andrzej Mirończuk &amp; Tomasz Ochała, Proceedings of the 27th International Congress of Papyrology, Warsaw, 29 July - 3 August 2013. Volume II. Subliterary Papyri, Documentary Papyri, Scribal Practices, Linguistic Matters = The Journal of Juristic Papyrology. Supplements. Volume XXVIII (Warsaw, 2016) pp. 975-990.</seg>
+   <seg type="original" subtype="resume" resp="#BP">1. Physical description. - 2. Content of the ostraca. - 3. Context. - 4. The ostraca: edition of 11 orders of delivery of wheat from the Arsinoites, dating from 325-375.</seg>
+   <seg type="original" subtype="nom" resp="#BP">Quenouille</seg>
+</bibl>

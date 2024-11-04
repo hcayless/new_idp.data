@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b31864" type="review">
+   <author>
+      <forename>Stanley M.</forename>
+      <surname>Burstein</surname>
+   </author>
+   <date>2002</date>
+   <biblScope type="pp" from="185" to="187">185-187</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/1669"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">Phoenix</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">56</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/16021"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Imagination of a Monarchy. Studies in Ptolemaic Propaganda.</title>
+         <author>HAZZARD, Richard A.</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">31864</idno>
+   <seg type="original" subtype="cr" resp="#BP">Stanley M. Burstein, Phoenix 56 (2002) pp. 185-187.</seg>
+</bibl>

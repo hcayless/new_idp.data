@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b27148" type="review">
+   <author>
+      <forename>Robert K.</forename>
+      <surname>Sherk</surname>
+   </author>
+   <date>1974</date>
+   <biblScope type="pp" from="181" to="181">181</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/185"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">CW</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">67</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7871"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Greek and Latin Inscriptions in the Brooklyn Museum.</title>
+         <author>Herbert, Kevin</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">27148</idno>
+   <seg type="original" subtype="cr" resp="#BP">Robert K. Sherk, CW 67 (1974) p. 181.</seg>
+</bibl>

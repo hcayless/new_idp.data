@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv13158">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eingabe an eine Behörde</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">13158</idno>
+            <idno type="TM">13158</idno>
+            <idno type="ddb-perseus-style">0205;1;57</idno>
+            <idno type="ddb-filename">p.stras.1.57</idno>
+            <idno type="ddb-hybrid">p.stras;1;57</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Theadelphia (Arsinoites, Ägypten)</origPlace>
+                     <origDate when="0207-12-31">31. Dez. 207</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/737081 https://www.trismegistos.org/place/2349">Theadelphia</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Eingabe</term>
+               <term n="2">Aponios an den Dioiketen (?) Aelius Mamertinus</term>
+               <term n="3">Aponios ist Sitologe in Theadelphia und bittet um Befreiung von der zusätzlichen Liturgie als Dorfschreiber im benachbarten Euhemeria</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-09T07:29:18-05:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2021-01-08T15:06:32-05:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2021-01-08T12:31:09-05:00"
+                 who="http://papyri.info/users/dkaltsas">Submit - Added bibliographical reference under ‘Notes / Bemerkungen’.</change>
+         <change who="HGV" when="1994-11-11">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Rückseite: P.Strasb. V 452. Zur Datierung vgl. BL VIII, S. 414. Zu Z. 18 vgl. ZPE 146, 2004, S. 180 mit Anm. 13. Zu Z. 17–18 s. R. Mascellari, ZPE 200 (2016) 376.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Strasb.</title>
+                  <biblScope n="1" type="volume">1</biblScope>
+                  <biblScope n="2" type="numbers">57</biblScope>
+                  <biblScope n="3" type="side">R</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/13158"/>
+               </bibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">414</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">X</biblScope>
+                  <biblScope type="pages">254</biblScope>
+               </bibl>
+               <bibl type="BL" n="3">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">239</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Tafel 12</bibl>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

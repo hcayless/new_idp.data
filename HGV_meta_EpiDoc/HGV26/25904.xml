@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv25904">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">25904</idno>
+            <idno type="TM">25904</idno>
+            <idno type="ddb-perseus-style">0177;2;50</idno>
+            <idno type="ddb-filename">p.oslo.2.50</idno>
+            <idno type="ddb-hybrid">p.oslo;2;50</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Oslo</settlement>
+                  </placeName>
+                  <collection>University Library</collection>
+                  <idno type="invNo">P. 324</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Karanis (Arsinoites, Ägypten)</origPlace>
+                     <origDate notBefore="0001" notAfter="0200" precision="low">I - II</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736932 https://www.trismegistos.org/place/1008">Karanis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (privat)</term>
+               <term n="2">Severus an Limnaios</term>
+               <term n="3">Beschwerde</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-09-20T12:08:55-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2022-09-20T11:59:50-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Biblio id is https://papyri.info/biblio/96131</change>
+         <change when="2022-09-20T04:21:23-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Eingabe einer Lesung in Z. 4 f. nach Tyche 31, 2016, S. 236 sowie Verweise auf diese Publikation in den Metadaten unter den Reitern "General" und "Publications".</change>
+         <change when="2022-03-23T09:25:47-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2022-03-23T09:00:13-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2022-03-23T07:54:06-04:00"
+                 who="http://papyri.info/editor/users/pag">Submit - Added German translation with correct publication year 2014 (note: this translation had already been entered into HGV but with wrong publication year 2013)</change>
+         <change who="HGV" when="1993-01-29">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 5, 8 und 9f. vgl. Arzt-Grabner, 2. Korinther, S. 250, Anm. 315.
+Zur Textkritik vgl. Tyche 31, 2016, S. 236. Neudruck: Tyche 31, 2016, S. 235-236.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Oslo</title>
+                  <biblScope n="1" type="volume">2</biblScope>
+                  <biblScope n="2" type="numbers">50</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://ub-baser.uio.no/opes/record/3"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <listBibl xml:lang="de">
+               <bibl type="translations">Arzt-Grabner, 2. Korinther (2014), S. 250 (Z. 3-10)</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

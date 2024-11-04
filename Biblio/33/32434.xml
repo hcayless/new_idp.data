@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b32434" type="review">
+   <author>
+      <forename>Lucio</forename>
+      <surname>Del Corso</surname>
+   </author>
+   <date>2005</date>
+   <biblScope type="pp" from="227" to="232">227-232</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/419"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">RivFil</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">133</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/17383"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Il ritorno di Cornelio Gallo. Il papiro di Qasr Ibrîm venticinque anni dopo. Con un contributo di Paolo RADICIOTTI.</title>
+         <author>CAPASSO, Mario</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">32434</idno>
+   <seg type="original" subtype="cr" resp="#BP">Lucio Del Corso, RivFil 133 (2005) pp. 227-232.</seg>
+</bibl>

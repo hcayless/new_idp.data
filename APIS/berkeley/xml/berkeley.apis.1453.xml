@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Contract</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.1453</idno>
+            <idno type="controlNo">(CU)1453</idno>
+            <idno type="ddbdp">p.tebt.1.165</idno>
+            <idno type="ddb-perseus-style">0206;1;165</idno>
+            <idno type="ddb-hybrid">p.tebt;1;165</idno>
+            <idno type="HGV">3800a 3800b</idno>
+            <idno type="TM">3800 3800</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0061 (a) Verso (05)</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Contract of unknown content.</summary>
+                  <msItemStruct>
+                     <note type="general">Recto published</note>
+                     <note type="general">Text follows directly to the text above it, P.Tebt. 164. Itself, it is followed directly by the text beneath it, P.Tebt.165.</note>
+                     <note type="general">22nd year = 9th year, 22nd of the Egyptian month Pachon.</note>
+                     <note type="local_note">3045; 2594; 3046</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>3 papyri ; Frag. 1 (Frame 2/6), 29.6 x 44.7 cm.; Frag. 2 (frame 3/6), 17.5 x 5.9 cm.; Frag. 3 (frame 4/6), 30.2 x 47 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">9+ lines, on verso across the fibers.</ab>
+                           <ab type="recto-verso">Also on verso, a number of different texts, mostly described (P.Tebt.164-166); on recto, Register of lands and crops at Kerkeosiris.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Small regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="-0105">6 June 105 B.C.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Crocodile cartonnage at Tebtunis 17.5</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term type="genre_form">Contracts, Ptolemaic Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="verso">
+            <desc>Frame 2/6 Verso</desc>
+            <graphic url="http://papyri.info/images/11/AP03385a"/>
+            <graphic url="http://papyri.info/images/fa/AP03385_11_a"/>
+            <graphic url="http://papyri.info/images/39/AP03385_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Frame 3/6 Verso</desc>
+            <graphic url="http://papyri.info/images/e2/AP03386a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="3">
+         <surface n="verso">
+            <desc>Frame 4/6 Verso</desc>
+            <graphic url="http://papyri.info/images/88/AP03387a"/>
+            <graphic url="http://papyri.info/images/8a/AP03387_11_a"/>
+            <graphic url="http://papyri.info/images/67/AP03387_12_a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.165 (desc. only). <note>See P.L. Bat. 29, p. 35-36.</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:1:165</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/1453">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv32935">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment eines Privatbriefes</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">32935</idno>
+            <idno type="TM">32935</idno>
+            <idno type="ddb-perseus-style">0239;14;11532</idno>
+            <idno type="ddb-filename">sb.14.11532</idno>
+            <idno type="ddb-hybrid">sb;14;11532</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Strasbourg</settlement>
+                  </placeName>
+                  <collection>Bibliothèque Nationale</collection>
+                  <idno type="invNo">P. gr. 1900</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>unbekannt</origPlace>
+                     <origDate notBefore="0301" notAfter="0325" precision="low">Anfang IV</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (privat)</term>
+               <term n="2">NN an Philoxenos</term>
+               <term n="3">Didaskalos</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-05T06:52:51-05:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2021-01-05T06:07:42-05:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2021-01-04T13:35:10-05:00"
+                 who="http://papyri.info/users/dkaltsas">Submit - Added bibliographical reference under ‘Notes / Bemerkungen’.</change>
+         <change who="HGV" when="1990-09-19">Record created</change>
+         <change who="HGV" when="2011-04-18">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope n="1" type="volume">14</biblScope>
+                  <biblScope n="2" type="numbers">11532</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/32935"/>
+               </bibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">371</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">210</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">keine</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">Tibiletti, Lettere private 32</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations">Rowlandson, Women and Society (1998), 56.</bibl>
+            </listBibl>
+            <listBibl xml:lang="it">
+               <head xml:lang="de">Italienisch:</head>
+               <bibl type="translations">Tibiletti, Lettere private (1979), 32</bibl>
+            </listBibl>
+         </div>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung s. Y. Broux – W. Clarysse, ZPE 200 (2016) 352.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

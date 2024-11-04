@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Herbal</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.345</idno>
+            <idno type="controlNo">(CU)345</idno>
+            <idno type="dclp">63596</idno>
+            <idno type="TM">63596</idno>
+            <idno type="dclp-hybrid">tm;;63596</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0679</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Fragment of an illustrated herbal, consisting of a treatise on the medical properties of plants.</summary>
+                  <msItemStruct>
+                     <note type="general">On one of the fragments there is a right margin of 3.2 cm. and a bottom margin of 3.2 cm.; in the right margin, in red ink, "679"; on verso, in black ink: T 26.</note>
+                     <note type="related">Probably from the Temple Library of the Temple of Soknebtunis, Tebtunis, Egypt. Possibly belongs to the same roll as P.Tebt.Tait 39-42.</note>
+                     <note type="local_note">1420</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>14 papyri ; Various sizes; the two largest are12.2 x 9.7 cm. and 9.6 x 9.7 cm.</support>
+                        <condition>
+                           <ab type="conservation">One piece of papyrus is reversed and separated from continuing text.</ab>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">27+ lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>In medium-sized semi-uncial hand.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0100" notAfter="0199">2nd century A.D.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T26</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Medicine</term>
+               <term>Botany, Medical</term>
+               <term type="genre_form">Sub-literary papyri; Botanical illustrations; Herbals; Medical works</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>UC 1420 Recto.</desc>
+            <graphic url="http://papyri.info/images/5d/AP00808a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>UC 1420 Verso.</desc>
+            <graphic url="http://papyri.info/images/09/AP01259a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.679; Johnson, "A botanical papyrus with illustrations," Archiv fur die Geschichte der Naturwissenschaften und der Technik, v. 4 (1912-1913), p.403-408, and plate I-II <note>Pack, R.A. Greek and Latin literary texts from Greco-Roman Egypt (2nd ed.) no. 2094. Marganne, M. -H. "Extraits du prochain catalogue des papyrus litteraires grecs et latins," Proceedings of the 18th Int. Cong. Of Papyr. (Athens, 1988), v. 1, p. 105-146, no. 2094. Andorlini, I. "L'apporto dei papiri alla conoscenza della scienza medica antica," Aufstieg und Niedergang der Roemischen Welt, Bd. II.37.1, p. 458-562, no. 63.</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:2:679</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/345">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

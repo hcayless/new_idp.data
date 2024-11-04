@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b32262" type="review">
+   <author>
+      <forename>Jean-Luc</forename>
+      <surname>Fournet</surname>
+   </author>
+   <date>2009</date>
+   <biblScope type="pp" from="227" to="229">227-229</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/393"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">REG</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">122</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/16959"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Wörterbuch der griechischen Wörter in den koptischen dokumentarischen Texten.</title>
+         <author>FÖRSTER, Hans</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">32262</idno>
+   <seg type="original" subtype="cr" resp="#BP">Jean-Luc Fournet, REG 122 (2009) pp. 227-229.</seg>
+</bibl>

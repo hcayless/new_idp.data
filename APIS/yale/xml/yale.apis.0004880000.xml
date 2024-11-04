@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Literary work, Byzantine CE vi [HMH]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0004880000</idno>
+            <idno type="controlNo">(CtY)488</idno>
+            <idno type="dclp">65066</idno>
+            <idno type="TM">65066</idno>
+            <idno type="dclp-hybrid">tm;;65066</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 488</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Christian liturgy (opening hymns of the midnight prayer)</summary>
+                  <msItemStruct>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Wood</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0500" notAfter="0599">Byzantine CE vi [HMH]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1931a</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Literary work</term>
+               <term>Wood</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>H. M. Hubbell, "A Christian Liturgy from Egypt.," Yale Classical Studies, 8 (1942):69-78</bibl>
+               <bibl>H. (S.J.) Quecke, ""Erhebet euch, Kinder des Lichtes!" - Nachtrag.," Le Muséon, 76 (1963):27-45, 266</bibl>
+               <bibl>Quecke 1970: 454-57</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>Rost. a 119</bibl>
+               <bibl>van Haelst 1037</bibl>
+               <bibl>Rahlfs-Fraenkel 2204</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2792344"/>
+                  <note>Images of P.CtYBR inv. 488 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

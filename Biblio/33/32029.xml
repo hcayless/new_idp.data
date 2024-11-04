@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b32029" type="review">
+   <author>
+      <forename>Jeri Blair</forename>
+      <surname>Debrohun</surname>
+   </author>
+   <date>2003</date>
+   <biblScope type="pp" from="29" to="30">29-30</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/182"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">CR</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">53</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/16327"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Hirten in der nicht-bukolischen Dichtung des Hellenismus.</title>
+         <author>BERNSDORFF, Hans</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">32029</idno>
+   <seg type="original" subtype="cr" resp="#BP">Jeri Blair Debrohun, CR 53 (2003) pp. 29-30.</seg>
+</bibl>

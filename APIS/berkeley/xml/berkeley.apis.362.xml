@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Odyssey. Book 4, line 796-Book 5, line 264</title>
+            <author>Homer</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.362</idno>
+            <idno type="controlNo">(CU)362</idno>
+            <idno type="dclp">61199</idno>
+            <idno type="TM">61199</idno>
+            <idno type="dclp-hybrid">p.tebt;3;697</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0697</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Lines from Books 4 and 5 of the Odyssey, representing eccentricities common in Homeric texts from Ptolemaic Egypt.</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: top, 3.5 cm.; bottom, 2 cm.; intercolumnal space: 1.5 cm.</note>
+                     <note type="local_note">1510, 2379-2385</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>17 papyri ; Various sizes.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">8 cols. out of original 9, 276 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Various hands, from regular uncial (cols. 3-4) to cursive (cols. 5-9).</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0199" notAfter="-0100">2nd century B.C.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Mummy cartonnage at Tebtunis 77</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term type="genre_form">Literary papyri, Identified authors; Epic poems</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>UC 2380-2381 Recto.</desc>
+            <graphic url="http://papyri.info/images/8c/AP00825a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>UC 2380-2381 Verso.</desc>
+            <graphic url="http://papyri.info/images/fd/AP01276a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="3">
+         <surface n="recto">
+            <desc>UC 2382-2383 Recto.</desc>
+            <graphic url="http://papyri.info/images/83/AP01471a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="4">
+         <surface n="verso">
+            <desc>UC 2382-2383 Verso.</desc>
+            <graphic url="http://papyri.info/images/27/AP01472a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="5">
+         <surface n="recto">
+            <desc>UC 2384-2385 Recto.</desc>
+            <graphic url="http://papyri.info/images/2d/AP01473a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="6">
+         <surface n="verso">
+            <desc>UC 2384-2385 Verso.</desc>
+            <graphic url="http://papyri.info/images/61/AP01474a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="7">
+         <surface n="recto">
+            <desc>UC 1510 Recto.</desc>
+            <graphic url="http://papyri.info/images/63/AP01475a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="8">
+         <surface n="verso">
+            <desc>UC 1510 Verso.</desc>
+            <graphic url="http://papyri.info/images/3b/AP01476a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="9">
+         <surface n="recto">
+            <desc>UC 2379 Recto.</desc>
+            <graphic url="http://papyri.info/images/42/AP01477a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="10">
+         <surface n="verso">
+            <desc>UC 2379 Verso.</desc>
+            <graphic url="http://papyri.info/images/1f/AP01478a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., III.697; Plate: P.Tebt. III.1.II (cols. 2-5, 7) <note>Pack, R.A. Greek and Latin literary texts from Greco-Roman Egypt (2nd ed.) no. 1056</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:3.1:697</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/362">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

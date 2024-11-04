@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Loan</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.1084</idno>
+            <idno type="controlNo">(CU)1084</idno>
+            <idno type="ddbdp">sb.16.12263</idno>
+            <idno type="ddb-perseus-style">0239;16;12263</idno>
+            <idno type="ddb-hybrid">sb;16;12263</idno>
+            <idno type="HGV">14565</idno>
+            <idno type="TM">14565</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0543</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Acknowledgement of a loan, for which the lender having in place of interest the right of living for a year in a pastophorion belonging to the borrower.</summary>
+                  <msItemStruct>
+                     <note type="general">Top margin: 2.7 cm. In red ink in top margin: 543. In black ink on verso: T169.</note>
+                     <note type="local_note">2306</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 15.3 x 14 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">15 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Small regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0041" notAfter="0068">41-54 or 54-68 A.D.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T169</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Loans</term>
+               <term>Interest</term>
+               <term type="genre_form">Contracts, Roman Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto</desc>
+            <graphic url="http://papyri.info/images/67/AP02248a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/72/AP02249a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.543 (desc. only); SB, v. 16, no. 12263. <note>Pintaudi, R., Aegyptus 62 (1982), 162-164. Plate: Aegyptus 62 (1982), after p. 162.</note>
+               </bibl>
+               <bibl type="ddbdp">SB:16:12263</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/1084">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

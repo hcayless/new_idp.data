@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Field-by-field register of land at Kerkeosiris</title>
+            <author>Menches</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.539</idno>
+            <idno type="controlNo">(CU)539</idno>
+            <idno type="ddbdp">p.tebt.1.84c</idno>
+            <idno type="ddb-perseus-style">0206;1;84</idno>
+            <idno type="ddb-hybrid">p.tebt;1;84c</idno>
+            <idno type="HGV">3720c</idno>
+            <idno type="TM">3720</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0084 (1) Verso</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>One column of a field-by-field register of land at Kerkeosiris, giving for each plot the geographical relationship to other plots, the name of the landholder and his patronymic, the fiscal category to which the plot belongs, the area, and the rent paid to the crown per aroura if any.</summary>
+                  <msItemStruct>
+                     <note type="general">Recto published</note>
+                     <note type="general">Menches archive</note>
+                     <note type="local_note">3055</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 31.6 x 32 cm.</support>
+                        <condition>
+                           <ab type="conservation">OUT TO CONSERVATION 13 Dec 04 PJR</ab>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">28 lines, on verso across the fibers.</ab>
+                           <ab type="recto-verso">On recto, Field-by-field register of land at Kerkeosiris.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Regular cursive</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="-0117">About Feb. 117 B.C.?</origDate>
+                     <origPlace>Kerkeosiris</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>Crocodile cartonnage at Tebtunis 27.22</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Surveying</term>
+               <term>Kerkeosiris</term>
+               <term type="genre_form">Registers of land, Ptolemaic period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/37/AP04575a"/>
+            <graphic url="http://papyri.info/images/1d/AP04575_11_a"/>
+            <graphic url="http://papyri.info/images/f7/AP04575_12_a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.84, lines 199-226. <note>For some corrections see P. L. Bat. 29, p. 191-192.</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:1:84</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/539">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

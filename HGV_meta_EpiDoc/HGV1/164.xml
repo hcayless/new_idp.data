@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv164">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief unter Soldaten</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">164</idno>
+            <idno type="TM">164</idno>
+            <idno type="ddb-perseus-style">0005;;1</idno>
+            <idno type="ddb-filename">c.jud.syr.eg.1</idno>
+            <idno type="ddb-hybrid">c.jud.syr.eg;;1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Pathyris</origPlace>
+                     <origDate when="-0103-06-29">29. Juni 103 v.Chr.</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                           n="1"
+                           ref="https://pleiades.stoa.org/places/786084 https://www.trismegistos.org/place/1628">
+                           Pathyris</placeName>
+                        <placeName type="ancient" subtype="nome" n="2"
+                           ref="https://www.trismegistos.org/place/2849">Pathyrites</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8 <ref>
+            http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Brief</term>
+               <term>Portis an Pates und Pachrates sowie die anderen Soldaten</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="1998-05-27">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope type="volume">20</biblScope>
+                  <biblScope type="numbers">14728</biblScope>
+               </bibl>
+               <bibl>
+                  <title>DAHT</title>
+                  <biblScope>164</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">4</biblScope>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">X</biblScope>
+                  <biblScope type="pages">231</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Clarysse - Cohen - Quaegebeur - van't Dack - Winnicki, The
+                  Judean - Syrian - Egyptian Conflict, 1 - 3</bibl>
+               <bibl type="illustration">P.Amh. II, Plate VII</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikationen</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">P.Grenf. I 30</bibl>
+               <bibl type="publication" subtype="other">P.Amh. II 39</bibl>
+               <bibl type="publication" subtype="other">P.Lond. III 626 descr.</bibl>
+               <bibl type="publication" subtype="other">C.Jud.Syr.Eg. 1</bibl>
+               <bibl type="publication" subtype="other">Witkowski, Epistulae privatae 57</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?BBID=350245" />
+               </figure>
+               <figure>
+                  <graphic url="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Papyrus_626" />
+               </figure>
+               <figure>
+                  <graphic
+                     url="https://access.bl.uk/item/viewer/ark:/81055/vdc_100120697208.0x000001" />
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

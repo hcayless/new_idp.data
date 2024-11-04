@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b29488" type="review">
+   <author>
+      <forename>Peter W.</forename>
+      <surname>Haider</surname>
+   </author>
+   <date>1986</date>
+   <biblScope type="col">coll. 122-123</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/70"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">AnzAW</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">39</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/10927"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Ausgewählte Texte der Isis- und Sarapis-Religion.</title>
+         <author>Totti, Maria</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">29488</idno>
+   <seg type="original" subtype="cr" resp="#BP">C.R. par Peter W. Haider, AnzAW 39 (1986) coll. 122-123.</seg>
+</bibl>

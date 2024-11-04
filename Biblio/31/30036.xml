@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b30036" type="review">
+   <author>
+      <forename>Niki</forename>
+      <surname>Koutrakou</surname>
+   </author>
+   <date>1993</date>
+   <biblScope type="pp" from="373" to="373">373</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/1321"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">Graeco-Arabica</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">5</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/60071"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="a" type="main">The Word Saracen ("Sarakenos") in the Papyri.</title>
+         <author>Mayerson, Philip</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">30036</idno>
+   <seg type="original" subtype="cr" resp="#BP">C.R. par Niki Koutrakou, Graeco-Arabica 5 (1993) p. 373.</seg>
+</bibl>

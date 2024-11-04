@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv40818">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment eines Verhandlungsprotokolls</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">40818</idno>
+            <idno type="TM">40818</idno>
+            <idno type="ddb-perseus-style">0239;16;12581</idno>
+            <idno type="ddb-filename">sb.16.12581</idno>
+            <idno type="ddb-hybrid">sb;16;12581</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Arsinoites ?, Ägypten</origPlace>
+                     <origDate n="1" xml:id="dateAlternativeX" when="0310-01-23">
+                23. Jan. 310 (Jahr unsicher)
+                <certainty locus="value" match="../year-from-date(@when)"/>
+                     </origDate>
+                     <origDate n="2" xml:id="dateAlternativeY" when="0327-01-23">
+                23. Jan. 327 (Jahr unsicher)
+                <certainty locus="value" match="../year-from-date(@when)"/>
+                     </origDate>
+                     <origDate n="3" xml:id="dateAlternativeZ" when="0331-01-23">
+                23. Jan. 331 (Jahr unsicher)
+                <certainty locus="value" match="../year-from-date(@when)"/>
+                     </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   subtype="nome"
+                                   cert="low"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="2" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Verhandlungsprotokoll</term>
+               <term n="2">Beamte</term>
+               <term n="3">Namen</term>
+               <term n="4">Vorführung vor Gericht</term>
+               <term n="5">Testament</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-03-14T07:41:50-04:00"
+                 who="http://papyri.info/editor/users/simoeis">Finalized - Ready</change>
+         <change when="2024-03-14T06:24:05-04:00"
+                 who="http://papyri.info/editor/users/simoeis">Vote - HGVAccept - Fine</change>
+         <change when="2024-03-09T09:05:53-05:00"
+                 who="http://papyri.info/editor/users/ngonis">Submit - Metadata: Added the two other alternative dates, 327 and 331. 310 is dating preferred in CE 73 (1998) 134, but relies on considerations that no longer hold. || Text: Entered published corrections to lines 1 and 7, and added |reg| to lines 5 and 6.</change>
+         <change who="HGV" when="1990-07-11">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Griechisch - lateinisch. Zur Datierung vgl. BL VIII, S. 384 und CE 73, 1998, S. 134, Anm. 7. Zum Ort vgl. P.Oxy. LI, S. 47, Nr. 10.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope n="1" type="volume">16</biblScope>
+                  <biblScope n="2" type="numbers">12581</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">384</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">IX</biblScope>
+                  <biblScope type="pages">287</biblScope>
+               </bibl>
+               <bibl type="BL" n="3">
+                  <biblScope type="volume">XI</biblScope>
+                  <biblScope type="pages">219</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">ChLA XII, S. 14</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">ChLA XII 522</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://papyri-leipzig.dl.uni-leipzig.de/receive/UBLPapyri_schrift_00001550"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

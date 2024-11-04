@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv32694">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Christian Letter of Commendation4</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">32694</idno>
+            <idno type="TM">32694</idno>
+            <idno type="ddb-perseus-style">0181;31;2603</idno>
+            <idno type="ddb-filename">p.oxy.31.2603</idno>
+            <idno type="ddb-hybrid">p.oxy;31;2603</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Oxford</settlement>
+                  </placeName>
+                  <collection>Sackler Library, Papyrology Rooms</collection>
+                  <idno type="invNo">P. Oxy. 2603</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oxyrhynchites, Ägypten</origPlace>
+                     <origDate notBefore="0201" notAfter="0400" precision="low">III - IV</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2722 https://pleiades.stoa.org/places/736982">Oxyrhynchites</placeName>
+                        <placeName n="2" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (christlich, privat)</term>
+               <term n="2">Paulos an Serapion (?)</term>
+               <term n="3">Los</term>
+               <term n="4">Freundschaft</term>
+               <term n="5">Empfehlung</term>
+               <term n="6">Vergleich mit Spiegel</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-06T03:21:26-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2024-02-06T03:16:40-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2023-11-08T05:16:04-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Eingabe einer Übersetzung nach JJP 43, 2013, S. 141 sowie von Verweisen in den Metadaten auf diesen Artikel (Bemerkungen, Abbildungen). Der dort gebotene Text weicht von dem in DDbDP in den Zeilen 1, 7, 22 und 28 ab, wobei aber lediglich die Änderung in Z. 1 übernommen wurde. In der Übersetzung habe ich die letzte Zeile korrigiert (te statt vous).</change>
+         <change who="HGV" when="1992-02-21">Record created</change>
+         <change who="HGV" when="2010-09-24">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung vgl. BL XII, S. 146. Neudruck mit leichten Veränderungen: JJP 43, 2013, S. 140; zur Interpretation vgl. ebd.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Oxy.</title>
+                  <biblScope n="1" type="volume">31</biblScope>
+                  <biblScope n="2" type="numbers">2603</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">XI</biblScope>
+                  <biblScope type="pages">163</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">XII</biblScope>
+                  <biblScope type="pages">146</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">JEA 48, 1962, plate V</bibl>
+               <bibl type="illustration" n="2">JJP 43, 2013, S. 154</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">Naldini, Cristianesimo 47</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="fr">
+               <head xml:lang="de">Französisch:</head>
+               <bibl type="translations">Delmaire, Correspondances (2009), S. 50</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="http://163.1.169.40/cgi-bin/library?a=q&amp;r=1&amp;hs=1&amp;e=p-000-00---0POxy--00-0-0--0prompt-10---4------0-1l--1-en-50---20-about---00031-001-1-0utfZz-8-00&amp;h=ded&amp;t=1&amp;q=2603"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="https://doi.org/10.25446/oxford.21165340"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

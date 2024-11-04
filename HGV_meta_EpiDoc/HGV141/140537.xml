@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sworn Declaration of Removal</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">140537</idno>
+            <idno type="TM">140537</idno>
+            <idno type="ddb-filename">pap.congr.xxiii.270</idno>
+            <idno type="ddb-hybrid">pap.congr.xxiii;;270</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Ann Arbor</settlement>
+                  </placeName>
+                  <collection>Michigan University</collection>
+                  <idno type="invNo">P.Mich. inv. 786</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Philadelphia (Arsinoites)</origPlace>
+                     <origDate notBefore="0041" notAfter="0050">41 - 50</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p xml:id="geoIFCB8">
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://www.trismegistos.org/place/1760 https://pleiades.stoa.org/places/737008">Philadelphia</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Eid</term>
+               <term n="2">Anachoresis</term>
+               <term n="3">Kaisereid</term>
+               <term n="4">Abwesenheit einer Person</term>
+               <term n="5">Signalement</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-03-09T10:00:40-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2023-03-09T09:50:16-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Yes; review carefully for conformity with the addition of pap.congr.xxiii </change>
+         <change when="2023-03-08T09:16:19-05:00"
+                 who="http://papyri.info/editor/users/LaviniaFerretti">Submit - Added new item missing from DDBDP. The whole Pap.Congr. XXIII volume seems to be missing. Entry modeled on those of Pap.Congr. XXVIII</change>
+         <change when="2023-03-08T08:35:36-05:00" who="http://papyri.info/editor">Automated creation from template</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">PapCongr.</title>
+                  <biblScope n="1" type="volume">23</biblScope>
+                  <biblScope n="2" type="pages">S. 270</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://quod.lib.umich.edu/a/apis/x-4227"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">S. 269</bibl>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

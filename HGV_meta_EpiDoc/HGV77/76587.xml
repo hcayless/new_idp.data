@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv76587">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>keiner</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">76587</idno>
+            <idno type="TM">76587</idno>
+            <idno type="ddb-perseus-style">0050;;6</idno>
+            <idno type="ddb-filename">o.wilck.6</idno>
+            <idno type="ddb-hybrid">o.wilck;;6</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Paris</settlement>
+                  </placeName>
+                  <collection>Louvre</collection>
+                  <idno type="invNo">ohne Nummer</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Elephantine oder Syene</origPlace>
+                     <origDate n="1"
+                               xml:id="dateAlternativeX"
+                               notBefore="0027-02-25"
+                               notAfter="0027-03-26">
+                25. Febr. - 26. März 27 (Jahr unsicher)
+                <certainty locus="value" match="../year-from-date(@notBefore)"/>
+                     </origDate>
+                     <origDate n="2"
+                               xml:id="dateAlternativeY"
+                               notBefore="0029-02-25"
+                               notAfter="0029-03-26">
+                25. Febr. - 26. März 29 (Jahr unsicher)
+                <certainty locus="value" match="../year-from-date(@notBefore)"/>
+                     </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p n="1" xml:id="geog_1" exclude="#geog_2">
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/786021 http://www.trismegistos.org/place/621">Elephantine</placeName>
+                     </p>
+                     <p n="2" xml:id="geog_2" exclude="#geog_1">
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/786123 http://www.trismegistos.org/place/2207">Syene</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Quittung</term>
+               <term n="2">Steuern</term>
+               <term n="3">Geld</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-22T09:03:39-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2023-09-22T08:36:17-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Since S. 430 in O.Wilck. says "Vl. l.&lt;ε&gt; zu emendieren" Use alternative dates.</change>
+         <change when="2016-02-17T16:18:08-05:00"
+                 who="http://papyri.info/editor/users/FabianDr.Reiter">Submit - Date in l. 3 and HGV changed according to Wilcken’s Nachtrag, regularization of transcript in l. 2.</change>
+         <change who="HGV" when="1998-11-24">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung vgl. S. 430. Alternativdatierungen: 25. Febr. - 26. März 27; 25. Febr. - 26. März 29.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">O.Wilck.</title>
+                  <biblScope type="numbers">6</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+      </body>
+  </text>
+</TEI>

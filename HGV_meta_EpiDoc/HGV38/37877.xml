@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv37877">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Account of embole, etc.</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">37877</idno>
+            <idno type="TM">37877</idno>
+            <idno type="ddb-perseus-style">0181;16;1906</idno>
+            <idno type="ddb-filename">p.oxy.16.1906</idno>
+            <idno type="ddb-hybrid">p.oxy;16;1906</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oxyrhynchos</origPlace>
+                     <origDate when="0613" cert="low">613 (?)</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736983 https://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://pleiades.stoa.org/places/736982 https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Rechnung</term>
+               <term n="2">Steuern</term>
+               <term n="3">Korn</term>
+               <term n="4">Alexandria</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-12-29T05:38:21-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2021-12-28T15:14:56-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2021-12-28T12:33:53-05:00"
+                 who="http://papyri.info/editor/users/AminBenaissa">Submit - Corrected date and ll. 14, 15 and 25 on the basis of P.Oxy. LXXXIV 5463.</change>
+         <change who="HGV" when="1994-01-04">Record created</change>
+         <change who="HGV" when="2010-11-04">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Vgl. BASP 43, 2006, S. 107-111. Zur Datierung vgl. P.Oxy. LXXXIV 5463 Anm. zu Kol. i Z. 1.</p>
+         </div>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 14: 15. Indiktion; Z. 25: 1. Indiktion</note>
+            <note type="source">HGV.fp7</note>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Oxy.</title>
+                  <biblScope n="1" type="volume">16</biblScope>
+                  <biblScope n="2" type="numbers">1906</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/37877"/>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">154</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://ipap.csad.ox.ac.uk/4DLink4/4DACTION/IPAPwebquery?vPub=P.Oxy.&amp;vVol=16&amp;vNum=1906"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

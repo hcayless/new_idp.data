@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>List of persons</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.377</idno>
+            <idno type="controlNo">(CU)377</idno>
+            <idno type="ddbdp">p.tebt.2.343</idno>
+            <idno type="ddb-perseus-style">0206;2;343</idno>
+            <idno type="ddb-hybrid">p.tebt;2;343</idno>
+            <idno type="HGV">28416 28417</idno>
+            <idno type="TM">28416 28417</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0343 (b) Recto</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Fragment of a list of persons, with their parentage and ages, from the Fayyum.</summary>
+                  <msItemStruct>
+                     <note type="general">Pasted together with: P.Tebt.343 recto (Land survey and property lists), to form a roll.</note>
+                     <note type="local_note">1383</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 21.3 x 24 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">2 cols., on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso: list of persons</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>In cursive hand (the same hand as the text on P.Tebt.343 verso)</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="0100">100 A.D.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T631</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Population</term>
+               <term>Arsinoites nomos</term>
+               <term type="genre_form">Lists, Roman Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto</desc>
+            <graphic url="http://papyri.info/images/10/AP03883a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.343 (desc. only)</bibl>
+               <bibl type="ddbdp">P.Tebt.:2:343</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/377">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

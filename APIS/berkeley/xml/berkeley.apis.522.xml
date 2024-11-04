@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Official letter to the xenikon praktor : draft or copy</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.522</idno>
+            <idno type="controlNo">(CU)522</idno>
+            <idno type="ddbdp">p.tebt.1.165</idno>
+            <idno type="ddb-perseus-style">0206;1;165</idno>
+            <idno type="ddb-hybrid">p.tebt;1;165</idno>
+            <idno type="HGV">3800a 3800b</idno>
+            <idno type="TM">3800</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0165</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Draft or copy of a letter to the xenikon Praktor mentioning an appended petition.</summary>
+                  <msItemStruct>
+                     <note type="general">Recto published</note>
+                     <note type="general">Bottom margin: 4.7 cm.</note>
+                     <note type="general">12th year of Kleopatra III = 9th of Ptolemy X Alexander I, 22nd of the Egyptian month Pachon.</note>
+                     <note type="local_note">3045, 3046</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>3 papyri ; Frag. 1 (frame 2/6), 29.6 x 44.7 cm.; Frag. 2 (frame 3/6), 17.5 x 5.9 cm.; and Frag. 3 (frame 4/6), 30.2 x 47 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">7 lines, on verso across the fibers.</ab>
+                           <ab type="recto-verso">Also on verso, a number of different texts, mostly described (P.Tebt.164-166); on recto, Register of lands and crops at Kerkeosiris</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="-0105">6 June 105 B.C.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Crocodile cartonnage at Tebtunis 17.5</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Arsinoites nomos</term>
+               <term type="genre_form">Business letters, Ptolemaic period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="verso">
+            <desc>Frame 2/6 Verso</desc>
+            <graphic url="http://papyri.info/images/9a/AP03375a"/>
+            <graphic url="http://papyri.info/images/6a/AP03375_11_a"/>
+            <graphic url="http://papyri.info/images/b2/AP03375_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Frame 3/6 Verso</desc>
+            <graphic url="http://papyri.info/images/a2/AP03376a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="3">
+         <surface n="verso">
+            <desc>Frame 4/6 Verso</desc>
+            <graphic url="http://papyri.info/images/7f/AP03377a"/>
+            <graphic url="http://papyri.info/images/ae/AP03377_11_a"/>
+            <graphic url="http://papyri.info/images/ca/AP03377_12_a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="translation">
+            <ab>To the xenikon praktor of the Arsinoite nome. A copy of the petition given to us by N.N. son of Asklepiades is appended. (�).</ab>
+         </div>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.165; P.L.Bat. 29, p. 36, n. 64. <note>On line 4 see BL v. 1, p. 425.</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:1:165</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/522">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

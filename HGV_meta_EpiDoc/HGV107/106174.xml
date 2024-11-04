@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Déclaration d'entrée en possession d'un héritage</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">106174</idno>
+            <idno type="TM">106174</idno>
+            <idno type="ddb-filename">cpl.215</idno>
+            <idno type="ddb-hybrid">cpl;;215</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Cairo</settlement>
+                  </placeName>
+                  <collection>Egyptian Museum</collection>
+                  <idno type="invNo">JdE 29810</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Holz</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Ptolemais Euergetis (Arsinoites)</origPlace>
+                     <origDate when="0170-09-29">29. Sept. 170</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p xml:id="geoFJA9CI">
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://www.trismegistos.org/place/327 https://pleiades.stoa.org/places/736948">Ptolemais Euergetis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Bezeugung</term>
+               <term n="2">Antritts einer Erbschaft</term>
+               <term n="3">unmündige Römerin</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-26T07:28:16-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2023-09-26T06:29:14-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Check the entry carefully.</change>
+         <change when="2013-05-28T08:44:02-04:00"
+                 who="http://papyri.info/editor/users/pheilpor">Submit - Entered the text and metadata for CPL 215, which is a close paralle but NOT a copy of CPL 214 = Chr.Mitt. 327 (as in TM, but not yet in HGV). Double-checked it with previous editions (ed.pr. by de Ricci, and new collation by Guéraud in BIFAO 27). In the text, I don't know whether the lines with the witnesses should get a Div (.witnesses.part ?). See previous notes for other, minor questions.</change>
+         <change when="2013-05-28T07:46:13-04:00"
+                 who="http://papyri.info/editor/users/pheilpor">Commit - Corrected title to the one in CPL</change>
+         <change when="2013-01-09T16:37:33-05:00"
+                 who="http://papyri.info/editor/users/pheilpor">Commit - Title (among others) needs to be double-checked. I couldn't get the "region" = Ägypten to save.</change>
+         <change when="2013-01-09T16:35:49-05:00"
+                 who="http://papyri.info/editor/users/pheilpor">Commit - Tried to create HGV-record for CPL 215 by following the example of the HGV record for CPL 214 (= M.Chr. 327). TM number already exists (http://www.trismegistos.org/tm/detail.php?tm=106174).</change>
+         <change when="2013-05-28T08:44:03.057-04:00"
+                 who="http://papyri.info/editor/users/pheilpor">Entered the text and metadata for CPL 215, which is a close paralle but NOT a copy of CPL 214 = Chr.Mitt. 327 (as in TM, but not yet in HGV). Double-checked it with previous editions (ed.pr. by de Ricci, and new collation by Guéraud in BIFAO 27). In the text, I don't know whether the lines with the witnesses should get a Div (.witnesses.part ?). See previous notes for other, minor questions.</change>
+         <change when="2013-01-09T16:22:22-05:00" who="http://papyri.info/editor">Automated creation from template</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">CPL</title>
+                  <!-- provide meaningful data -->
+                  <!-- provide meaningful data -->
+                  <!-- provide meaningful data -->
+                  <biblScope type="numbers">215</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="commentary" subtype="general">
+            <p>Lateinisch - griechisch.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

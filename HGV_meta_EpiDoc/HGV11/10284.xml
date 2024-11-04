@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv10284">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cadastre et rôle d’impôt foncier</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">10284</idno>
+            <idno type="TM">10284</idno>
+            <idno type="ddb-perseus-style">0082;;42</idno>
+            <idno type="ddb-filename">p.bour.42</idno>
+            <idno type="ddb-hybrid">p.bour;;42</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Hiera Nesos (Arsinoites, Ägypten)</origPlace>
+                     <origDate notBefore="0166" notAfter="0167">166 - 167</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1" type="ancient">Hiera Nesos</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Kataster</term>
+               <term n="2">Namen</term>
+               <term n="3">Ortsnamen</term>
+               <term n="4">Land</term>
+               <term n="5">Grundsteuer</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-02-12T11:49:15-05:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2019-02-12T11:15:42-05:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2019-02-12T03:29:16-05:00"
+                 who="http://papyri.info/users/ValentinB.">Submit - images ajoutées</change>
+         <change who="HGV" when="1993-10-07">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Verso, Z. 566 vgl. ZPE 147, 2004, S. 156, Anm. 5. Vgl. CE 88, 2013, S. 329-336. Vgl. Tyche 28, 2013, S. 205f., Korr. Tyche 742.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Bour.</title>
+                  <biblScope type="numbers">42</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/10284"/>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">IX</biblScope>
+                  <biblScope type="pages">39</biblScope>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XII</biblScope>
+                  <biblScope type="pages">42</biblScope>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">48</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Kol. I: Pl. IV</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations">Johnson, Roman Egypt (1936), S. 38-56, Nr. 16</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="http://www.papyrologie.paris-sorbonne.fr/photos/Virtualia/P.Bour.42r_virtuel.jpg"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="http://www.papyrologie.paris-sorbonne.fr/photos/Virtualia/P.Bour.42v_virtuel.jpg"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

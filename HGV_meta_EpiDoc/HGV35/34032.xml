@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv34032">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Zwei weitere Fassungen der Praefatio</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">34032</idno>
+            <idno type="TM">34032</idno>
+            <idno type="ddb-perseus-style">0251;2;46</idno>
+            <idno type="ddb-filename">p.ammon.2.46</idno>
+            <idno type="ddb-hybrid">p.ammon;2;46</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">PSI inv. 3803 + P.Köln inv. 4554 (=P.Duke inv. 1280)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Alexandria bzw. Panopolis</origPlace>
+                     <origDate notBefore="0348-12-09" notAfter="0348-12-13">9. - 13. Dez. 348</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/756613 https://www.trismegistos.org/place/1589">Alexandria bzw. Panopolis</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Eingabe (Entwürfe)</term>
+               <term n="2">Aur. Ammon an Fl. Nestorius (Praefectus Aegypti); Verteidigung seines Anrechts als Erbe auf die Sklaven seines verstorbenen Bruders gegen fremde Ansprüche</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-05-21T04:13:36-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Bereit.</change>
+         <change when="2024-05-21T04:12:29-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Sieht gut aus.</change>
+         <change when="2024-05-19T18:27:21-04:00"
+                 who="http://papyri.info/editor/users/pag">Submit - Digital image: The link to Duke does not work, obviously because the images are at Cologne. I deleted the scriptorium link and added the Cologne persistent link.</change>
+         <change when="2024-05-19T18:26:45-04:00"
+                 who="http://papyri.info/editor/users/pag">Commit - Digital image: The link to Duke did not work, obviously because the images are at Cologne. I deleted the scriptorium link and added the Cologne persistent link.</change>
+         <change who="HGV" when="2006-11-23">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Ammon</title>
+                  <biblScope n="1" type="volume">2</biblScope>
+                  <biblScope n="2" type="numbers">46</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">Tafel XVII</bibl>
+               <bibl type="illustration" n="2">P.Ammon I, Plate XIV</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">P.Ammon I 24</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://papyri.uni-koeln.de/stueck/tm34032"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

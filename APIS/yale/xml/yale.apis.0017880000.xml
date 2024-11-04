@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Literary work, Medieval CE viii [TCP]|Medieval CE ix-x [HJP]|Byzantine-Medieval CE vii [LSBM]|Medieval CE early ix [PS]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0017880000</idno>
+            <idno type="controlNo">(CtY)1788 qua</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 1788 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Scenes from a narrative of the Dormition of Mary</summary>
+                  <msItemStruct>
+                     <note type="general">The order of the columns is probably (B) col. iii, col. iv, (A) col.i, col. ii, col. iii, col. iv, (B) col. i, col. ii</note>
+                     <note type="general">Recto: (col. i) 7 lines; (col. ii) 14 lines; (col. iii) 15 lines; (col. iv) 8 lines. Verso: (col. i) 9 lines; (col. ii) 14 lines; (col. iii) 13 (?) lines; (col. iv) 7 lines.</note>
+                     <textLang mainLang="cop">Egyptian\Coptic</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 131 x 350 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto, 15<lb/>  Verso, 14</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0700" notAfter="0799">Medieval CE viii [TCP]<lb/> Medieval CE ix-x [HJP]<lb/> Byzantine-Medieval CE vii [LSBM]<lb/> Medieval CE early ix [PS]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1964</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="cop">Egyptian\Coptic</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Literary work</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>Petersen 1964: 35-36</bibl>
+               <bibl>MacCoull 1975: 217</bibl>
+               <bibl>B.A. Shailor, 1988. The Medieval Book: Catalogue of an Exhibition at the Beinecke Rare Book and Manuscript Library, Yale University. New Haven: Yale University Library, pp. 6-7 (no. 3)</bibl>
+               <bibl>Friedman et al. 1989: 243</bibl>
+               <bibl>MacCoull 1989: 30-32, pl. 4</bibl>
+               <bibl>Sellew 2000: 59-68 text ed., pls. 2-5</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>Kraus 50</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2759455"/>
+                  <note>Images of P.CtYBR inv. 1788 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

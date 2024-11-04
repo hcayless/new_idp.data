@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b30234" type="review">
+   <author>
+      <forename>Joachim</forename>
+      <surname>Hengstl</surname>
+   </author>
+   <date>1992</date>
+   <biblScope type="pp" from="183" to="189">183-189</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/110"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">BASP</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">29</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/61039"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="a" type="main">Corpus der ptolemäischen Sklaventexte. Drei Teile: I. Teil: Text Nr. 1-114; - II. Teil: Text Nr. 115-260; - III: Teil. Indices.</title>
+         <author>SCHOLL, Reinhold</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">30234</idno>
+   <seg type="original" subtype="cr" resp="#BP">Joachim Hengstl, BASP 29 (1992) pp. 183-189.</seg>
+</bibl>

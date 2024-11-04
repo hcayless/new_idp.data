@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv44595">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A series of communications from Petosiris</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">44595</idno>
+            <idno type="TM">44595</idno>
+            <idno type="ddb-perseus-style">0092;3;59499</idno>
+            <idno type="ddb-filename">p.cair.zen.3.59499</idno>
+            <idno type="ddb-hybrid">p.cair.zen;3;59499</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Cairo</settlement>
+                  </placeName>
+                  <collection>Egyptian Museum</collection>
+                  <idno type="invNo">CG 59499 Vo</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Philadelphia ? (Arsinoites, Ägypten)</origPlace>
+                     <origDate notBefore="-0254-01-23">
+                        <offset n="1" type="after">nach</offset>
+                23. Jan. 254 v.Chr.
+              </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   cert="low"
+                                   ref="https://pleiades.stoa.org/places/737008 https://www.trismegistos.org/place/1760">Philadelphia</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (geschäftlich)</term>
+               <term n="2">Petosiris an Kleon</term>
+               <term n="3">Kauf</term>
+               <term n="4">Holz</term>
+               <term n="5">Ziegel</term>
+               <term n="6">Baumaterial</term>
+               <term n="7">Handel</term>
+               <term n="8">Streit</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-09-05T06:42:23-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2024-09-05T05:17:38-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2024-07-18T06:59:54-04:00"
+                 who="http://papyri.info/editor/users/jostrauss">Submit - added a note to general for the journal article correction from Tyche 36 (Korr. Tyche 998)</change>
+         <change who="HGV" when="1994-01-20">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Cair. Zen.</title>
+                  <biblScope n="1" type="volume">3</biblScope>
+                  <biblScope n="2" type="numbers">59499</biblScope>
+                  <biblScope n="3" type="side">V</biblScope>
+                  <biblScope n="4" type="lines">Z. 44 - 84</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://ipap.csad.ox.ac.uk/4DLink4/4DACTION/IPAPwebquery?vPub=P.Cair.Zen.&amp;vVol=3&amp;vNum=59499"/>
+               </figure>
+            </p>
+         </div>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 65 vgl. Tyche 36, 2021, S. 183, Korr. Tyche 998.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

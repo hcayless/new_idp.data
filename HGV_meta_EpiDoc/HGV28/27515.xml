@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv27515">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>‘Search for it and bring it to me in Alexandria’: A reedition of SB XIV 12106</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">27515</idno>
+            <idno type="TM">27515</idno>
+            <idno type="ddb-perseus-style">0239;14;12106</idno>
+            <idno type="ddb-filename">cde.93.146</idno>
+            <idno type="ddb-hybrid">cde;93;146</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Ann Arbor</settlement>
+                  </placeName>
+                  <collection>University of Michigan, Library</collection>
+                  <idno type="invNo">P. 3799</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Fundort: Oxyrhynchos ? (Oxyrynchites, Ägypten); Schreibort: Alexandria (Ägypten)</origPlace>
+                     <origDate notBefore="0101" notAfter="0200" precision="low">II</origDate>
+                  </origin>
+                  <provenance n="1" type="found">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   cert="low"
+                                   ref="https://www.trismegistos.org/place/1524 https://pleiades.stoa.org/places/736983">Oxyrhynchos</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2722 https://pleiades.stoa.org/places/736982">Oxyrynchites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+                  <provenance n="2" type="composed">
+                     <p xml:id="geoBC1F1D">
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="www.trismegistos.org/place/100 https://pleiades.stoa.org/places/727070">Alexandria</placeName>
+                        <placeName n="2" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (privat)</term>
+               <term n="2">NN an NN</term>
+               <term n="3">Frage nach dem Schlüssel</term>
+               <term n="4">Fest</term>
+               <term n="5">Schwierigkeiten</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-08-30T09:01:17-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2022-07-11T09:36:11-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2022-07-11T06:51:53-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Ersetzung des Textes Eingabe einer Übersetzung aus gleicher Quelle nach CdE 93 (2018) 146 sowie Anpassung der Metadaten an neue Edition. Die APIS-Übersetzung bezieht sich aber bislang noch auf die vorherige Edition.</change>
+         <change who="HGV" when="1990-09-19">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">CdE</title>
+                  <biblScope n="1" type="volume">93</biblScope>
+                  <biblScope n="2" type="fascicle">(2018)</biblScope>
+                  <biblScope n="3" type="pages">S. 146</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+          keine
+          <bibl type="illustration">S. 146</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations">H.C. Youtie, ZPE 24, 1977, S. 128</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://quod.lib.umich.edu/a/apis/x-2116"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">SB 14 12106</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

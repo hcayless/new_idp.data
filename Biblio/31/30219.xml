@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b30219" type="review">
+   <author>
+      <forename>Joachim</forename>
+      <surname>Hengstl</surname>
+   </author>
+   <date>1994</date>
+   <biblScope type="pp" from="642" to="650">642-650</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/513"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">ZSav</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">111</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/12242"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Symposion 1988. Vorträge zur griechischen und hellenistischen Rechtsgeschichte (Siena - Pisa, 6.-8. Juni 1988).</title>
+         <author>NENCI, Giuseppe</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">30219</idno>
+   <seg type="original" subtype="cr" resp="#BP">Joachim Hengstl, ZSav 111 (1994) pp. 642-650.</seg>
+</bibl>

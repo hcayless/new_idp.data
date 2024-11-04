@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv144609">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Un hypotyrannos des Barbares</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">144609</idno>
+            <idno type="TM">144609</idno>
+            <idno type="ddb-perseus-style">;;43</idno>
+            <idno type="ddb-filename">o.did.43</idno>
+            <idno type="ddb-hybrid">o.did;;43</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Qift</settlement>
+                  </placeName>
+                  <collection>Archaeological storeroom</collection>
+                  <idno type="invNo">Did. 716</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Didymoi (Ägypten)</origPlace>
+                     <origDate when="0264" precision="medium">ca. 264</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/786015 https://www.trismegistos.org/place/3125">Didymoi</placeName>
+                        <placeName n="2" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (privat?)</term>
+               <term n="2">N.N. (Fürst [curator] der Barbaren) an N.N.</term>
+               <term n="3">Bitte um Gerste für Esel</term>
+               <term n="4">Fragment</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-08-25T09:38:06-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2022-07-19T09:35:09-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2022-07-14T10:52:19-04:00"
+                 who="http://papyri.info/editor/users/GiulianoSidro">Submit - New dating; see Cuvigny (2021: 430)</change>
+         <change when="2022-07-14T10:52:03-04:00"
+                 who="http://papyri.info/editor/users/GiulianoSidro">Commit - New dating; see Cuvigny (2021: 430)</change>
+         <change who="HGV" when="2012-10-15">Record created</change>
+         <change who="HGV" when="2013-03-28">Record last modified</change>
+         <change when="2013-04-05" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">O.Did.</title>
+                  <biblScope type="numbers">43</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.ifao.egnet.net/bases/publications/fifao67/?os=45"/>
+               </figure>
+            </p>
+         </div>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung vgl. Cuvigny, Rome in Egypt's Eastern Desert, S. 429-230.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

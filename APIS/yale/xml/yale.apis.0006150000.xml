@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter, Roman CE ii [MIR]/ Roman CE iii 29 Feb 200 or 28 Feb 229 [A.BEN]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0006150000</idno>
+            <idno type="controlNo">(CtY)615</idno>
+            <idno type="HGV">107276</idno>
+            <idno type="TM">107276</idno>
+            <idno type="ddb-filename">zpe.158.227_1</idno>
+            <idno type="ddb-hybrid">zpe;158;227_1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 615</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>To Tryphon Phibas; on business affairs; Tryphon is asked to send the account on the presents of the last month and another account on birds or chickens<lb/> 16th year, 4. Phamenoth</summary>
+                  <msItemStruct>
+                     <note type="general">See 648 and 642</note>
+                     <note type="general">Margins: All</note>
+                     <note type="general">Verso is blank.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 105 x 112 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto, 8</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>Roman CE ii [MIR]/ Roman CE iii 29 Feb 200 or 28 Feb 229 [A.BEN]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1931a</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Letter</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>A. Benaissa, "The Archive of Tryphin Phibas" ZPE 158 (2006) 226-234</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>Rost. b 79</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2792497"/>
+                  <note>Images of P.CtYBR inv. 615 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>List, Roman CE 250-256  [CBW]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.4400344200</idno>
+            <idno type="controlNo">(CtY)DP 34(B) fol</idno>
+            <idno type="HGV">44837</idno>
+            <idno type="TM">44837</idno>
+            <idno type="HGV">44847</idno>
+            <idno type="TM">44847</idno>
+            <idno type="ddb-hybrid">p.dura;;105</idno>
+            <idno type="ddb-hybrid">p.dura;;115</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. DP 34(B) fol</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Roster of men grouped by centuries</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: b, top, left, and bottom</note>
+                     <note type="general">c, e, and g-i are blank. a: 2 cols. (col. i) 14 lines; (col. ii) 2 lines. b: 2 cols. (col. i) 25 lines; (col. ii) 17 lines.</note>
+                     <textLang mainLang="lat">Latin</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus Fragments: a: 130 x 135; c: 31 x 39; d: 38 x 43; e: 20 x 15; f: 25 x 25; g: 27 x 16; h: 30 x 15; i: 39 x 23; j: 42 x 23; k: 46 x 41; l: 43 x 64; m: 82 x 37 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">a, 14<lb/>  b, 25<lb/>  d, 2<lb/>  f, 3<lb/>  j, 4<lb/>  k, 5<lb/>  l, 5<lb/>  m, 7</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>Roman CE 250-256  [CBW]</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Dura-Europos</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>List</term>
+               <term>Papyri Fragments</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Dura, pp. 373-376, pl. lxiii (frg. b)</bibl>
+               <bibl>Davies 1968: 33</bibl>
+               <bibl>Rom.Mil.Rec.: pp. 83-87</bibl>
+               <bibl>Ch.L.A. IX: pp. 30-34, pl. 31, 32, 34</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Dura 105</bibl>
+               <bibl>Rom.Mil.Rec. 4</bibl>
+               <bibl>Ch.L.A. IX 360</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2771663"/>
+                  <note>Images of P.CtYBR inv. DP 34(B) fol are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv316249">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An die Chrematisten (Eisagogeus Dositheos)</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">316249</idno>
+            <idno type="TM">316249</idno>
+            <idno type="ddb-perseus-style">;;7</idno>
+            <idno type="ddb-filename">p.tarich.7</idno>
+            <idno type="ddb-hybrid">p.tarich;;7</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Köln inv. 21360 + 21373</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Tanis (Arsinoites, Ägypten)</origPlace>
+                     <origDate notBefore="-0185-10" notAfter="-0185-12">
+                Ende (?) 185 v.Chr.
+                <precision match="../@notBefore" degree="0.1"/>
+                     </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/737069 https://www.trismegistos.org/place/2251 https://www.trismegistos.org/place/7586 https://www.trismegistos.org/place/2616">Tanis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Eingabe</term>
+               <term n="2">Amenneus und Onnophris (Bestatter) an die Chrematisten</term>
+               <term n="3">Schilderung der Vorgeschichte des Rechtsstreits</term>
+               <term n="4">Bitte</term>
+               <term n="5">entsprechend dem Auftrag des Dioiketen einen Bericht des Königlichen Schreibers anzufordern</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-04-16T12:43:13-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2021-04-16T09:02:03-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - The link is correct</change>
+         <change when="2021-04-16T08:23:27-04:00"
+                 who="http://papyri.info/editor/users/LaviniaFerretti">Submit - Added link to digital image</change>
+         <change who="HGV" when="2014-02-11">Record created</change>
+         <change who="HGV" when="2014-05-23">Record last modified</change>
+         <change when="2014-08-29" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Rückseite: Demotisch?</p>
+         </div>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 9: 7. Apr. - 6. Mai 189 v.Chr.</note>
+            <note type="source">HGV.fp7</note>
+            <list>
+               <item>
+                  <ref>Z. 9</ref>
+                  <date type="mentioned" notBefore="-0189-04-07" notAfter="-0189-05-06">7. Apr. 189 - 6. Mai 189 v.Chr.</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Tarich.</title>
+                  <biblScope type="numbers">7</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Tafel IX</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://papyri.uni-koeln.de/stueck/tm316249"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

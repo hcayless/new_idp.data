@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv17909">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Petition to a Strategus</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">17909</idno>
+            <idno type="TM">17909</idno>
+            <idno type="ddb-perseus-style">0181;58;3926</idno>
+            <idno type="ddb-filename">p.oxy.58.3926</idno>
+            <idno type="ddb-hybrid">p.oxy;58;3926</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>This</origPlace>
+                     <origDate when="0246-02-09">9. Febr. 246</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/756659 https://www.trismegistos.org/place/2400">This</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Eingabe</term>
+               <term>an den Strategen</term>
+               <term>Überfall</term>
+               <term>Verletzung</term>
+               <term>Räuber</term>
+               <term>Einbruch</term>
+               <term>Haus</term>
+               <term>Diebstahl</term>
+               <term>Arzt</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="1993-10-27">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Rückseite: P.Oxy. LVIII  3927.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Oxy.</title>
+                  <biblScope type="volume">58</biblScope>
+                  <biblScope type="numbers">3926</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="de">
+               <head xml:lang="de">Deutsch:</head>
+               <bibl type="translations">TUAT, N.F. 5 (2010), V 6.2</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://doi.org/10.25446/oxford.21176800"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

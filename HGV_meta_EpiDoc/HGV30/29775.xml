@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv29775">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettre de Sarapion, curator du praesidium de Raima à Aelius Serenus, curator des carrières du Claudianus</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">29775</idno>
+            <idno type="TM">29775</idno>
+            <idno type="ddb-perseus-style">0020;2;374</idno>
+            <idno type="ddb-filename">o.claud.2.374</idno>
+            <idno type="ddb-hybrid">o.claud;2;374</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Qift</settlement>
+                  </placeName>
+                  <collection>Archaeological storeroom</collection>
+                  <idno type="invNo">Claud., 7036</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Raima</origPlace>
+                     <origDate notBefore="0126" notAfter="0175" precision="low">Mitte II</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/767854 https://www.trismegistos.org/place/2643">Raima</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Brief (amtlich)</term>
+               <term>der Curator Sarapion an den Curator Aelius Serenus</term>
+               <term>Sendung eines Soldaten mit Begleitung und kaiserlichem Schreiben</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="1998-10-16">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">O.Claud.</title>
+                  <biblScope type="volume">2</biblScope>
+                  <biblScope type="numbers">374</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.f43111u7/b6ebbe21c4da7e3619fb97e8b71185d6ef2e8b0c"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.653e2f7s/8ec59b8ee5fb33fb08d40d7a8e4f7a0b4051b9f1"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.2bddzp0a/33d8971d70b8aedb3c95f2eec4086f71853e888f"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.feb26162/affb1ac5bb08c124571a202baf013caf4ab2e932"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.08dabwcv/c521bd09f40283fe0a584966b977c0f86fe6b30a"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.d0b34vmo/10a4c3318e645ffb3a1b4dc4bc61e0ec9d5fff49"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.aa041b3l/d4488de8fa319264db98f18cf95e3d17adb8c35d"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Christian narrative.</title>
+           <author>Coptic Church</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="controlNo">(CU)8116</idno>
+           <idno type="apisid">berkeley.apis.8116</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                 <idno type="invNo">P.Russell.01</idno>
+               </msIdentifier>
+               <msContents>
+                 <summary>Perhaps the Life of the ascete Hermine, native of Pemje (el-Behnasa) and Bishop of Huw (Diospolis Parva, Diospolis Mikra) in Upper Egypt, a contemporary of Athanasius, Patriarch of Alexandria (d. 373 A.D.). Hair side, col. 2: (Apa Herminah?) conquers the Contender in Christ, angels mentioned; Flesh side, Apa Hermina contends with the devil (diabolos), angel(s?) mentioned.</summary>
+                 <msItemStruct>
+                     <note type="general">Margins: Hair side: left, 2 cm.; bottom, 5 cm.; right, 3 cm.; Flesh side: left, 2.5 cm.; bottom, 4 cm.; right, 1 cm.</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="cop">Coptic (Sahidic)</textLang>
+                 </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Parchment">
+                       <support>1 parchment ; 18 x 25.5 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                          <ab type="lines">Hair side: 2 cols. (col. 1, 14 lines; col. 2, 17 lines); Flesh side: 2 cols. (col. 1: 17 lines; col. 2, 16 lines)</ab>
+                          <ab type="recto-verso">Text continues from hair side to flesh side</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                    <origDate notBefore="0500" notAfter="0900">Between 500 and 900 A.D.</origDate>
+                    <persName type="asn">Hermine, Bishop of Huw, 4th cent. A.D.</persName>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="cop">Coptic (Bohairic?)</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+              <term>Christians</term>
+              <term>Coptic Church</term>
+              <term>Coptic Christian saints</term>
+              <term>Bishops</term>
+              <term>Ascetics</term>
+              <term>Egypt</term>
+              <term>Huw</term>
+              <term>Christian texts; Martyrologies</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+     <surfaceGrp n="1">
+         <surface>
+            <graphic url="http://papyri.info/images/3e/AP04602a"/>
+         </surface>
+     </surfaceGrp>
+     <surfaceGrp n="2">
+         <surface>
+            <graphic url="http://papyri.info/images/0b/AP04603a"/>
+         </surface>
+     </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+         </div>
+      </body>
+   </text>
+</TEI>

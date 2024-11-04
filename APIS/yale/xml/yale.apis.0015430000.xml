@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Literary work, Byzantine CE iv [CHK]|Byzantine CE v [CHR, TCS]|Roman-Byzantine CE ca. 300 [CBW]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0015430000</idno>
+            <idno type="controlNo">(CtY)1543</idno>
+            <idno type="dclp">61709</idno>
+            <idno type="TM">61709</idno>
+            <idno type="dclp-hybrid">p.yale;1;3</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 1543</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Bible, Acts 8:26-32, 10:26-31</summary>
+                  <msItemStruct>
+                     <note type="general">The order of the columns is (B) col.ii, (A) col. i, col. ii, (B) col. i</note>
+                     <note type="general">Margins: All</note>
+                     <note type="general">Recto: (col. i) 21 lines; (col. ii) 21 lines. Verso: (col. i) 6 lines; (col. ii) 22 lines.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 138 x 179 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto, 21<lb/>  Verso, 22</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0300" notAfter="0399">Byzantine CE iv [CHK]<lb/> Byzantine CE v [CHR, TCS]<lb/> Roman-Byzantine CE ca. 300 [CBW]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1933</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Literary work</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>Kraeling 1937</bibl>
+               <bibl>Aland 1963: 307 n. 6</bibl>
+               <bibl>P.Yale I, pp. 15-21</bibl>
+               <bibl>Emmel 1996: 294</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>NT P50</bibl>
+               <bibl>P.Yale 3</bibl>
+               <bibl>van Haelst 482</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2758752"/>
+                  <note>Images of P.CtYBR inv. 1543 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

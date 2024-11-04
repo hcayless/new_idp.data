@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv37880">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Receipts from estates</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">37880</idno>
+            <idno type="TM">37880</idno>
+            <idno type="ddb-perseus-style">0181;16;1916</idno>
+            <idno type="ddb-filename">p.oxy.16.1916r</idno>
+            <idno type="ddb-hybrid">p.oxy;16;1916r</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oxyrhynchos</origPlace>
+                     <origDate notBefore="0547-03-10" notAfter="0550-10-19">10. März 547 - 19. Okt. 550</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736983 https://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://pleiades.stoa.org/places/736982 https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Quittungen</term>
+               <term n="2">Ländereien</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-12-29T05:29:48-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2021-12-27T08:11:53-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2021-12-24T09:18:45-05:00"
+                 who="http://papyri.info/editor/users/AminBenaissa">Submit - Corrected date in metadata.</change>
+         <change who="HGV" when="1994-01-04">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Gehört wahrscheinlich zum Apion - Archiv. Zur Datierung vgl. Maresch, Nomisma und Nomismatia, S. 91, BL XI, S. 156, und P.Oxy. LXXXIV 5457, Anm. zu Z. 1.</p>
+         </div>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 2: 6. Indiktion; Z. 3 - 9: 7. Indiktion; Z. 14, 26: 8. Indiktion; Z. 16: 17. (18.) Nov., 9. Indiktion; Z. 17 - 18: 7. März, 10. Indiktion; Z. 25: 10. März, 10. Indiktion</note>
+            <note type="source">HGV.fp7</note>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Oxy.</title>
+                  <biblScope n="1" type="volume">16</biblScope>
+                  <biblScope n="2" type="numbers">1916</biblScope>
+                  <biblScope n="3" type="side">R</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">X</biblScope>
+                  <biblScope type="pages">144</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">XI</biblScope>
+                  <biblScope type="pages">156</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+      </body>
+  </text>
+</TEI>

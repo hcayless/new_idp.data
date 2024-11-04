@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv118462">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Requisition of Tools</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">118462</idno>
+            <idno type="TM">118462</idno>
+            <idno type="ddb-perseus-style">0020;4;810</idno>
+            <idno type="ddb-filename">o.claud.4.810</idno>
+            <idno type="ddb-hybrid">o.claud;4;810</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Qift</settlement>
+                  </placeName>
+                  <collection>Archaeological storeroom</collection>
+                  <idno type="invNo">Claud., 2104</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Mons Claudianus</origPlace>
+                     <origDate when="0110-11-27">
+                        <certainty locus="value" match="../year-from-date(@when)"/>27. Nov. 110 (Jahr unsicher)</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/766348 https://www.trismegistos.org/place/2783">Mons Claudianus</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Auftrag</term>
+               <term>Ausgabe von Werkzeug (Hämmer)</term>
+               <term>Steinbruch</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="2009-05-10">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">O.Claud.</title>
+                  <biblScope type="volume">4</biblScope>
+                  <biblScope type="numbers">810</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.3728tb0m/0e7c60fb615cc875cc238d58a38f1c9c5353766f"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

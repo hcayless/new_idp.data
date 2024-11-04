@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Glossary, Byzantine-Medieval</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0045010000</idno>
+            <idno type="controlNo">(CtY)4501 qua</idno>
+            <idno type="dclp">119280</idno>
+            <idno type="TM">119280</idno>
+            <idno type="dclp-hybrid">p.clackson;;35</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 4501 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Coptic-Greek Word List</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: All</note>
+                     <note type="general">Recto: (col.i) 40 lines; (col.ii) 35 lines.  3-4 lines on left margin entering from left.</note>
+                     <textLang mainLang="cop" otherLangs="grc">Egyptian\Coptic; Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 329 x 147 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto, 40</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0300" notAfter="0899">Byzantine-Medieval</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1996b + 1997a (3 fragments)</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="cop">Egyptian\Coptic</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Glossary</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>J. Clackson &amp; S. Clackson, "P. Clackson 35. A Greek-Coptic Glossary from the Beinecke Collection" in Monastic Estates in Late Antique and Early Islamic Egypt. Ostraca, Papyri, and Essays in Memory of Sarah Clackson (P. Clackson), pp. 52-60.</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2767439"/>
+                  <note>Images of P.CtYBR inv. 4501 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

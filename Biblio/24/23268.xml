@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b23268" type="review">
+   <author>
+      <forename>E.C.</forename>
+      <surname>Colwell</surname>
+   </author>
+   <date>1937</date>
+   <biblScope type="pp" from="385" to="387">385-387</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/180"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">CP</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">32</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/3412"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">A Third-Century Papyrus Codex of the Epistles of Paul.</title>
+         <author>Sanders, Henry A.</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">23268</idno>
+   <seg type="original" subtype="cr" resp="#BP">E.C. Colwell, CP 32 (1937) pp. 385-387.</seg>
+</bibl>

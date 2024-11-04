@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Receipt for a payment to a bank</title>
+            <author>Ptolemaios</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.487</idno>
+            <idno type="controlNo">(CU)487</idno>
+            <idno type="ddbdp">p.tebt.1.101</idno>
+            <idno type="ddb-perseus-style">0206;1;101</idno>
+            <idno type="ddb-hybrid">p.tebt;1;101</idno>
+            <idno type="HGV">3737</idno>
+            <idno type="TM">3737</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0101</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Receipt for the payment of 1 talent 4800 drachmas to the account of Parthenios.</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: top, 6.2 cm.; left, 0.8 cm.; right, 2.3 cm.; in top margin, in red ink: 101.</note>
+                     <note type="general">51st year of Ptolemy VIII Euergetes II, 20th of the Egyptian month Thoth.</note>
+                     <note type="general">Muhs &amp; Hoogendijk</note>
+                     <note type="local_note">1709</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 15 x 15 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">6 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="-0120">11 Oct. 120 B.C.</origDate>
+                     <persName type="asn">Parthenios</persName>
+                     <persName type="asn">Didymos</persName>
+                  </origin>
+                  <provenance>
+                     <p>Crocodile cartonnage at Tebtunis 24.5</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Banks and banking</term>
+               <term>taxation</term>
+               <term>Kerkeosiris</term>
+               <term type="genre_form">Receipts, Ptolemaic period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto.</desc>
+            <graphic url="http://papyri.info/images/39/AP01799a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso.</desc>
+            <graphic url="http://papyri.info/images/b1/AP01800a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="translation">
+            <ab>The 51st year, Thoth 20. Paid into the bank to Ptolemaios, representative of Didymos, banker, to the credit of Parthenios the (king's) cousin and strategos by Demetrios son of Herakleides for the golden crown from the 14 cleruchs of the second � at Kerkeosiris, 1 talent 4800 drachmas, total 1 talent 4800 drachmas.</ab>
+         </div>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.101 <note>On line 2 see BL v. 9, p. 354.</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:1:101</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/487">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

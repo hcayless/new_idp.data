@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b32438" type="review">
+   <author>
+      <forename>Colin</forename>
+      <surname>Adams</surname>
+   </author>
+   <date>2004</date>
+   <biblScope type="pp" from="213" to="214">213-214</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/281"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">JRS</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">94</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/71893"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="a" type="main">avec une contribution de Jean-Pierre ADAM et la collaboration de Nelly MARTIN, Olivier QUINTANEL et Khaled ZAZA, La route de Myos Hormos. L'armée romaine dans le désert Oriental d'Égypte. Praesidia du désert de Bérénice. I. Volume 1; - Volume 2. (Fouilles de l'Institut français d'Archéologie orientale. 48/1; - 48/2.)</title>
+         <author>CUVIGNY, Hélène</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">32438</idno>
+   <seg type="original" subtype="cr" resp="#BP">C.R. par Colin Adams, JRS 94 (2004) pp. 213-214.</seg>
+</bibl>

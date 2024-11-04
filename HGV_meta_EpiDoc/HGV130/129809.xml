@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv129809">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragments d'un acte de conciliation concernant un partage</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">129809</idno>
+            <idno type="TM">129809</idno>
+            <idno type="ddb-perseus-style">0117;4;187</idno>
+            <idno type="ddb-filename">p.gen.4.187</idno>
+            <idno type="ddb-hybrid">p.gen;4;187</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Gen. inv. 135</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Hermopolites</origPlace>
+                     <origDate notBefore="0501" notAfter="0600" precision="low">VI</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2720">Hermopolites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Vertrag</term>
+               <term>Schlichtung eines Streits (?)</term>
+               <term>Teilung (?)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="2010-09-10">Record created</change>
+         <change who="HGV" when="2011-03-23">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Fr. III 6-7 vgl. Tyche 28, 2013, S. 204, Korr. Tyche 737. Zur Datierung und zu Fr. I 2 und 8 vgl. Tyche 30, 2015, S. 218f., Korr. Tyche 781.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Gen.</title>
+                  <biblScope type="volume">4</biblScope>
+                  <biblScope type="numbers">187</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Planche LIV und LVI</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.ville-ge.ch/musinfo/imageZoom/?iip=bgeiip/papyrus/pgen135-1ri.ptif"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vtabb72ba3cff3f0ac5"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta5dc0bf64ac541d1e"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta2be86fdd8dba276a"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vtaa8034e2a10b9ab46"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta6d1a395744430f50"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta3c9f38b2bd2fb3c5"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta2477232969529ed1"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta3eda91bdc0ccd41e"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

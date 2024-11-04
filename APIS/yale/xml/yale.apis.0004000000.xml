@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Account, Roman-Byzantine CE iv (?)</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0004000000</idno>
+            <idno type="controlNo">(CtY)400 qua</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 400 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Of debts of various people on behalf of taxes on their farm land, both in kind (grain, barley, grass or hay, vegetables) and in money</summary>
+                  <msItemStruct>
+                     <note type="general">The thirteen fragments that this manuscript comprises derive probably from at least two leaves of an account book; they are mounted in two frames, fragment (1) in one, and fragments (2)-(13) in the other</note>
+                     <note type="general">Margins: 1, top, left, and right; Recto 2, left; Verso 2, right; 3, top; 4, bottom; 5, left, bottom, and top?; Recto 6, right and bottom; Verso 6, left and bottom; 7, right?; 8, top?; 10, top?; 11, top?; 12, bottom?</note>
+                     <note type="general">Rectos 8, 10, 12, and versos 7, 9, 11, and 13 are blank.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 1: 234 x 206; 2: 110 x 60; 3: 82 x 36; 4: 51 x 38; 5: 226 x 110; 6: 111 x 104; 7: 19 x 20; 8: 29 x 10; 9: 28 x 7; 10: 41 x 6; 11: 24 x 10; 12: 17 x 11; 13: 15 x 9 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto 1, 26; Verso 1, 12; Recto 2, 6; Verso 2, 8; Recto 3, 8; Verso 3, 6; Recto 4, 5; Verso 4, 1; Recto 5, 24; Verso 5, 22; Recto 6, 10; Verso 6, 8; Recto 7, 2; Verso 8, 2; Recto 9, 3; Verso 10, 3; Recto 11, 1; Verso 11, 3; Verso 12, 1; Recto 13, 1</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0300" notAfter="0399">Roman-Byzantine CE iv (?)</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1931a</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Account</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Yale inv. 400 + 401 + 402 + 403 + 404 + 405 + 406 + 407 + 408</bibl>
+               <bibl>Rost. a 72</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2775650"/>
+                  <note>Images of P.CtYBR inv. 400 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

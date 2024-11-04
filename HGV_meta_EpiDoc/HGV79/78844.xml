@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv78844">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Antirrhesis</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">78844</idno>
+            <idno type="TM">78844</idno>
+            <idno type="ddb-perseus-style">0277;;14</idno>
+            <idno type="ddb-filename">psi.com.6.14</idno>
+            <idno type="ddb-hybrid">psi.com;6;14</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Tebtynis ? (Arsinoites)</origPlace>
+                     <origDate notBefore="0126" notAfter="0200" precision="low">Mitte - 2. Hälfte II</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   cert="low"
+                                   ref="https://pleiades.stoa.org/places/737072 https://www.trismegistos.org/place/2287">Tebtynis</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Eingabe an den Archidikastes Balbinianus</term>
+               <term>Widerspruch gegen Einleitung eines Verfahrens der Vollstreckung (Antirrhesis)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="2005-04-08">Record created</change>
+         <change who="HGV" when="2011-04-06">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 26 und 28 vgl. ZPE 152, 2005, S. 177. Zur Datierung vgl. APF 53, 2007, S. 82 und Symposion 2007, S. 289, Anm. 40. Zu Z. 26 vgl. P.Coles. 21,4-5 (S. 107).</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">PSI Com.</title>
+                  <biblScope n="1" type="volume">6</biblScope>
+                  <biblScope n="2" type="numbers">14</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/78844"/>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">237</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Tav. XI</bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

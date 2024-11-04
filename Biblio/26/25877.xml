@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b25877" type="review">
+   <author>
+      <forename>Jacques</forename>
+      <surname>Schwartz</surname>
+   </author>
+   <date>1968</date>
+   <biblScope type="pp" from="288" to="289">288-289</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/65"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">AntCl</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">37</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7046"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Callimaco. I; - II.</title>
+         <author>Capovilla, Giovanni</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">25877</idno>
+   <seg type="original" subtype="cr" resp="#BP">Jacques Schwartz, AntCl 37 (1968) pp. 288-289.</seg>
+</bibl>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Petition to the Prefect</title>
+            <author>Aurelia Sarapias</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.298</idno>
+            <idno type="controlNo">(CU)298</idno>
+            <idno type="ddbdp">p.tebt.2.326</idno>
+            <idno type="ddb-perseus-style">0206;2;326</idno>
+            <idno type="ddb-hybrid">p.tebt;2;326</idno>
+            <idno type="HGV">13485</idno>
+            <idno type="TM">13485</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0326</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Aurelia Sarapias petitions the prefect Juvenius Genialis to have her brother appointed guardian of her daughter.</summary>
+                  <msItemStruct>
+                     <note type="general">Verso unpublished</note>
+                     <note type="general">Margins: top, 1 cm.; left, 2 cm.; bottom, 7.8 cm.; on verso, in black ink: T 420.</note>
+                     <note type="related">The papyrus was found in a bundle with P.Tebt.285, P.Tebt.319, P.Tebt.335, P.Tebt.378, P.Tebt.406, P.Tebt.588.</note>
+                     <note type="local_note">1392</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 25.2 x 22.2 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">16 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">On verso, traces of 5 lines of writing (across the fibers).</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Regular cursive, written in a rather thick pen.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="0266">ca. 266 A.D.</origDate>
+                     <persName type="asn">Genialis, Juvenius</persName>
+                     <persName type="asn">Aurelius Paulus</persName>
+                     <persName type="asn">Paulina, daughter of Paulus and Sarapias</persName>
+                     <persName type="asn">Aurelius Sarapion alias Alexandros</persName>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T420</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Guardian and ward</term>
+               <term>Women, 30 B.C.-640 A.D.</term>
+               <term>Brothers</term>
+               <term>Antinoe</term>
+               <term>Arsinoites nomos</term>
+               <term type="genre_form">Petitions, Roman period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>UC 1392 Recto.</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>UC 1392 Verso.</desc>
+            <graphic url="http://papyri.info/images/62/AP01212a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="translation">
+            <ab>To Juvenius Genialis, his highness the prefect of Egypt, from Aurelia Sarapias, of Antinoe. On behalf of my orphan daughter who is under age, my lord prefect, I make this supplication and take refuge in your power. My husband Aurelius Paulus, of Antinoe, departed this life intestate, leaving our daughter, called Paulina, quite young. With regard therefore to the guardianship and administration of the child's property, having found that my own brother, Aurelius Sarapion also called Alexandros, who is also an Antinoite, will owing to his kindness, fidelity, and ties of kinship honorably protect the child, I apply to you with the request on my own responsibility that he may be instituted her guardian, in order that, if it please your most gracious Fortune, you may instruct through an endorsement of my petition the strategos of the Arsinoite nome, where we own land, to make the appointment of the aforesaid Sarapion, that so we may obtain relief. Farewell.</ab>
+         </div>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.326; Chrest. Mitt., no. 325, <note>On lines 10-11 see BL v. 2.2, p. 170</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:2:326</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/298">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

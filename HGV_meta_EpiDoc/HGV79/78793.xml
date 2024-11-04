@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv78793">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Documenti in copia relativi a παράδειξις e κύρωσις di terreno</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">78793</idno>
+            <idno type="TM">78793</idno>
+            <idno type="ddb-perseus-style">0258;;12</idno>
+            <idno type="ddb-filename">p.thomas.12</idno>
+            <idno type="ddb-hybrid">p.thomas;;12</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Isieion Panga (Oxyrhynchites, Ägypten)</origPlace>
+                     <origDate notBefore="0167" notAfter="0168">
+                        <offset n="1" type="after">nach</offset>
+                167 -
+                168
+              </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/741481 https://www.trismegistos.org/place/2854">Isieion Panga</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2722 https://pleiades.stoa.org/places/736982">Oxyrhynchites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Akten</term>
+               <term n="2">Kauf aus Staatsbesitz (ὑπόλογος)</term>
+               <term n="3">Stratege</term>
+               <term n="4">Königlicher Schreiber</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-02T13:23:27-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2022-12-02T11:53:08-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Yes</change>
+         <change when="2022-12-01T19:00:21-05:00"
+                 who="http://papyri.info/editor/users/ngonis">Submit - Meta: added link to digital image. Text: removed several entry error problems and supplemented the apparatus: τ̣ῶ̣` =&gt; τ̣ῷ̣ (7); ἐπιστέλλεται =&gt; ἐπιστέλλεταί (8) ; τῷ ((ἔτει)) =&gt; τῷ &lt;#η=8#&gt; ((ἔτει)) (14); removed |reg| and added diaereses to ϊσιου (5), ϊσον (8), Ἰσίου (17; NB Ἰ has to be dotted); added |reg| for (9) γιτνίαι, ε̣ἴ̣η̣ι̣ (10) γί(τονες) (19, 21); added supralinear stroke to ῑᾱ (23).</change>
+         <change who="HGV" when="2001-09-15">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Vgl. Kruse, Der Königliche Schreiber, S. 509-514. Vgl. Alessandrì, Vendite fiscali II, S. 113-129.</p>
+         </div>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 7: 166-167; Z. 14: 167-168; Z. 23: 5. Febr. 167</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item n="1">
+                  <ref>Z. 14</ref>
+                  <date type="mentioned" notBefore="0167" notAfter="0168">167 - 168</date>
+               </item>
+               <item n="2">
+                  <ref>Z. 23</ref>
+                  <date type="mentioned" when="0167-02-05">5. Febr. 167</date>
+               </item>
+               <item n="3">
+                  <ref>Z. 7</ref>
+                  <date type="mentioned" notBefore="0166" notAfter="0167">166 - 167</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Thomas</title>
+                  <biblScope type="numbers">12</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Plate 13</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.psi-online.it/documents/pthomas-12"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

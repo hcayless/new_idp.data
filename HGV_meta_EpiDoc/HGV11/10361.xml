@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv10361">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P.Cair. Isis. 32 revisited</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">10361</idno>
+            <idno type="TM">10361</idno>
+            <idno type="ddb-perseus-style">0088;;32</idno>
+            <idno type="ddb-filename">zpe.172.173</idno>
+            <idno type="ddb-hybrid">zpe;172;173</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Cairo</settlement>
+                  </placeName>
+                  <collection>Egyptian Museum</collection>
+                  <idno type="invNo">JdE 57415</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Schreibort: Ptolemais Nea (Arsinoites, Ägypten); Fundort: Karanis</origPlace>
+                     <origDate notBefore="0279-08-30" notAfter="0279-09-28">30. Aug. - 28. Sept. 279</origDate>
+                  </origin>
+                  <provenance n="1" type="composed">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/741586 https://www.trismegistos.org/place/2027">Ptolemais Nea</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+                  <provenance n="2" type="found">
+                     <p xml:id="geoBAF1I8">
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="www.trismegistos.org/place/1008 https://pleiades.stoa.org/places/736932">Karanis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="http://papyri.info/biblio/78121"/>
+                  <biblScope type="pp">173-174</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Quittung</term>
+               <term n="2">Steuern</term>
+               <term n="3">Getreide</term>
+               <term n="4">Speculator</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-10-06T06:56:08-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2022-10-06T06:17:02-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Looks good.</change>
+         <change when="2022-10-06T06:07:27-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Anpassung der Metadaten an ZPE 172, 2010, S. 173.</change>
+         <change when="2016-04-29T12:29:55-04:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Fine</change>
+         <change when="2016-04-29T12:19:44-04:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine. Added SB biblio info for ZPE article from which the text is taken.</change>
+         <change when="2016-04-29T12:18:24-04:00"
+                 who="http://papyri.info/users/james.cowey">Submit - Added the text as in ZPE 172 (2010) 173</change>
+         <change who="HGV" when="1992-03-06">Record created</change>
+         <change who="HGV" when="2010-04-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 8: 278 - 279</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item>
+                  <ref>Z. 8</ref>
+                  <date type="mentioned" notBefore="0278" notAfter="0279">278 - 279</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">ZPE</title>
+                  <biblScope n="1" type="volume">172</biblScope>
+                  <biblScope n="2" type="fascicle">(2010)</biblScope>
+                  <biblScope n="3" type="pages">S. 173</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://ipap.csad.ox.ac.uk/4DLink4/4DACTION/IPAPwebquery?vPub=P.Cair.Isid.&amp;vVol=&amp;vNum=32"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">P.Cair. Isid. 32</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

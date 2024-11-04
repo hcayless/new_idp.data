@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0"
+      xml:id="b47338"
+      type="article"
+      subtype="journal">
+   <title level="a" type="main">Addendum t. 36 (1968), p. 628. [In memoriam Fritz Pringsheim.]</title>
+   <author n="1">
+      <forename>R.</forename>
+      <surname>Feenstra</surname>
+   </author>
+   <date>1969</date>
+   <biblScope type="pp" from="158" to="158">158</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/385"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">RD</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">37</biblScope>
+   <idno type="pi">47338</idno>
+   <idno type="bp">1969-0127</idno>
+   <seg type="original" subtype="index" resp="#BP">160 Pringsheim Fritz</seg>
+   <seg type="original" subtype="titre" resp="#BP">Feenstra R., Addendum t. 36 (1968), p. 628. [In memoriam Fritz Pringsheim.]</seg>
+   <seg type="original" subtype="publication" resp="#BP">RD 37 (1969) p. 158.</seg>
+   <seg type="original" subtype="nom" resp="#BP">Feenstra</seg>
+</bibl>

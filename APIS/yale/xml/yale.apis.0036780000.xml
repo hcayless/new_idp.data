@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>School exercise, Byzantine CE 470 [RD]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0036780000</idno>
+            <idno type="controlNo">(CtY)3678</idno>
+            <idno type="HGV">61399</idno>
+            <idno type="TM">61399</idno>
+            <idno type="ddb-hybrid">sb;24;15905</idno>
+            <idno type="dclp-hybrid">sb;24;15905</idno>
+            <idno type="dclp">61399</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 3678</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Line 1: Dating, postconsulate of Fl. Zenon and Fl. Markianos<lb/> Line 2: Name of the pupil and exhortation of the teacher<lb/> Lines 3-8: Literary work; Isokrates, Pros Demonikon, 17<lb/> Lines 9-10: Names of the 12 Egyptian months</summary>
+                  <msItemStruct>
+                     <note type="general">Broken in 2 pieces. Complete. Tablet partly covered with light wash; badly abraded. Line rulers in reddish ink. Same text on both sides.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Wood: 138 x 273 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto, 10<lb/>  Verso, 10</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="0470">Byzantine CE 470 [RD]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1994a</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>School exercise</term>
+               <term>Wood</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>Duttenhoefer 1997b</bibl>
+               <bibl>Corpus dei Papiri Filosofici Greci e Latini I.2</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2764667"/>
+                  <note>Images of P.CtYBR inv. 3678 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b29832" type="review">
+   <author>
+      <forename>Liliane</forename>
+      <surname>Bodson</surname>
+   </author>
+   <date>1989</date>
+   <biblScope type="pp" from="31" to="32">31-32</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/985"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">Anthropozoologica</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">11</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/11517"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Gli animali da trasporto nell'Egitto greco, romano e bizantino.</title>
+         <author>Leone, Aurora</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">29832</idno>
+   <seg type="original" subtype="cr" resp="#BP">C.R. par Liliane Bodson, Anthropozoologica 11 (1989) pp. 31-32.</seg>
+</bibl>

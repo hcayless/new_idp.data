@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter, Roman CE 221</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.4400150000</idno>
+            <idno type="controlNo">(CtY)DP 15 qua</idno>
+            <idno type="HGV">44792</idno>
+            <idno type="TM">44792</idno>
+            <idno type="ddb-hybrid">chla;6;319</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. DP 15 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>From Aurelius Rufinus to Justillus; from the praepositus to the tribune of the Palmyrene cohort; asked to compel minor              functionaries to take action; distribution of barley</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: 1a, left, right, and bottom; 1b, left; 1d, top; 2a, top, left, and bottom</note>
+                     <note type="general">Versos 1b and 1d are blank. 1c and 2b have traces on both sides.</note>
+                     <textLang mainLang="lat">Latin</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 1a: 222 x 328; 1b: 476 x 52; 1c: 27 x 15; 1d: 78 x 76; 2a: 215 x 285; 2b: 18 x 8 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto 1a, 12; Verso 1a, 3; Recto 1b, 2; Recto 1d, 3; Recto 2a, 16; Verso 2a, 3</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="0221">Roman CE 221</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Dura-Europos</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Letter</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Dura, pp. 229-234, pl. xxxix</bibl>
+               <bibl>Rom.Mil.Rec.: pp. 383-386</bibl>
+               <bibl>Ch.L.A. VI: pp. 34-40, pls. 35, 37, 39, 40</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Dura 64</bibl>
+               <bibl>Rom.Mil.Rec. 91</bibl>
+               <bibl>Ch.L.A. VI 319</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2771363"/>
+                  <note>Images of P.CtYBR inv. DP 15 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

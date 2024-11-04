@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Contract</title>
+            <author>Sositimos</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">stanford.apis.7527</idno>
+            <idno type="controlNo">(CU)7527</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Stan.Class.01</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Loan of money</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: top, 1 cm.; left margin, 1.5 cm.; bottom margin, 2.5 cm.</note>
+                     <note type="general">19th of the Egyptian month Phaophi.</note>
+                     <note type="general">Sositimos dossier</note>
+                     <note type="related">P.Stan.Class.13, 19</note>
+                     <note type="local_note">Stanford Univ. Classics Dept.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 10.5 X 16.5 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">17 lines on recto, across the fibers; 2 lines on verso, along the fibers</ab>
+                           <ab type="recto-verso">Text continues on verso</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Small regular cursive</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0200" notAfter="-0180">Between 200 and 180 B.C.</origDate>
+                     <origPlace>Krokodilon polis, Arsinoites nomos</origPlace>
+                     <persName type="asn">Sosition</persName>
+                     <persName type="asn">Diokles, Son of Alexandros</persName>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Loans</term>
+               <term>Money</term>
+               <term>Krokodilon polis</term>
+               <term type="genre_form">Contracts, Ptolemaic Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto</desc>
+            <graphic url="http://papyri.info/images/e2/AP04548a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/f4/AP04549a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <p>No citations.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

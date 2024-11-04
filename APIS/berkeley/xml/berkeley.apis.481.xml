@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Register of owners of Cleruchic land.</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.481</idno>
+            <idno type="controlNo">(CU)481</idno>
+            <idno type="ddbdp">p.tebt.1.79</idno>
+            <idno type="ddb-perseus-style">0206;1;79</idno>
+            <idno type="ddb-hybrid">p.tebt;1;79</idno>
+            <idno type="HGV">3715</idno>
+            <idno type="TM">3715</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0079</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>List of cleruchs in an unknown village.</summary>
+                  <msItemStruct>
+                     <note type="general">Recto published</note>
+                     <note type="local_note">1547, 1548, 1549, 1550, 1551, 1552, 1553,</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>4 papyri</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">8+ cols. (92+ lines) on verso across the fibers.</ab>
+                           <ab type="recto-verso">On recto, Account of taxes (P.Tebt.0099).</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="-0148">About 148 B.C.</origDate>
+                     <persName type="asn">Imouthes</persName>
+                     <persName type="asn">Thotortaios</persName>
+                     <persName type="asn">Horos</persName>
+                     <persName type="asn">Dionysios</persName>
+                  </origin>
+                  <provenance>
+                     <p>Crocodile cartonnage at Tebtunis 3.1</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Cleruchic land</term>
+               <term>Psenyris</term>
+               <term>Oxyrhynchites nomos</term>
+               <term type="genre_form">Registers of land, Ptolemaic period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="verso">
+            <desc>Frame 1/7 Verso</desc>
+            <graphic url="http://papyri.info/images/49/AP01645a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Frame 2/7 Verso</desc>
+            <graphic url="http://papyri.info/images/49/AP01646a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="3">
+         <surface n="verso">
+            <desc>Frame 3/7 Verso</desc>
+            <graphic url="http://papyri.info/images/c1/AP01647a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="4">
+         <surface n="verso">
+            <desc>Frame 4/7 Verso</desc>
+            <graphic url="http://papyri.info/images/0c/AP01648a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="5">
+         <surface n="verso">
+            <desc>Frame 5/7 Verso</desc>
+            <graphic url="http://papyri.info/images/af/AP01649a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="6">
+         <surface n="verso">
+            <desc>Frame 6/7 Verso</desc>
+            <graphic url="http://papyri.info/images/ea/AP01650a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="7">
+         <surface n="verso">
+            <desc>Frame 7/7 Verso</desc>
+            <graphic url="http://papyri.info/images/2e/AP01651a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.79; CPJ v. 1, no. 31 (lines 63-64, 70-71, 76, and 78-81) <note>For Fr. B see BL v. 8, p. 490; on line 2 see BL v. 6, p. 197; on line 23 see BL v. 3, p. 240; on line 70 see BL v. 4, p. 25 (to CPJ v. 1, no. 31)</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:1:79</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/481">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

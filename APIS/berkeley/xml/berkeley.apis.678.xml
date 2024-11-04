@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lease of land</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.678</idno>
+            <idno type="controlNo">(CU)678</idno>
+            <idno type="ddbdp">w.chr.327</idno>
+            <idno type="HGV">3843</idno>
+            <idno type="TM">3843</idno>
+            <idno type="ddb-hybrid">chr.wilck;;327</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0210</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Part of an undertaking with regard to the lease of a piece of crown land, preceded by an abstract of the contract.</summary>
+                  <msItemStruct>
+                     <note type="general">11th year of Cleopatra = 9th year of Ptolemy X Alexander.</note>
+                     <note type="local_note">1810</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 19.7 x 22.8 cm.</support>
+                        <condition>
+                           <ab type="preservation">Much of the papyrus is covered by linen.</ab>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">23+ lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Small regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0107" notAfter="-0106">107/106 B.C.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Crocodile cartonnage at Tebtunis 11.5</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Crown land</term>
+               <term type="genre_form">Contracts, Ptolemaic Period; Leases; Ptolemaic Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto.</desc>
+            <graphic url="http://papyri.info/images/b3/AP01881a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso.</desc>
+            <graphic url="http://papyri.info/images/05/AP01882a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.210 (desc. only); Chrest. Wilck., no. 327. <note>On line 6, see BL v. 3, p. 258.</note>
+               </bibl>
+               <bibl type="ddbdp">W.Chr.:327</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/678">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

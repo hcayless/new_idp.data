@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b24485" type="review">
+   <author>
+      <forename>G.</forename>
+      <surname>Marenghi</surname>
+   </author>
+   <date>1963</date>
+   <biblScope type="pp" from="184" to="186">184-186</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/1040"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">Athenaeum N.S.</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">41</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/6082"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Hipónax de Éfeso. I. Fragmentos dos Iambos.</title>
+         <author>de Sousa Medeiros, Walter</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">24485</idno>
+   <seg type="original" subtype="cr" resp="#BP">G. Marenghi, Athenaeum N.S., 41 (1963) pp. 184-186.</seg>
+</bibl>

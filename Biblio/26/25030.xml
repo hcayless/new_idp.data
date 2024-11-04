@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b25030" type="review">
+   <author>
+      <forename>Sebastián S.I.</forename>
+      <surname>Bartina</surname>
+   </author>
+   <date>1964</date>
+   <biblScope type="pp" from="337" to="339">337-339</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/1247"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">Emerita</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">32</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/6439"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Cartas cristianas griegas del siglo V.</title>
+         <author>O'Callaghan, José (S.J.)</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">25030</idno>
+   <seg type="original" subtype="cr" resp="#BP">S. Bartina, Emerita 32 (1964) pp. 337-339.</seg>
+</bibl>

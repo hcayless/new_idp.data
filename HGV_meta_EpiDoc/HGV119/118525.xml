@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv118525">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Isidoros to Hermaiskas</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">118525</idno>
+            <idno type="TM">118525</idno>
+            <idno type="ddb-perseus-style">0020;4;873</idno>
+            <idno type="ddb-filename">o.claud.4.873</idno>
+            <idno type="ddb-hybrid">o.claud;4;873</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Qift</settlement>
+                  </placeName>
+                  <collection>Archaeological storeroom</collection>
+                  <idno type="invNo">Claud., 7379</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Mons Claudianus</origPlace>
+                     <origDate when="0150" precision="medium">ca. 150</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/766348 https://www.trismegistos.org/place/2783">Mons Claudianus</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (amtlich)</term>
+               <term n="2">Isidoros (caesarianus ?) an Hermaiskas (tabularius ?); die Vorarbeiter im Steinbruch benötigen Gamaschen (?); Bitte</term>
+               <term n="3">solche zu leihen und mitzubringen</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-26T10:14:51-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2024-02-26T10:13:22-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2024-02-23T05:54:09-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Eingabe einer Korrektur in Z. 2 und einer Teilübersetzung nach sowie eines entsprechenden Verweises in den Metadaten auf CdE 96, 2021, S. 177 (Papyrologica 119).</change>
+         <change who="HGV" when="2009-05-17">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">O.Claud.</title>
+                  <biblScope n="1" type="volume">4</biblScope>
+                  <biblScope n="2" type="numbers">873</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">S. 359</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.4e51gufv/5a79e284973ea85408da8b6ed5e24ba4ecbefc3d"/>
+               </figure>
+            </p>
+         </div>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 2 vgl. CdE 96, 2021, S. 177-178 (Papyrologica 119).</p>
+         </div>
+      </body>
+  </text>
+</TEI>

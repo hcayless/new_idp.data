@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tax receipt</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.197</idno>
+            <idno type="controlNo">(CU)197</idno>
+            <idno type="ddbdp">sb.20.14147</idno>
+            <idno type="ddb-perseus-style">0239;20;14147</idno>
+            <idno type="ddb-hybrid">sb;20;14147</idno>
+            <idno type="HGV">14827</idno>
+            <idno type="TM">14827</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0623</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Receipt for poll tax paid by Lysas</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: top, 1.3 cm; bottom: 2.5 cm.; in bottom right corner, in red ink, no."623"; on verso, in black ink: T 580.</note>
+                     <note type="general">4th year of the Emperors Marcus Aurelius and Verus, 4th of the Egyptian month Epeiph</note>
+                     <note type="related">Lusas (sons of Mystharion) is also known from P.Tebt. v.2, no.305</note>
+                     <note type="local_note">1482</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 9.3x 5.1cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">7 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Small regular cursive</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="0164">28 June 164 A.D.</origDate>
+                     <persName type="asn">Lysas, Son of Mystharion</persName>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T580</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Poll Tax</term>
+               <term type="genre_form">Receipts, Roman period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto.</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso.</desc>
+            <graphic url="http://papyri.info/images/3f/AP01104a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="translation">
+            <ab>Year 4 of Imperator Caesar Marcus Aurelius Antoninus Augustus and Imperator Caesar Lucius Aurelius Verus Augustus Epeiph 4 for the account of Payni. Paid by Lysas son of Mystharion the son of Mysthas, his mother being N.N., for poll-tax of the fourth year, in the Linypheia quarter twenty drachmas, that is, 20, with additional payments of ten bronze obols.</ab>
+         </div>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.623; SB, XX, no.14147 <note>Aegyptus 71 (1991), (Pl.7)</note>
+               </bibl>
+               <bibl type="ddbdp">SB:20:14147</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/197">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

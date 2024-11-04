@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Circular letter from Apollonios to the financial officials</title>
+            <author>Apollonios</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.467</idno>
+            <idno type="controlNo">(CU)467</idno>
+            <idno type="ddbdp">p.tebt.1.35</idno>
+            <idno type="ddb-perseus-style">0206;1;35</idno>
+            <idno type="ddb-hybrid">p.tebt;1;35</idno>
+            <idno type="HGV">78769</idno>
+            <idno type="TM">78769</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0035</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Apollonios informs the financial officials of the division of Polemon about the newly fixed prices for myrrh (a royal monopoly).</summary>
+                  <msItemStruct>
+                     <note type="general">In red ink in top margin: 35.</note>
+                     <note type="general">Sixth year of Ptolemy IX Soter II, 2nd of the Egyptian month Pharmouthi.</note>
+                     <note type="local_note">1662</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 31.2 x 19.5 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">19 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="-0111">19 Apr. 111 B.C.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Crocodile cartonnage at Tebtunis 27.6</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Royal monopolies</term>
+               <term>Myrrh tax</term>
+               <term>Public officials</term>
+               <term>Polemonos meris</term>
+               <term type="genre_form">Business letters, Ptolemaic period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto</desc>
+            <graphic url="http://papyri.info/images/d4/AP01590a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/a0/AP01591a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="translation">
+            <ab>Apollonios to the epistatai in the division of Polemon and the other officials, greeting. For the myrrh distributed in the villages no one shall exact more than 40 drachmas of silver for a mina-weight, or in copper 3 talents 2000 drachmas, and for carriage 200 drachmas on the talent; which sum shall be paid not later than Pharmouthi 3 to the collector sent for this purpose. Let the following proclamation be published with the concurrence of the komogrammateus, who shall append his signature to the edict together with yours. Any one disobeying these orders will render himself liable to accusation. We have therefore also sent the sword-bearers. Good-bye. The 6th year, Pharmouthi 2. Purchasers of myrrh from the epistatai of the various villages shall not pay more that 40 drachmas of silver for the mina-weight, or in copper 3 talents 2000 drachmas, and for carriage 200 drachmas on the talent; any one disobeying these orders will render himself liable to accusation.</ab>
+         </div>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.35; Chrest. Wilck., no. 309; Hunt, A.S. Sel. pap. v. 2, no. 223.</bibl>
+               <bibl type="ddbdp">P.Tebt.:1:35</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/467">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

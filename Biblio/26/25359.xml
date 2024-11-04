@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b25359" type="review">
+   <author>
+      <forename>B.R.</forename>
+      <surname>Rees</surname>
+   </author>
+   <date>1966</date>
+   <biblScope type="pp" from="116" to="117">116-117</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/616"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">CR N.S.</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">16</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/6638"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Papyrus grecs du Musée gréco-romain d'Alexandrie.</title>
+         <author>Swiderek, Anna</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">25359</idno>
+   <seg type="original" subtype="cr" resp="#BP">B.R. Rees, CR N.S., 16 (1966) pp. 116-117.</seg>
+</bibl>

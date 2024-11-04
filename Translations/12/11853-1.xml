@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>P.Cair. Zen. 1, 59003</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+            <idno type="filename">665</idno>
+            <idno type="TM">665</idno>
+            <idno type="HGV">665</idno>
+            <idno type="ddb-hybrid">p.cair.zen;1;59003 sb;3;6709</idno>
+            <availability>
+               <p>© Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens. This work is licensed under 
+            a <ref target="http://creativecommons.org/licenses/by/3.0/" type="license">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The contents of this document are generated from SOSOL.</p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <listPrefixDef>
+           <prefixDef matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1" ident="dc"></prefixDef>
+           <prefixDef matchPattern="([-a-zA-Z]+)" replacementPattern="rg/ontology/bibo/$1" ident="bibo"></prefixDef>
+        </listPrefixDef>
+     </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">French</language>
+            <language ident="en">English</language>
+            <language ident="de">German</language>
+            <language ident="it">Italian</language>
+            <language ident="es">Spanish</language>
+            <language ident="la">Latin</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="ar">Arabic</language>
+         </langUsage>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div xml:lang="de" xml:space="preserve" type="translation">
+            <div type="textpart" xml:id="col_1">
+               <p>
+                  <milestone n="1" unit="line"/>Davon entrichten wir an das Konto der allgemeinen Finanzverwaltung:
+                  <milestone n="2" unit="line"/>Für die Abgabe für den Vorsteher der Priester  5500 Dr.
+                  <milestone n="3" unit="line"/>und für zwei 'Altäre', die sich ... in Neilu polis befinden, und zwar
+                  für den einen der Isis Nepherses, der größten Göttin, und
+                  für den anderen der Isis Nephremmis, der größten Göttin,
+                  2100 Dr., Zuschläge 131 Dr. 1½ Ob., macht  2231 Dr. 1½ Ob.
+                  <milestone n="8" unit="line"/>und für ... 68 Dr., Zuschläge 6 Dr. 4½ Ob. 2 Ch., macht  74 Dr. 4½ Ob. 2 Ch.
+                  <milestone n="9" unit="line"/>an Abgaben für den Dorfschreiber mit ... 95 Dr., Zuschläge 6 Dr., macht   101 Dr.
+                  <milestone n="11" unit="line"/>und für die Steuer für Mörser in der Ölmühle des Soknopaios von Soknopaiu
+                  Nesos 142 Dr. 2 Ob., Zuschläge 9 Dr. 1½/ Ob., macht 151 Dr. 3½0b.
+               </p>
+            </div>
+            <div type="textpart" xml:id="col_2">
+               <p>
+               </p>
+            </div>
+         </div>
+         <div type="bibliography" about="https://papyri.info/translations/11853-1">
+            <listBibl>
+               <bibl property="bibo:translationOf" resource="https://papyri.info/static/p.louvre/1/4">P. Louvre 1 4</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

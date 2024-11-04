@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv15323a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Miscellaneous fragments</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">15323a</idno>
+            <idno type="TM">15323</idno>
+            <idno type="ddb-perseus-style">0154;5;1855</idno>
+            <idno type="ddb-filename">p.lond.5.1855</idno>
+            <idno type="ddb-hybrid">p.lond;5;1855</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Syene</origPlace>
+                     <origDate when="0493-04-26">26. Apr. 493</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/786123 https://www.trismegistos.org/place/2207">Syene</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Erklärung</term>
+               <term n="2">Verkauf</term>
+               <term n="3">Anteile</term>
+               <term n="4">Grundstück</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-29T11:51:13-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2022-12-29T10:31:08-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Looks good</change>
+         <change when="2022-12-13T04:25:44-05:00"
+                 who="http://papyri.info/editor/users/anetaskalec">Submit - I added link to the digital image.</change>
+         <change when="2022-12-13T04:25:34-05:00"
+                 who="http://papyri.info/editor/users/anetaskalec">Commit - I added link to the digital image.</change>
+         <change who="HGV" when="1995-09-20">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Descr. Gehört zu P.Münch. I 15. Gehört zum Patermuthis - Archiv.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Lond.</title>
+                  <biblScope n="1" type="volume">5</biblScope>
+                  <biblScope n="2" type="numbers">1855</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">X</biblScope>
+                  <biblScope type="pages">109</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">XI</biblScope>
+                  <biblScope type="pages">122</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations">Pap.Eleph.Eng. (1996) D20</bibl>
+            </listBibl>
+         </div>
+         <div type="figure"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b26496" type="review">
+   <author>
+      <forename>Juan</forename>
+      <surname>Pegueroles</surname>
+   </author>
+   <date>1970</date>
+   <biblScope type="pp" from="115" to="116">115-116</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/466"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">StPap</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">9</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7329"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Das Archiv des Petaus (P. Petaus).</title>
+         <author>Hagedorn, Ursula</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">26496</idno>
+   <seg type="original" subtype="cr" resp="#BP">Juan Pegueroles, StPap 9 (1970) pp. 115-116.</seg>
+</bibl>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv88619">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Journaux de poste datant de la préfecture d’Artorius Priscillus: Journaux sans mention de mois: Un grand fragment d’éphémérides non daté</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">88619</idno>
+            <idno type="TM">88619</idno>
+            <idno type="ddb-perseus-style">0287;1;30</idno>
+            <idno type="ddb-filename">o.krok.1.30</idno>
+            <idno type="ddb-hybrid">o.krok;1;30</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Qift</settlement>
+                  </placeName>
+                  <collection>Archaeological storeroom</collection>
+                  <idno type="invNo">Krok., 15 + 258 + 259 + 274 + 332 + 336 + 337 + 340 + 342 + 348 + 350</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Krokodilo</origPlace>
+                     <origDate when="0109" precision="medium">ca. 109</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/786054 https://www.trismegistos.org/place/3655">Krokodilo</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Tagebuch einer Poststation</term>
+               <term>Verzeichnis über Eingang und Weiterleitung von Briefen; Datum</term>
+               <term>Uhrzeit</term>
+               <term>Namen der Boten</term>
+               <term>Herkunft</term>
+               <term>Bestimmungsort</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="2006-01-13">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Gehört vielleicht zu O.Krok. I 31 - 35.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">O.Krok.</title>
+                  <biblScope type="volume">1</biblScope>
+                  <biblScope type="numbers">30</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">S. 236</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.c60357m6/e6cada5984dbd9c2b6fde95f080d2ebaa2bb4d47"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.c60357m6/e6cada5984dbd9c2b6fde95f080d2ebaa2bb4d47"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.f5ca1xwo/a9afdeeae22c65eaa50bc0435ad302e74d5f9dca"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.0c1831jy/8f60533cfd79089912fac9602cc6a07c90905e2a"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.a4a71j4n/1aef7cb58741cd0dd27e1d73e249e21d210c7419"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.c7d12emu/153c4534b5bd4482e6d901bedd358363d6d412ed"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.aa33770r/a525f7aaca60dfcb675b59ceb7367e7da602ea09"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.02deu791/164880fa4b0d352a51dec7140ad4eb8e309b6bc5"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.65ffm83y/757697f97694e53cdaa6bb4e8be423dbb3fb4740"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.7f7aa63h/16fab886516f8df124aaa7a3774f84f5873b396f"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.bbadhjqo/1db20e0c01b3d6eef971d7b521ef3f245039471d"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

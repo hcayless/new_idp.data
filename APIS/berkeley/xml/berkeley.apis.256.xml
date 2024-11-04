@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Report on the crops of Kerkeosiris</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.256</idno>
+            <idno type="controlNo">(CU)256</idno>
+            <idno type="ddbdp">p.tebt.1.64</idno>
+            <idno type="ddb-perseus-style">0206;1;64</idno>
+            <idno type="ddb-hybrid">p.tebt;1;64</idno>
+            <idno type="HGV">3700a 3700b</idno>
+            <idno type="TM">3700</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0064 (a)</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Report on lands and crops at Kerkeosiris, including crops, cleruchic lists, different land classes, and crown and temple lands.</summary>
+                  <msItemStruct>
+                     <note type="general">Top margin: 3 cm.</note>
+                     <note type="general">Menches archive</note>
+                     <note type="related">Written in the same hand as P.Tebt.61; similar to P.Tebt.72</note>
+                     <note type="local_note">1912, 1913, 1914, 1915, 1916, 2575, 2576, 2577, 2578, 2579, 2580, 2581</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>24 papyri ; Frag. 1, 13.6 x 14.3 cm.; Frag. 2, 22 x 26 cm.; Frag. 3, 23.5 x 32.5 cm.; Frag. 4, 22.5 x 31.1 cm.; Frag. 5, 22.7 x 23.3 cm.; Frag. 6, 23.1 x 30.8 cm.; Frag. 7 (Frame 8), 15.8 x 14 cm.; Frag. 8 (Frame 9), 11.2 x 11.4 cm.; Frag. 9 (Frame 10), 8 x 6.6 cm.; and 15 smaller Frag.s (various sizes).</support>
+                        <condition>
+                           <ab type="preservation">Large portions of the papyrus are still gummed on top of linen.</ab>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">11 cols. (182+ lines) on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty (and covered by linen).</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Two different hands: 1, main text, semi-uncial, same as P.Tebt. 61; 2, marginal notes, in smaller hand.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0116" notAfter="-0115">116/115 B.C.</origDate>
+                     <origPlace>Kerkeosiris</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>Crocodile cartonnage at Tebtunis 15.4 and 17.10</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Cleruchic land</term>
+               <term>Crops</term>
+               <term>Land tenure</term>
+               <term>Kerkeosiris</term>
+               <term type="genre_form">Registers of land, Ptolemaic period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Frame 1/10 Recto</desc>
+            <graphic url="http://papyri.info/images/46/AP03417a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Frame 1/10 Verso</desc>
+            <graphic url="http://papyri.info/images/b9/AP03418a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="3">
+         <surface n="recto">
+            <desc>Frame 2/10 Recto</desc>
+            <graphic url="http://papyri.info/images/23/AP03419a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="4">
+         <surface n="verso">
+            <desc>Frame 2/10 Verso</desc>
+            <graphic url="http://papyri.info/images/53/AP03420a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="5">
+         <surface n="recto">
+            <desc>Frame 3/10 Recto</desc>
+            <graphic url="http://papyri.info/images/d1/AP03421a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="6">
+         <surface n="verso">
+            <desc>Frame 3/10 Verso</desc>
+            <graphic url="http://papyri.info/images/71/AP03422a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="7">
+         <surface n="recto">
+            <desc>Frame 4/10 Recto</desc>
+            <graphic url="http://papyri.info/images/fe/AP03423a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="8">
+         <surface n="verso">
+            <desc>Frame 4/10 Verso</desc>
+            <graphic url="http://papyri.info/images/9b/AP03424a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="9">
+         <surface n="recto">
+            <desc>Frame 5/10 Recto</desc>
+            <graphic url="http://papyri.info/images/a9/AP03425a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="10">
+         <surface n="verso">
+            <desc>Frame 5/10 Verso</desc>
+            <graphic url="http://papyri.info/images/dd/AP03426a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="11">
+         <surface n="recto">
+            <desc>Frame 6/10 Recto</desc>
+            <graphic url="http://papyri.info/images/6c/AP03427a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="12">
+         <surface n="verso">
+            <desc>Frame 6/10 Verso</desc>
+            <graphic url="http://papyri.info/images/a8/AP03428a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="13">
+         <surface n="recto">
+            <desc>Frame 7/10 Recto</desc>
+            <graphic url="http://papyri.info/images/61/AP03429a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="14">
+         <surface n="verso">
+            <desc>Frame 7/10 Verso</desc>
+            <graphic url="http://papyri.info/images/5d/AP03430a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="15">
+         <surface n="recto">
+            <desc>Frame 8/10 Recto</desc>
+            <graphic url="http://papyri.info/images/56/AP03431a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="16">
+         <surface n="verso">
+            <desc>Frame 8/10 Verso</desc>
+            <graphic url="http://papyri.info/images/d4/AP03432a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="17">
+         <surface n="recto">
+            <desc>Frame 9/10 Recto</desc>
+            <graphic url="http://papyri.info/images/91/AP03433a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="18">
+         <surface n="verso">
+            <desc>Frame 9/10 Verso</desc>
+            <graphic url="http://papyri.info/images/b6/AP03434a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="19">
+         <surface n="recto">
+            <desc>Frame 10/10 Recto</desc>
+            <graphic url="http://papyri.info/images/44/AP03435a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="20">
+         <surface n="verso">
+            <desc>Frame 10/10 Verso</desc>
+            <graphic url="http://papyri.info/images/74/AP03436a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.64 (a) <note>On line 49 see BL v. 6, p. 197</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:1:64</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/256">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

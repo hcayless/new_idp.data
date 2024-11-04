@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Account of wheat or land survey</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.6551</idno>
+            <idno type="controlNo">(CU)6551</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.Frag.13,802 + 13,803 + 13,806 Verso</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Wheat, numbers</summary>
+                  <msItemStruct>
+                     <note type="general">*Frags. 13,802 and 13,803 joined to form 1 piece; frag. Frag. 13,806 is (for verso side only) upside down in the frame.</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="egy-Egyd">Demotic</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>2 papyri ; Frag. 1, 15.4 x 16.4; Frag. 2, 13 x 7 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">10 lines, on verso along the fibers.</ab>
+                           <ab type="recto-verso">Recto: Documentary text</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0299" notAfter="-0100">Between 299 and 100 B.C.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Mummy cartonnage at Tebtunis</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="egy-Egyd">Demotic</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Accounting</term>
+               <term type="genre_form">Accounts, Ptolemaic Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="verso">
+            <desc>Verso 1</desc>
+            <graphic url="http://papyri.info/images/b6/AP04283a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso 2</desc>
+            <graphic url="http://papyri.info/images/12/AP04353a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <p>No citations.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

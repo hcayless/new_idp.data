@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv3893">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Petition of a Basilikos Georgos</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">3893</idno>
+            <idno type="TM">3893</idno>
+            <idno type="ddb-perseus-style">0206;1;264</idno>
+            <idno type="ddb-filename">basp.59.313</idno>
+            <idno type="ddb-hybrid">basp;59;313</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Berkeley</settlement>
+                  </placeName>
+                  <collection>Bancroft Library</collection>
+                  <idno type="invNo">Crocodile 17.2</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Tebtynis (Arsinoites, Ägypten)</origPlace>
+                     <origDate n="1" xml:id="dateAlternativeX" when="-0115-05-19">19. Mai 115 v.Chr.</origDate>
+                     <origDate n="2" xml:id="dateAlternativeY" when="-0115-06-18">18. Juni 115 v.Chr.</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/737072 https://www.trismegistos.org/place/2287">Tebtynis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="https://papyri.info/biblio/96221"/>
+                  <biblScope type="pp">313</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Eingabe</term>
+               <term n="2">Bauer (König)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-03-16T08:22:44-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2023-03-16T08:16:43-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Ok. Add https://digicoll.lib.berkeley.edu/record/232091 as an image URL</change>
+         <change when="2023-01-26T09:55:55-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Submit - Revised metadata and added text following BASP 59. Rename with new hybrid idno during finalization: basp;59;313</change>
+         <change who="HGV" when="1997-02-27">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">BASP</title>
+                  <biblScope n="1" type="volume">59</biblScope>
+                  <biblScope n="2" type="fascicle">(2022)</biblScope>
+                  <biblScope n="3" type="pages">S. 313</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="https://dpg.lib.berkeley.edu/webdb/apis/apis2?apisid=719&amp;item=1"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="https://digicoll.lib.berkeley.edu/record/232091"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">P.Tebt. I 264 descr.</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(A) Document|(B) Literary work</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0049570000</idno>
+            <idno type="controlNo">(CtY)4957 qua</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 4957 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Unrelated fragments</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: 1, top and left; 2, top and bottom; 4, top; 5, left; 11, left; 12, top and right</note>
+                     <note type="general">Recto 5 has a vertical line in addition to text.  Traces on Verso 5. Versos 7 and 11 are written in black and red ink.</note>
+                     <textLang mainLang="grc" otherLangs="egy">(A) Greek; (B) Egyptian\Demotic</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus Fragments: 1: 19 x 32; 2: 39 x 34; 3: 48 x 12; 4: 36 x 26; 5: 26 x 9; 6: 33 x 19; 7: 37 x 26; 8: 30 x 22; 9: 14 x 11; 10: 20 x 11; 11: 77 x 15; 12: 50 x 33; 13: 50 x 24 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto 1, 2?; Verso 1, 3; Recto 2, 2; Verso 2, 5; Recto 3, 4; Verso 3, 4; Recto 4, 2; Verso 4, 4; Recto 5, 4?; Recto 6, 3; Verso 6, 3; Recto 7, 4?; Verso 7, 2; Recto 8, 4; Verso 8, 4?; Recto 9, 2; Verso 9, 2; Recto 10, 2; Verso 10, 3; Recto 11, 7?; Verso 11, 9; Recto 12, 4; Verso 12, 2; Recto 13, 6; Verso 13, 6</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate/>
+                  </origin>
+                  <acquisition>
+                     <p>1992b</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">(A) Greek</language>
+            <language ident="egy">(B) Egyptian\Demotic</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>(A) Document<lb/> (B) Literary work</term>
+               <term>Papyri Fragments</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <p>No citations.</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2767949"/>
+                  <note>Images of P.CtYBR inv. 4957 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

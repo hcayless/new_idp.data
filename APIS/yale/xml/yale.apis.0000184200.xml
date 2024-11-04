@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Account, Roman CE ii [CBW]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0000184200</idno>
+            <idno type="controlNo">(CtY)18(B) qua</idno>
+            <idno type="TM">703072</idno>
+            <idno type="HGV">703072</idno>
+            <idno type="ddb-hybrid">aegyptus;94;72_4v</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 18(B) qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItemStruct>
+                     <note type="general">Margins: Top, left, bottom</note>
+                     <note type="general">(col. i) 9 lines; (col. ii) 10 lines.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 212 x 192 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">10</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0100" notAfter="0199">Roman CE ii [CBW]</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Hawara</p>
+                  </provenance>
+                  <acquisition>
+                     <p>Acquisition Information, 1889: Donated by Jesse Haworth Esq. of Manchester, England in October 1889. The papyri were a portion of Haworth's division of finds from Sir W.M.F. Petrie's 1887 excavation at Hawara. Horde includes P.CtYBR inv. 17-19.</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Account</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>Emmel 1989: 42-43, 57-58</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2756792"/>
+                  <note>Images of P.CtYBR inv. 18(B) qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

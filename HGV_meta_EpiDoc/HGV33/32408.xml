@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv32408">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Patese to Abaras</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">32408</idno>
+            <idno type="TM">32408</idno>
+            <idno type="ddb-perseus-style">0173;;66</idno>
+            <idno type="ddb-filename">p.nag.hamm.66</idno>
+            <idno type="ddb-hybrid">p.nag.hamm;;66</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Cairo</settlement>
+                  </placeName>
+                  <collection>Coptic Museum</collection>
+                  <idno type="invNo">Nag Hamm. VII 5 - 6 c</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>unbekannt</origPlace>
+                     <origDate notBefore="0301" notAfter="0400" precision="low">IV</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (Geschäfts-)</term>
+               <term n="2">Patese an Abaras</term>
+               <term n="3">Schafe</term>
+               <term n="4">Scheren</term>
+               <term n="5">Geld</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-08-31T03:30:04-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2022-08-01T11:55:56-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2022-08-01T06:01:55-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Eingabe einer alternativen Lesung in Z. 7 f. nach BASP 51 (2014) 196 f. und eines Kommentars zur gleichen Stelle nach CdE 95 (2020) 149.</change>
+         <change who="HGV" when="1990-11-06">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Neudruck: CdE 95, 2020, S. 148. Zu Z. 7-8 vgl. BASP 51, 2014, S. 196 und CdE 95, 2020, S. 149-150.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Nag Hamm.</title>
+                  <biblScope type="numbers">66</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/32408"/>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">143</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">S. 25: VII, 5 c + 6 c</bibl>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

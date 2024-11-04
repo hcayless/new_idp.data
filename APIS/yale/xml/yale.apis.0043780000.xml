@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document, Ptolemaic</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0043780000</idno>
+            <idno type="controlNo">(CtY)4378 qua</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 4378 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Unrelated fragments</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: 1, left; 2, right; 3, left; 5, bottom; 11, top, right, and bottom; 12, top and left; 13, top and right</note>
+                     <note type="general">Versos 1 and 3-11 are blank. Traces on verso 2. Recto 8: 2 cols. (col. i) 5 lines; (col. ii) 2 lines.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus Fragments: 1: 10 x 28; 2: 46 x 44; 3: 32 x 70; 4: 61 x 39; 5: 37 x 26; 6: 24 x 20; 7: 42 x 36; 8: 29 x 63; 9: 27 x 40; 10: 64 x 22; 11: 61 x 38; 12: 56 x 51; 13: 49 x 67 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto 1, 2; Recto 2, 5; Recto 3, 3; Recto 4, 5; Recto 5, 4; Recto 6, 1; Recto 7, 3; Recto 8, 5; Recto 9, 3; Recto 10, 8; Recto 11, 3; Recto 12, 2; Verso 12, 1; Recto 13, 2; Verso 13, 2</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0499" notAfter="-0199">Ptolemaic</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1992b</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Document</term>
+               <term>Papyri Fragments</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <p>No citations.</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2767044"/>
+                  <note>Images of P.CtYBR inv. 4378 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

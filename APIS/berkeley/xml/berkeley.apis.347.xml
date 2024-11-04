@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Catalog of women</title>
+            <author>Hesiod</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.347</idno>
+            <idno type="controlNo">(CU)347</idno>
+            <idno type="dclp">60163</idno>
+            <idno type="TM">60163</idno>
+            <idno type="dclp-hybrid">p.tebt;3;690</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0690</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Fragments of a work written in non-Homeric hexameters. Possibly from Hesiod's Catalog of women, a work popular in Egypt, as the passage relates to King Minos of Crete, his love for women, and the birth of a child, the Minotaur, whose mother was Pasiphae. Only fragments survive of the catalog of women.</summary>
+                  <msItemStruct>
+                     <note type="general">Recto published</note>
+                     <note type="local_note">2376</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>3 papyri ; Various sizes.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">14 lines, on verso across the fibers.</ab>
+                           <ab type="recto-verso">On recto: Homer. Odyssey. Book 1, lines 81-103, (P.Tebt.696).</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Irregular medium sized uncials.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0199" notAfter="-0100">2nd century B.C.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>mummy cartonnage at Tebtunis 126</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term type="genre_form">Literary papyri, Identified authors; Epic poems</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Verso.</desc>
+            <graphic url="http://papyri.info/images/96/AP00810a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., III.690 <note>Pack, R.A. Greek and Latin literary texts from Greco-Roman Egypt (2nd ed.) no. 524.</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:3.1:690</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/347">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

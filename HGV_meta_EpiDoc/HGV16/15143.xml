@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv15143">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Provisioning the metropolis: a reedition of SPP 22 94</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">15143</idno>
+            <idno type="TM">15143</idno>
+            <idno type="ddb-perseus-style">0240;22;94</idno>
+            <idno type="ddb-filename">pylon.2.12</idno>
+            <idno type="ddb-hybrid">pylon;2;12</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Sebennytos (Arsinoites, Ägypten)</origPlace>
+                     <origDate notBefore="0111-04-25">
+                        <offset n="1" type="after">nach</offset>
+                25. Apr. 111
+              </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/741595 https://www.trismegistos.org/place/2103">Sebennytos</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Bericht</term>
+               <term n="2">Versorgung der Metropole</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-22T06:46:32-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2022-12-22T06:00:58-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2022-12-22T05:50:35-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Submit - Updated to Pylon 2 edition</change>
+         <change who="HGV" when="1994-03-14">Record created</change>
+         <change who="HGV" when="2010-05-15">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 3-4 vgl. JJP 33, 2003, S. 36. Vgl. Harrauer, Paläographie, Textband, S. 292f., Nr. 107.</p>
+         </div>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 5: 15. Apr. 111</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item>
+                  <ref>Z. 5</ref>
+                  <date type="mentioned" when="0111-04-15">15. Apr. 111</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">Pylon</title>
+                  <biblScope n="1" type="volume">2</biblScope>
+                  <biblScope n="2" type="fascicle">(2022)</biblScope>
+                  <biblScope n="3" type="generic">Art. 12</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XII</biblScope>
+                  <biblScope type="pages">279</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">S. 32 (Z. 1 - 3)</bibl>
+               <bibl type="illustration" n="2">Harrauer, Paläographie, Tafelband, Abb. 93</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="http://data.onb.ac.at/rec/RZ00007933"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="https://journals.ub.uni-heidelberg.de/index.php/pylon/article/view/92978/87727#fig1"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">SPP 22 94</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

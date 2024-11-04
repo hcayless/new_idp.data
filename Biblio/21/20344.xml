@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b20344" type="book" subtype="edited">
+  <title level="m" type="main">La lettre d&apos;archive. Communication administrative et personnelle dans l&apos;Antiquité proche-orientale et égyptienne. Actes du colloque de l&apos;Université de Lyon 2, 9-10 juillet 2004</title>
+  <series>
+    <title level="s" type="main">Institut français d&apos;Archéologie orientale. Bibliothèque générale.</title>
+    <biblScope type="volume">32</biblScope>
+  </series>
+  <editor n="1">
+    <forename>Laure</forename>
+    <surname>Pantalacci</surname>
+  </editor>
+  <date>2008</date>
+  <pubPlace n="1">Le Caire</pubPlace>
+  <note n="1" resp="#BP">Topoi. Supplément 9</note>
+  <idno type="pi">20344</idno>
+  <seg type="original" subtype="titre" resp="#BP">Laure PANTALACCI (Éd.), La lettre d'archive. Communication administrative et personnelle dans l'Antiquité proche-orientale et égyptienne. Actes du colloque de l'Université de Lyon 2, 9-10 juillet 2004 = Institut français d'Archéologie orientale. Bibliothèque générale. 32 = Topoi. Supplément 9 (Le Caire, 2008) pp. 27-42, 1 tabl., 2 pll.; - 200.</seg>
+  <seg type="original" subtype="publication" resp="#BP">Le Caire, 2008.</seg>
+  <seg type="original" subtype="nom" resp="#BP">Pantalacci</seg>
+</bibl>

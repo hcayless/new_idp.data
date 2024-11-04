@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b31709" type="review">
+   <author>
+      <forename>J.</forename>
+      <surname>Filée</surname>
+   </author>
+   <date>2001</date>
+   <biblScope type="pp" from="121" to="122">121-122</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/206"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">EtCl</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">69</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/15632"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Alexandria im Schatten der Pyramiden. Mit Zeichnungen von Ulrike DENIS. (Sonderhefte der Antiken Welt / Zaberns Bildbände zur Archäologie.)</title>
+         <author>PFROMMER, Michael</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">31709</idno>
+   <seg type="original" subtype="cr" resp="#BP">J. Filée, EtCl 69 (2001) pp. 121-122.</seg>
+</bibl>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv20594">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lease of land</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">20594</idno>
+            <idno type="TM">20594</idno>
+            <idno type="ddb-perseus-style">0181;2;374</idno>
+            <idno type="ddb-filename">zpe.229.161_1r</idno>
+            <idno type="ddb-hybrid">zpe;229;161_1r</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>London</settlement>
+                  </placeName>
+                  <collection>British Library</collection>
+                  <idno type="invNo">807</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oxyrhynchos (Oxyrhynchites, Egypt)</origPlace>
+                     <origDate when="0006-10-10">10. Okt. 6</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p xml:id="geoJDFG33" exclude="#geoJH7IF8">
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://www.trismegistos.org/place/1524 https://pleiades.stoa.org/places/736983">Oxyrhynchos</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2722 https://pleiades.stoa.org/places/736982">Oxyrhynchites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="https://papyri.info/biblio/96873"/>
+                  <biblScope type="pp">161</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag</term>
+               <term n="2">Pacht</term>
+               <term n="3">Land</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-08-23T07:14:48-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2024-08-23T06:51:59-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2024-07-19T04:52:37-04:00"
+                 who="http://papyri.info/editor/users/francescaiacono">Submit - Entered from the edition.  Line 8 needs to be indented, thank you.</change>
+         <change who="HGV" when="1996-07-31">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">ZPE</title>
+                  <biblScope n="1" type="volume">229</biblScope>
+                  <biblScope n="2" type="fascicle">(2024)</biblScope>
+                  <biblScope n="3" type="pages">S. 161</biblScope>
+                  <biblScope n="4" type="number">Nr. 1</biblScope>
+                  <biblScope n="5" type="generic">R</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+          keine
+          <bibl type="illustration">S. 162</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other" n="1">P.Lond. III 807 descr.</bibl>
+               <bibl type="publication" subtype="other" n="2">P.Oxy. 2 374 descr.</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

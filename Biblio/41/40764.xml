@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0"
+      xml:id="b40764"
+      type="article"
+      subtype="book">
+   <title level="a" type="main">Le forme del matrimonio romano.</title>
+   <author n="1">
+      <forename>Edoardo</forename>
+      <surname>Volterra</surname>
+   </author>
+   <biblScope type="pp" from="201" to="206">201-206</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/5062"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Atti del Terzo Congresso di Diritto Comparato. I</title>
+         <date>1953</date>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">40764</idno>
+   <idno type="bp">1953-0418</idno>
+   <seg type="original" subtype="index" resp="#BP">670</seg>
+   <seg type="original" subtype="titre" resp="#BP">Volterra Edoardo, Le forme del matrimonio romano.</seg>
+   <seg type="original" subtype="publication" resp="#BP">Atti del Terzo Congresso di Diritto Comparato. I (Roma, 1953) pp. 201-206.</seg>
+   <seg type="original" subtype="nom" resp="#BP">Volterra</seg>
+</bibl>

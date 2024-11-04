@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Literary text</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.384</idno>
+            <idno type="controlNo">(CU)384</idno>
+            <idno type="dclp">63408</idno>
+            <idno type="TM">63408</idno>
+            <idno type="dclp-hybrid">tm;;63408</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0676</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>This work is possibly part of a medical work.</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: top, 5 cm.; bottom, 1.5 cm.; space between cols.: 1.8 cm.; in right top margin, in red ink "676"; on verso, in black ink: T 42.</note>
+                     <note type="local_note">2343</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>5 papyri ; Frag. 1: 12.7 x 8.8 cm.; and four smaller Frag.s</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">2+ cols. (64+ lines) on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Medium-sized uncial hand.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0100" notAfter="0199">2nd century A.D.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T42</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Medicine, Egyptian</term>
+               <term type="genre_form">Sub-literary papyri; Medical works</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>UC 2343 Recto.</desc>
+            <graphic url="http://papyri.info/images/4c/AP00893a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>UC 2343 Verso.</desc>
+            <graphic url="http://papyri.info/images/6a/AP01344a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.676 <note>Pack. R. A. Greek and Latin literary texts from Greco-Roman Egypt (2nd ed.) no. 2366. Marganne, M.-H. "Extraits du prochain catalogue des papyrus litteraires grecs et latins," Proceedings of the 18th Int. Congr. Of Papyr. (Athens, 1988), v. 1, p.105-146, no. 2366. Andorlini, I. "L'apporto di papiri alla conoscenza della scienza medica antica, " Aufstieg und Niedergang der Roemischen Welt, Bd. II.37.1,, p. 4580562, no. 61.</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:2:676</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/384">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

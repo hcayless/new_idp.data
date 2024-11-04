@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>keiner</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">93933</idno>
+            <idno type="TM">93933</idno>
+            <idno type="ddb-filename">sb.1.1987b</idno>
+            <idno type="ddb-hybrid">sb;1;1987b</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Holz</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Fundort: Oxyrhynchos (Oxyrhynchites, Ägypten)</origPlace>
+                     <origDate notBefore="-0332" notAfter="0699" cert="low">332 v.Chr. - 699 (?)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p xml:id="geoBEC2HG">
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="www.trismegistos.org/place/1524 https://pleiades.stoa.org/places/736983">Oxyrhynchos</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="www.trismegistos.org/place/2722 https://pleiades.stoa.org/places/736982">Oxyrhynchites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Notiz</term>
+               <term n="2">Geld</term>
+               <term n="3">Lampe</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-26T06:04:34-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready. Added missing metadata.</change>
+         <change when="2024-02-26T03:48:19-05:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2023-12-12T07:47:42-05:00"
+                 who="http://papyri.info/editor/users/jostrauss">Submit - added a note to the metadata regarding the word παστή</change>
+         <change when="2023-12-12T07:43:05-05:00" who="http://papyri.info/editor">Automated creation from template</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope n="1" type="volume">1</biblScope>
+                  <biblScope n="2" type="numbers">1987</biblScope>
+                  <biblScope n="3" type="generic">b</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="commentary" subtype="general">
+            <p>Zum Wort παστή vgl. ZPE 213, 2020, S. 206-207.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

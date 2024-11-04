@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+  xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>BGU 1.1</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Duke Collaboratory for Classics Computing (DC3)</authority>
+        <availability>
+          <p>© Duke Databank of Documentary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <listPrefixDef>
+        <prefixDef matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1" ident="dc"></prefixDef>
+        <prefixDef matchPattern="([-a-zA-Z]+)" replacementPattern="https://papyri.info/charDecl.xml#$1" ident="c"></prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+        <language ident="grc">Greek</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2024-11-01" who="https://papyri.info/editor/users/hcayless">Transcribed BGU 1 1</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head about="https://papyri.info/static/bgu/1/1"><seg property="">BGU 1 1</seg> = <seg property="dc:isReplacedBy" resource="https://papyri.info/static/chr.wilck/92#col_2">Chr.Wilck (Col. 2)</seg> = <seg property="dc:isReplacedBy" resource="https://papyri.info/static/p.louvre/1/4#col_2">P.Louvre 1 4 (Col. 2)</seg></head>
+      <div xml:lang="grc" type="edition" xml:space="preserve" facs="https://papyri.info/images/bgu/1/1">
+        <ab>
+
+    <lb n="1"/>Δεκανικοῦ ὁμοίως τῶν αὐτῶν πλοίων<space type="aligning"/><g ref="c:drachma"/><num value="60">ξ</num>.
+
+    <lb n="2"/>καὶ ὑ<supplied reason="lost">π</supplied>ὲρ ζυτηρᾶς Σοκνοπαίου Νήσου<space type="aligning"/><g ref="c:drachma"/><num value="220">σκ</num>.
+
+    <lb n="3"/>καὶ εἰς <supplied reason="lost">τ</supplied>ειμὴν ὀθονίων βυσσίνων <expan>στολισμῶ<ex>ν</ex></expan>
+
+    <lb n="4"/><space type="indent" unit="character" quantity="11"/><num value="3">τριῶν</num> τῶν θεῶν μηνὶ Νέῳ Σεβαστῷ<space type="aligning"/><num value="7">ζ</num> <g ref="c:drachma"/><num value="100">ρ</num>.
+
+    <lb n="5"/>μηνὶ Φαμενὼθ <num value="9"><hi rend="supraline">θ</hi></num><space type="aligning"/><g ref="c:drachma"/><num value="100">ρ</num>. <note place="margin">5 März</note>
+
+    <lb n="6"/>μηνὶ Ἐπεὶφ <num value="20"><hi rend="supraline">κ</hi></num><space type="aligning"/><g ref="c:drachma"/><num value="100">ρ</num>. <note place="margin">14 Juli</note>
+
+    <lb n="7"/>τειμῆς κύφ<unclear>εω</unclear>ς καὶ ἄλλων δαπανῶν<space type="aligning"/><g ref="c:drachma"/><num value="500">φ</num>.
+
+    <lb n="8"/>τειμ<supplied reason="lost">ῆς</supplied> κύφ<unclear>ε</unclear>ως Ἁρποκράτου θεοῦ<space type="aligning"/><g ref="c:drachma"/><num value="96">ϙϛ</num>.
+
+    <lb n="9"/>γενεσί<supplied reason="lost">οις</supplied> τῶν <supplied reason="lost">θεῶ</supplied>ν Σεβαστῶν εἰς θυσίας καὶ
+
+    <lb n="10"/><space type="indent" unit="character" quantity="9"/> <expan><supplied reason="lost">ἐπι</supplied>θυμ<supplied reason="lost" cert="low">ιάμ<ex>ατα</ex></supplied></expan><space type="aligning"/><g ref="c:drachma"/><num value="40">μ</num>
+
+    <lb n="11"/>τειμῆς μύρου κ<supplied reason="lost">αὶ</supplied> ζμύρνης τῶν θεῶν ἡμερῶν <num value="3">τριῶν</num> <g ref="c:drachma"/><num value="60">ξ</num>.
+
+    <lb n="12"/><space type="indent" unit="character" quantity="18"/><g ref="c:slanting-stroke"/><g ref="c:drachma"/><num value="1901"><hi rend="acute">α</hi>ϡα</num> <num value="1"><g ref="c:obolos"/></num><num value="1/2"><g ref="c:heimobelion"/></num>
+
+    <lb n="13"/><space type="indent" unit="character" quantity="18"/><expan>γ<supplied reason="lost">εί<ex>νεται</ex></supplied></expan> εἰ<supplied reason="lost">ς</supplied> τὸ αὐτὸ τοῦ <expan>ἀναλ<ex>ώματος</ex></expan> <abbr><g ref="c:talent"/></abbr> <num value="1">α</num> <g ref="c:drachma"/><num value="4700">Δψ</num> <num value="1/2"><g ref="c:heimobelion"/></num>.
+
+    <lb n="14"/><space type="indent" unit="character" quantity="22"/>λο<supplied reason="lost">ιπα</supplied>ὶ λ<supplied reason="lost">ήμ</supplied>ματος <g ref="c:drachma"/><num value="637">χλζ</num><num value="4"><g ref="c:tetrobolon"/></num>χ<num value="2"><hi rend="above">β</hi></num>.
+
+    <lb n="15"/>Α<supplied reason="lost">ἳ</supplied> καὶ δ<supplied reason="lost">ια</supplied>γραφόμεναι εἰς τὸν κυριακὸν λόγον ὑπὲρ ἐπι
+
+    <lb n="16" break="no"/>κεφαλίο<supplied reason="lost">υ</supplied> τῶν ὑπεραιρόντων ἱερέων.
+
+    <lb n="17"/>Καὶ εἰς ἐ<supplied reason="lost">πί</supplied>πεψ<supplied reason="lost">ι</supplied>ν κατʼ ἔτος τοῖς <sic>ἁγνέουσι</sic> ἱερεῦσι τῆς πεντα
+
+    <lb n="18" break="no"/>φυλίας Σοκνοπαίου θεοῦ μεγάλου ἑκάστης ἡμέρας ἀνὰ <g ref="c:pyros"/><g ref="c:artabe"/><num value="1">α</num><g ref="c:pyros"/><supplied reason="lost"><g ref="c:artabe"/><num value="365">τξε</num></supplied>,
+
+    <lb n="19"/>καὶ ὁμοίω<supplied reason="lost">ς τ</supplied>οῖς α<supplied reason="lost">ὐ</supplied>τοῖς ἱερεῦσι Σοκνοπαίου θεοῦ μεγάλου
+
+    <lb n="20"/>τα<supplied reason="lost">ῖς</supplied> κω<supplied reason="lost">μασί</supplied>αις τῶν προκειμένων <supplied reason="lost">θε</supplied>ῶν ἁγνέουσι
+
+    <lb n="21"/>μηνὶ Σεβαστῷ <num value="1">α</num><hi rend="supraline"> </hi> ἡμερῶν <num value="7">ζ</num> ἀνὰ <g ref="c:pyros"/><g ref="c:artabe"/> 
+<num value="4">δ</num> <space type="aligning"/><g ref="c:pyros"/><supplied reason="lost"><g ref="c:artabe"/><num value="28">κη</num></supplied>.<note place="margin">29 Aug.</note>
+
+    <lb n="22"/>καὶ τῆι <num value="19">ιθ</num> τοῦ αὐτοῦ μηνὸς Ἑρμαίοις ἡμερῶν <num value="7">ζ</num> ἀνὰ <expan><ex>πυροῦ</ex></expan> 
+<expan><ex>ἀρτάβας</ex></expan> <num value="4">δ</num> <space type="aligning"/><g ref="c:pyros"/><g ref="c:artabe"/> <num value="28"><unclear>κη</unclear></num>.<note place="margin">16 Sept.</note>
+
+    <lb n="23"/>Φαῶφι <num value="16">ιϛ</num> χαι<gap reason="lost" unit="character" quantity="4"/>υποις ἡμερῶν <num value="8"><hi rend="supraline">η</hi></num> ἀνὰ <g ref="c:pyros"/><g ref="c:artabe"/> <num value="4">δ</num> <space type="aligning"/><g ref="c:pyros"/><g ref="c:artabe"/> <num value="32">λβ</num>.<note place="margin">13 Oct.</note>
+
+    <lb n="24"/>μηνὶ Νέῳ Σεβαστῷ <num value="7"><hi rend="supraline">ζ</hi></num> γενεσίοις Σοκνοπαίου θεοῦ μεγάλου <note place="margin">3 Nov.</note>
+
+    <lb n="25"/><space type="indent" unit="character" quantity="9"/>ἡμερῶν <supplied reason="lost"><num value="19">ιθ</num> ἀν</supplied>ὰ <g ref="c:pyros"/><g ref="c:artabe"/> <num value="4">δ</num> <space type="aligning"/><g ref="c:pyros"/><g ref="c:artabe"/> <num value="76">οϛ</num>
+
+    <lb n="26"/>Χοίακ <num value="8"><hi rend="supraline">η</hi></num> γάμοις Εἴσιδος Ν<supplied reason="lost">ε</supplied>φ<supplied reason="lost">ερσ</supplied>ήους θ<supplied reason="lost">ε</supplied>ᾶς μεγίστης <expan>ἡμερῶ<ex>ν</ex></expan> <num value="9">θ</num> 
+ἀνὰ <g ref="c:pyros"/><g ref="c:artabe"/> <num value="4">δ</num> <g ref="c:pyros"/><g ref="c:artabe"/> <supplied reason="lost"><num value="36">λϛ</num></supplied>. <note place="margin">4 Dec.</note>
+
+    <lb n="27"/><num value="26"><hi rend="supraline">κϛ</hi></num> ὁμοίως τοῦ αὐτοῦ μη<supplied reason="lost">νὸς</supplied> <expan><supplied reason="lost">ἡ</supplied>μερῶ<ex>ν</ex></expan> <num value="8">η</num> ἀνὰ <g ref="c:pyros"/><g ref="c:artabe"/> <num value="4">δ</num> <g ref="c:pyros"/><g ref="c:artabe"/> <num value="32">λβ</num>. <note place="margin">22 Dec.</note>
+
+    <lb n="28"/>Τῦβι <num value="8"><hi rend="supraline">η</hi></num> κ<supplied reason="lost">α</supplied>θιδρύσεως ναοῦ θεοῦ Σοκνοπαίου <expan>ἡμερῶ<ex>ν</ex></expan> <num value="7">ζ</num> ἀνὰ 
+<g ref="c:pyros"/><g ref="c:artabe"/> <num value="4">δ</num> <g ref="c:pyros"/><g ref="c:artabe"/> <num value="28"><supplied reason="lost">κ</supplied>η</num>. <note place="margin">3 Jan.</note>
+</ab></div>
+    </body>
+  </text>
+</TEI>

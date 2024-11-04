@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b16795" type="book" subtype="edited">
+  <title level="m" type="main">La femme dans les civilisations orientales et Miscellanea Aegyptologica Christiane Desroches Noblecourt in honorem</title>
+  <series>
+    <title level="s" type="main">Acta Orientalia Belgica.</title>
+    <biblScope type="volume">15</biblScope>
+  </series>
+  <editor n="1">
+    <forename>C.</forename>
+    <surname>Cannuyer</surname>
+  </editor>
+  <editor n="2">
+    <forename>D.</forename>
+    <surname>Fredericq-Homes</surname>
+  </editor>
+  <editor n="3">
+    <forename>F.</forename>
+    <surname>Mawet</surname>
+  </editor>
+  <editor n="4">
+    <forename>J.</forename>
+    <surname>Ries</surname>
+  </editor>
+  <editor n="5">
+    <forename>A.</forename>
+    <surname>Schoors</surname>
+  </editor>
+  <editor n="6">
+    <forename>J.-M.</forename>
+    <surname>Verpoorten</surname>
+  </editor>
+  <date>2001</date>
+  <pubPlace n="1">Bruxelles - Louvain-la-Neuve - Leuven</pubPlace>
+  <idno type="pi">16795</idno>
+  <seg type="original" subtype="titre" resp="#BP">C. CANNUYER, D. FREDERICQ-HOMES, F. MAWET, J. RIES, A. SCHOORS et J.-M. VERPOORTEN (Édd.), La femme dans les civilisations orientales et Miscellanea Aegyptologica Christiane Desroches Noblecourt in honorem = Acta Orientalia Belgica. 15</seg>
+  <seg type="original" subtype="publication" resp="#BP">Bruxelles - Louvain-la-Neuve - Leuven, 2001</seg>
+  <seg type="original" subtype="nom" resp="#BP">Cannuyer Fredericq-Homes Mawet Ries Schoors Verpoorten</seg>
+</bibl>

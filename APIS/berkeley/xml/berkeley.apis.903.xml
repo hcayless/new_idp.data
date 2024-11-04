@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Field-by-field register of land</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.903</idno>
+            <idno type="controlNo">(CU)903</idno>
+            <idno type="ddbdp">p.tebt.2.526</idno>
+            <idno type="ddb-perseus-style">0206;2;526</idno>
+            <idno type="ddb-hybrid">p.tebt;2;526v</idno>
+            <idno type="HGV">28461</idno>
+            <idno type="TM">28461</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0526 Verso</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Three columns of a field-by-field register of land at an unknown village, giving for each plot the geographical relationship to other plots, the name of the landholder and his patronymic, the fiscal category to which the plot belongs, the area, and the rent paid to the crown per aroura if any.</summary>
+                  <msItemStruct>
+                     <note type="general">Recto unpublished.</note>
+                     <note type="general">Margins: top, 1.2 cm.; left, 8.2 cm.; right, 7.5 cm. Space between col. I and II: 1.2 cm.; between II and III: 2.5 cm. In top left corner, in black ink: T370.</note>
+                     <note type="general">2011 BYU Summer School text</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 21.3 x 29.8 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">3 cols. (76+ lines) on verso across the fibers, with 2 lines at right angles on each side.</ab>
+                           <ab type="recto-verso">On recto: Register of land</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Small regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0100" notAfter="0199">2nd century A.D.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T370</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Surveying</term>
+               <term>Land</term>
+               <term type="genre_form">Registers of land, Roman Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/28/AP02233a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.526 (desc. only)</bibl>
+               <bibl type="ddbdp">P.Tebt.:2:526</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/903">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

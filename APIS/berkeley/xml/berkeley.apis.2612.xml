@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>School text</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.2612</idno>
+            <idno type="controlNo">(CU)2612</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.Frag.14,187 + 14,193 + 14,236 + 14,253 + 14,301 + 14,342 + 14,432 Recto</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Includes entries about ships, soldiers, animals, plants, and seller of �</summary>
+                  <msItemStruct>
+                     <note type="general">Fragments 14,187, 14,301, and 14,236 have been joined to form one piece.</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="egy-Egyd">Demotic</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>5 papyri ; Frag. 1 (Frame 1) 19.5 x 34.5 cm.; frag. 2 (frame 2) 19.5 x 31.3 cm.; frag. 3 (frame 3) 16.5 x 9 cm.; frag. 4 (frame 3) 7 x 3 cm.; frag. 5 (frame 3) 6.8 x 5 cm.</support>
+                        <condition>
+                           <ab type="preservation">Palimpsest, traces of a previous text are still visible</ab>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">3+ cols. (43+ lines) on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso: Literary text</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0299" notAfter="-0100">Between 299 and 100 B.C.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Mummy cartonnage at Tebtunis</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="egy-Egyd">Demotic</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Ships</term>
+               <term>Gold</term>
+               <term>Plants</term>
+               <term type="genre_form">Lists, Ptolemaic Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Frame 2/3 Recto</desc>
+            <graphic url="http://papyri.info/images/6f/AP04360a"/>
+            <graphic url="http://papyri.info/images/b8/AP04360_11_a"/>
+            <graphic url="http://papyri.info/images/24/AP04360_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="recto">
+            <desc>Frame 1/3 Recto</desc>
+            <graphic url="http://papyri.info/images/ce/AP04361a"/>
+            <graphic url="http://papyri.info/images/36/AP04361_11_a"/>
+            <graphic url="http://papyri.info/images/5b/AP04361_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="3">
+         <surface n="recto">
+            <desc>Frame 3/3 Recto</desc>
+            <graphic url="http://papyri.info/images/6d/AP04362a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <p>No citations.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

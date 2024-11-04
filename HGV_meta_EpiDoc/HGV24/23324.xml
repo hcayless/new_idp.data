@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv23324">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>keiner</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">23324</idno>
+            <idno type="TM">23324</idno>
+            <idno type="ddb-perseus-style">0001;16;2601</idno>
+            <idno type="ddb-filename">zpe.207.127</idno>
+            <idno type="ddb-hybrid">zpe;207;127</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Berlin</settlement>
+                  </placeName>
+                  <collection>Ägyptisches Museum und Papyrussammlung</collection>
+                  <idno type="invNo">P. 16899 + P. 25261</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Herakleopolites, Ägypten</origPlace>
+                     <origDate notBefore="-0012" notAfter="-0011">12 - 11 v.Chr.</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2713 https://pleiades.stoa.org/places/736921">Herakleopolites</placeName>
+                        <placeName n="2" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <biblScope type="pp">127</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Hypomnema</term>
+               <term n="2">Land</term>
+               <term n="3">Überbezahlung</term>
+               <term n="4">N.N. an Athenodoros</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-09T05:35:30-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-10-09T05:30:31-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2023-06-14T05:16:36-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Anpassung von Metadaten und Text an sowie Eingabe einer Übersetzung nach ZPE 207, 2018, S. 127.</change>
+         <change who="HGV" when="1997-09-02">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Gehört zum Athenodoros - Archiv.</p>
+         </div>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 14: 13 - 12 v. Chr.; Z. 18: 12 - 11 v. Chr.</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item n="1">
+                  <ref>Z. 14</ref>
+                  <date type="mentioned" notBefore="-0013" notAfter="-0012">13 - 12 v.Chr.</date>
+               </item>
+               <item n="2">
+                  <ref>Z. 18</ref>
+                  <date type="mentioned" notBefore="-0012" notAfter="-0011">12 - 11 v.Chr.</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">ZPE</title>
+                  <biblScope n="1" type="volume">207</biblScope>
+                  <biblScope n="2" type="fascicle">(2018)</biblScope>
+                  <biblScope n="3" type="pages">S. 127</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">BGU 16, Microfiche im Band</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://berlpap.smb.museum/05172/"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">BGU 16 2601</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

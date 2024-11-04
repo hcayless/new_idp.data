@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter, Roman CE  ca. 235-245</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.4400590000</idno>
+            <idno type="controlNo">(CtY)DP 59</idno>
+            <idno type="HGV">44811</idno>
+            <idno type="TM">44811</idno>
+            <idno type="ddb-hybrid">chla;7;335</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. DP 59</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItemStruct>
+                     <note type="general">e, f, k-t, rectos a, d, u, and versos b, c, g, i, and j are blank. Traces on v-aa and versos a, d, and u. 4 blank fragments set aside in box ii.</note>
+                     <textLang mainLang="lat">Latin</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus Fragments: a: 28 x 31; b: 27 x 40; c: 25 x 38; d: 21 x 30; e: 19 x 21; f: 37 x 18; g: 32 x 10; h: 35 x 12; i: 32 x 11; j: 32 x 11; k: 32 x 11; l: 32 x 12; m: 31 x 11; n: 33 x 11; o: 32 x 18; p: 32 x 16; q: 32 x 15; r: 33 x 10; s: 35 x 14; t: 35 x 26; u: 46 x 19; v: 8 x 17; w: 21 x 37; x: 9 x 24; y: 20 x 21; z: 7 x 21; aa: 8 x 7 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto b, 2<lb/>  Recto c, 4<lb/>  Recto g, 2<lb/>  Recto h, 4<lb/>  Recto i, 4<lb/>  Recto j, 1</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="0245">Roman CE  ca. 235-245</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Dura-Europos</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Letter</term>
+               <term>Papyri Fragments</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Dura, pp. 268-269</bibl>
+               <bibl>Rom.Mil.Rec., p. 418</bibl>
+               <bibl>Ch.L.A. VII: pp. 24-25, pl. 25</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Dura 80</bibl>
+               <bibl>Rom.Mil.Rec. 115</bibl>
+               <bibl>Ch.L.A. VII 335</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2771754"/>
+                  <note>Images of P.CtYBR inv. DP 59 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

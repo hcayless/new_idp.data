@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Register of owners of temple and cleruchic lands</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.375</idno>
+            <idno type="controlNo">(CU)375</idno>
+            <idno type="ddbdp">p.tebt.1.62</idno>
+            <idno type="ddb-perseus-style">0206;1;62</idno>
+            <idno type="ddb-hybrid">p.tebt;1;62</idno>
+            <idno type="HGV">3698</idno>
+            <idno type="TM">3698</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0062</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A list of holders of lands and crops at Kerkeosiris.</summary>
+                  <msItemStruct>
+                     <note type="general">Verso published</note>
+                     <note type="general">Many entries inserted later, with marginal notes in a different hand.</note>
+                     <note type="related">Associated with P.Tebt.62</note>
+                     <note type="local_note">1712; 1713; 1894; 2476; 3013; 3014; 3015; 3016</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>7 papyri ; various sizes; the whole roll measured ca. 29 x 217 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">17 cols. (340 lines) on recto along the fibers.</ab>
+                           <ab type="recto-verso">On verso (P.Tebt.5): Decrees of King Ptolemy VIII Euergetes II</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0119" notAfter="-0008">Between 119 and 8 B.C.</origDate>
+                     <origPlace>Kerkeosiris</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>crocodile cartonnage at Tebtunis 27.3</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Temple land</term>
+               <term>Cleruchic land</term>
+               <term>Crops</term>
+               <term>Kerkeosiris</term>
+               <term type="genre_form">Registers of land, Ptolemaic period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface>
+            <desc>Frame 1/7</desc>
+            <graphic url="http://papyri.info/images/fb/AP04102a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface>
+            <desc>Frame 2/7</desc>
+            <graphic url="http://papyri.info/images/d7/AP04103a"/>
+            <graphic url="http://papyri.info/images/1e/AP04103_11_a"/>
+            <graphic url="http://papyri.info/images/8b/AP04103_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="3">
+         <surface>
+            <desc>Frame 3/7</desc>
+            <graphic url="http://papyri.info/images/08/AP04104a"/>
+            <graphic url="http://papyri.info/images/e9/AP04104_11_a"/>
+            <graphic url="http://papyri.info/images/a2/AP04104_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="4">
+         <surface>
+            <desc>Frame 4/7</desc>
+            <graphic url="http://papyri.info/images/8a/AP04105a"/>
+            <graphic url="http://papyri.info/images/26/AP04105_11_a"/>
+            <graphic url="http://papyri.info/images/76/AP04105_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="5">
+         <surface>
+            <desc>Frame 5/7</desc>
+            <graphic url="http://papyri.info/images/78/AP04106a"/>
+            <graphic url="http://papyri.info/images/1f/AP04106_11_a"/>
+            <graphic url="http://papyri.info/images/dc/AP04106_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="6">
+         <surface>
+            <desc>Frame 6/7</desc>
+            <graphic url="http://papyri.info/images/5d/AP04107a"/>
+            <graphic url="http://papyri.info/images/1f/AP04107_11_a"/>
+            <graphic url="http://papyri.info/images/2a/AP04107_12_a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="7">
+         <surface>
+            <desc>Frame 7/7</desc>
+            <graphic url="http://papyri.info/images/85/AP04108a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.62</bibl>
+               <bibl type="ddbdp">P.Tebt.:1:62</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/375">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

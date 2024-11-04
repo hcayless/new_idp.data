@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b31335" type="review">
+   <author>
+      <forename>Ludovica</forename>
+      <surname>Radif</surname>
+   </author>
+   <date>1999</date>
+   <biblScope type="pp" from="504" to="504">504</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/1514"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">Maia N.S.</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">51</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/14743"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Eronda. Mimiambi (I-IV).</title>
+         <author>DI GREGORIO, Lamberto</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">31335</idno>
+   <seg type="original" subtype="cr" resp="#BP">Ludovica Radif, Maia N.S., 51 (1999) p. 504.</seg>
+</bibl>

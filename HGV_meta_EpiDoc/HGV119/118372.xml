@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv118372">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>List of Personnel (familia and pagani)</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">118372</idno>
+            <idno type="TM">118372</idno>
+            <idno type="ddb-perseus-style">0020;4;720</idno>
+            <idno type="ddb-filename">o.claud.4.720</idno>
+            <idno type="ddb-hybrid">o.claud;4;720</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Qift</settlement>
+                  </placeName>
+                  <collection>Archaeological storeroom</collection>
+                  <idno type="invNo">Claud., 2462</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Mons Claudianus</origPlace>
+                     <origDate notBefore="0098" notAfter="0117">
+                        <precision match="../@notBefore" degree="0.5"/>ca. 98 - 117</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/766348 https://www.trismegistos.org/place/2783">Mons Claudianus</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8 
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Liste</term>
+               <term n="2">Personen</term>
+               <term n="3">Arbeiter</term>
+               <term n="4">Steinbruch</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2011-04-01T08:49:25.392-04:00" who="James Cowey">Finalized - Ready.</change>
+         <change when="2011-04-01T08:49:25.387-04:00" who="James Cowey">Vote - HGVAccept - I am voting this through here because for some reason it landed in HGV voting although nothing was done to the HGV data. This way it should appear in DDB voting</change>
+         <change when="2011-01-13T09:45:44.744-05:00" who="Serena Andrea Brioschi">tutto inserito</change>
+         <change who="HGV" when="2009-05-05">Record created</change>
+         <change who="HGV" when="2011-04-14">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">O.Claud.</title>
+                  <biblScope type="volume">4</biblScope>
+                  <biblScope type="numbers">720</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">S. 308</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.d2b74l53/d084adb0ba08b631d17bc5b86e48e8fe38de17e4"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

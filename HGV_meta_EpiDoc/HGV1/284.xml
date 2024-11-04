@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv284">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Greek petition from Dryton’s daughters</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">284</idno>
+            <idno type="TM">284</idno>
+            <idno type="ddb-perseus-style">0270;1;34</idno>
+            <idno type="ddb-filename">p.dryton.1.34</idno>
+            <idno type="ddb-hybrid">p.dryton;1;34</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>London</settlement>
+                  </placeName>
+                  <collection>British Library</collection>
+                  <idno type="invNo">Pap 401</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>unbekannt</origPlace>
+                     <origDate notBefore="-0115" notAfter="-0110">115 - 110 v.Chr.</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Eingabe</term>
+               <term n="2">die Töchter Drytons an den Epistrategen und Strategen Phommus</term>
+               <term n="3">Streit um Land</term>
+               <term n="4">Hinweis auf ihren schwachen Status als Frauen</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-14T05:34:16-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-09-14T05:30:56-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2023-09-14T05:08:07-04:00"
+                 who="http://papyri.info/editor/users/LaviniaFerretti">Submit - Added link to nwe BL website which includes possibility to download image</change>
+         <change who="HGV" when="2003-06-16">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Vgl. Harrauer, Paläographie, Textband, S. 230-232, Nr. 49.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Dryton</title>
+                  <biblScope type="numbers">34</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">P.Lond. II, Plate 4</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikationen</head>
+            <listBibl>
+               <bibl type="publication" subtype="other" n="1">P.Lond. II 401, S. 12-14</bibl>
+               <bibl type="publication" subtype="other" n="2">M.Chr. 18</bibl>
+               <bibl type="publication" subtype="other" n="3">C.Ptol.Sklav. I 58</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations" n="1">Lewis, Greeks in Ptolemaic Egypt (1986), S. 102</bibl>
+               <bibl type="translations" n="2">Rowlandson, Women and Society (1998), 87</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Papyrus_401"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="https://access.bl.uk/item/viewer/ark:/81055/vdc_100143127396.0x000001"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

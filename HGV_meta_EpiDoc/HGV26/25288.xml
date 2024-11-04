@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv25288">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Privatbrief</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">25288</idno>
+            <idno type="TM">25288</idno>
+            <idno type="ddb-perseus-style">0239;6;9121</idno>
+            <idno type="ddb-filename">cde.88.308</idno>
+            <idno type="ddb-hybrid">cde;88;308</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Oslo</settlement>
+                  </placeName>
+                  <collection>University Library</collection>
+                  <idno type="invNo">P. 1460</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Fundort: Arsinoites, Ägypten</origPlace>
+                     <origDate notBefore="0031" notAfter="0064">31 - 64</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p xml:id="geoHGJB9E">
+                        <placeName n="1"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="2" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="https://papyri.info/biblio/86537"/>
+                  <biblScope type="pp">308</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (privat)</term>
+               <term n="2">Heraklus an Pompeius</term>
+               <term n="3">der Adressat wird gebeten</term>
+               <term n="4">schnellstens nach Hause zu kommen</term>
+               <term n="5">um der Schreiberin aus ihrer Bedrängnis zu helfen</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-23T09:06:04-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2023-10-23T08:54:56-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - I think it makes sense to rename this to cde;88;308</change>
+         <change when="2023-08-01T05:29:25-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Anpassung von Metadaten und Text an sowie Eingabe einer Übersetzung nach CdE 88, 2013, S. 308; danach Eingabe einer Korrektur nach APF 65, 2019, S. 320 ff.: Die Übersetzung berücksichtigt hierbei noch nicht die Korrekturen aus APF; ggf. die dortige Übersetzung (der relevanten Passage auf S. 323) nachtragen und die abweichende Quelle markieren. Die Anführungszeichen im griechischen und englischen Text habe ich weggelassen.</change>
+         <change who="HGV" when="1993-08-01">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">CdE</title>
+                  <biblScope n="1" type="volume">88</biblScope>
+                  <biblScope n="2" type="fascicle">(2013)</biblScope>
+                  <biblScope n="3" type="pages">S. 308</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/25288"/>
+               </bibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">339</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">200</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">Bagnall - Cribiore, Women's Letters (2006), S. 131</bibl>
+               <bibl type="illustration" n="2">Bagnall - Cribiore, Women's Letters (2008), A5.3, Nr. 26</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations" n="1">S. Eitrem - L. Amundsen, Aegyptus 31, 1951, S. 179</bibl>
+               <bibl type="translations" n="2">White, Ancient Letters (1986), 92</bibl>
+               <bibl type="translations" n="3">Bagnall - Cribiore, Women's Letters (2006), S. 130</bibl>
+               <bibl type="translations" n="4">Bagnall - Cribiore, Women's Letters (2008), A5.3, Nr. 26</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://ub-baser.uio.no/opes/record/11"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">SB 6 9121</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

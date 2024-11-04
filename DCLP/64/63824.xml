@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m63824" xml:lang="en">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment of Roman Comedy</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">63824</idno>
+            <idno type="TM">63824</idno>
+            <idno type="LDAB">5037</idno>
+            <idno type="filename">63824</idno>
+            <idno type="dclp-hybrid">p.hamb;2;167</idno>
+            <idno type="MP3">02939.020</idno>
+            <idno type="MP3">03011.000</idno>
+            <availability>
+               <p>
+            © Digital Corpus of Literary Papyri. This work is licensed under a
+            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>
+            .
+          </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Hamburg, Bibliothek gr. 80 Ro</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p>papyrus roll (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>
+                        <term>rustic capital</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Fundort: Egypt; Schreibort: Egypt</origPlace>
+                     <origDate notBefore="0001" notAfter="0099">1 - 99</origDate>
+                  </origin>
+                  <provenance n="1" type="found">
+                     <p>
+                        <placeName type="ancient" subtype="region">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance n="2" type="composed">
+                     <p>
+                        <placeName type="ancient" subtype="region">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term n="1" type="religion">classical</term>
+               <term n="2" type="culture">literature</term>
+               <term n="3">prose</term>
+               <term n="4">oratory</term>
+               <term n="5">dialogue</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-01-11T07:32:22-05:00" who="http://papyri.info/users/simoeis">Finalized - Ready</change>
+         <change when="2021-01-11T07:21:51-05:00" who="http://papyri.info/users/simoeis">Vote - Accept-Straight-to-Finalization - To the biblio add no. 49210 pp. 270-276 and no. 49333 pp. 29-44.</change>
+         <change when="2021-01-11T07:15:44-05:00" who="http://papyri.info/users/simoeis">Submit - Added an image link.</change>
+         <change when="2014-12-10" who="DCLP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl n="1" type="publication" subtype="principal">
+            <!-- ignore - start, i.e. SoSOL users may not edit this -->
+            <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/5168"/>
+                  <biblScope unit="number">167</biblScope>
+               </bibl>
+               <bibl n="2" type="reference" subtype="study">
+            <!-- ignore - start, i.e. SoSOL users may not edit this -->
+            <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/49210"/>
+                  <biblScope unit="page" from="270" to="276">270-276</biblScope>
+               </bibl>
+               <bibl n="3" type="publication" subtype="principal">
+            <!-- ignore - start, i.e. SoSOL users may not edit this -->
+            <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/49333"/>
+                  <biblScope unit="page" from="29" to="44">29-44</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:space="preserve"/>
+         <div type="bibliography" subtype="illustrations">
+            <listBibl>
+               <bibl type="printed" n="1">CLA 08 1214</bibl>
+               <bibl type="printed" n="2">P.Hamb. 2 Tafel 10</bibl>
+               <bibl type="printed" n="3">Seider, Pal. lat. Papyri II.1, pl. IV no. 6a</bibl>
+               <bibl type="online">
+                  <ptr target="https://papyri.uni-leipzig.de/receive/HamPapyri_schrift_00000840"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b29583" type="review">
+   <author>
+      <forename>Georges</forename>
+      <surname>Nachtergael</surname>
+   </author>
+   <date>1987</date>
+   <biblScope type="pp" from="255" to="258">255-258</biblScope>
+   <biblScope type="no">Nos 123-124</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/174"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">ChrEg</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">62</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/11073"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">The Oxyrhynchus Papyri. Volume LIII (Nos 3695-3721).</title>
+         <author>Haslam, M.W.</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">29583</idno>
+   <seg type="original" subtype="cr" resp="#BP">Georges Nachtergael, ChrEg 62 (1987) Nos 123-124, pp. 255-258.</seg>
+</bibl>

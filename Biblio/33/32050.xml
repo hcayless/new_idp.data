@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b32050" type="review">
+   <author>
+      <forename>Donald J.</forename>
+      <surname>Mastronarde</surname>
+   </author>
+   <date>2003</date>
+   <biblScope type="pp" from="287" to="288">287-288</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/616"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">CR N.S.</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">53</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/16382"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Euripide, Cretesi.</title>
+         <author>COZZOLI, Adele-Teresa</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">32050</idno>
+   <seg type="original" subtype="cr" resp="#BP">Donald J. Mastronarde, CR N.S., 53 (2003) pp. 287-288.</seg>
+</bibl>

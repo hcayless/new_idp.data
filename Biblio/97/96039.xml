@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b96039" type="article" xml:lang="de" subtype="journal">
+  <title level="a" type="main">Eine Quittung über didrachmia des Suchos</title>
+  <author n="1">
+    <forename>W. Graham</forename>
+    <surname>Claytor</surname>
+  </author>
+  <author n="2">
+    <forename>Wolfgang</forename>
+    <surname>Wegner</surname>
+  </author>
+  <date>2022</date>
+  <biblScope type="pp" from="173" to="196">173-196</biblScope>
+  <relatedItem type="appearsIn" n="1">
+    <bibl>
+      <ptr target="https://papyri.info/biblio/174"/>
+      <!-- ignore - start, i.e. SoSOL users may not edit this -->
+      <!-- ignore - stop -->
+    </bibl>
+  </relatedItem>
+  <biblScope type="issue">97</biblScope>
+  <idno type="pi">96039</idno>
+  <idno type="bp">2022-0389</idno>
+</bibl>

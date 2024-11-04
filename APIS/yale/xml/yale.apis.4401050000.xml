@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter, Roman CE 218-222</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.4401050000</idno>
+            <idno type="controlNo">(CtY)DP 105 qua</idno>
+            <idno type="HGV">44774</idno>
+            <idno type="TM">44774</idno>
+            <idno type="ddb-hybrid">chla;6;310</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. DP 105 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Military; breaches of discipline and desertions among soldiery of the border garrison; official letters, possibly from provincial governor</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: b, bottom</note>
+                     <note type="general">Traces on rectos o, p, t-w, and y. Versos are blank. d and h are missing.</note>
+                     <textLang mainLang="lat" otherLangs="grc">Latin; Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus Fragments: a: 135 x 170; b: 148 x 83; c: 44 x 50; d: 18 x 14; e: 24 x 20; f: 20 x 26; g: 42 x 25; h: 22 x 10; i: 60 x 65; j: 18 x 19; k: 40 x 52; l: 34 x 23; m: 31 x 66; n: 25 x 27; o: 14 x 6; p: 11 x 11; q: 39 x 24; r: 14 x 21; s: 7 x 15; t: 7 x 10; u: 17 x 7; v: 4 x 5; w: 3 x 7; x: 22 x 16; y: 10 x 18; z: 21 x 13 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto a, 10<lb/>  Recto b, 5<lb/>  Recto c, 4<lb/>  Recto d, 2<lb/>  Recto e, 2<lb/>  Recto f, 4<lb/>  Recto g, 4<lb/>  Recto h, 2<lb/>  Recto i, 5<lb/>  Recto j, 2<lb/>  Recto k, 4<lb/>  Recto l, 3<lb/>  Recto m, 4<lb/>  Recto n, 3<lb/>  Recto q, 2<lb/>  Recto r, 1<lb/>  Recto s, 1<lb/>  Recto x, 2<lb/>  Recto z, 2</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0218" notAfter="0222">Roman CE 218-222</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Dura-Europos</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="lat">Latin</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Letter</term>
+               <term>Papyri Fragments</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Dura, pp. 213-217, pl. xvii</bibl>
+               <bibl>Rom.Mil.Rec.: pp. 380-382</bibl>
+               <bibl>Ch.L.A. VI: p. 11-14, pls. 12, 14</bibl>
+               <bibl>Crisci 1996, pp. 22, 142, 143, 144, 145, 178, pl. cx</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Dura 55</bibl>
+               <bibl>Rom.Mil.Rec. 90</bibl>
+               <bibl>Ch.L.A. VI 310</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2771859"/>
+                  <note>Images of P.CtYBR inv. DP 105 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b27331" type="review">
+   <author>
+      <forename>T. B. L.</forename>
+      <surname>Webster</surname>
+   </author>
+   <date>1976</date>
+   <biblScope type="pp" from="182" to="185">182-185</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/180"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">CP</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">71</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/8026"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Menander. A Commentary.</title>
+         <author>Gomme, A.W.</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">27331</idno>
+   <seg type="original" subtype="cr" resp="#BP">T. B. L. Webster†, CP 71 (1976) pp. 182-185.</seg>
+</bibl>

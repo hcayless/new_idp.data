@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv36013">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettre byzantine relative à une fondation religieuse</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">36013</idno>
+            <idno type="TM">36013</idno>
+            <idno type="ddb-perseus-style">0117;4;168</idno>
+            <idno type="ddb-filename">p.gen.4.168</idno>
+            <idno type="ddb-hybrid">p.gen;4;168</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Gen. inv. 301</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Apollonopolis Heptakomias</origPlace>
+                     <origDate notBefore="0576" notAfter="0625" precision="low">Ende VI - Anfang VII</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/756534 https://www.trismegistos.org/place/268">Apollonopolis Heptakomias</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://pleiades.stoa.org/places/756535 https://www.trismegistos.org/place/3017">Apollonopolites Heptakomias</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Brief (geschäftlich)</term>
+               <term>Kolluthos (chartularius) an Plusammon (comes)</term>
+               <term>veranlaßt durch ein Schreiben des Bischofs Makarios; betrifft verschiedene geschäftliche Probleme</term>
+               <term>Schenkung von Weizen und Gerste an eine kirchliche Einrichtung</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="2010-09-03">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Verso, Z. 1 vgl. ZPE 165, 2008, S. 130f. Vgl. ZPE 166, 2008, S. 179-193. Zu Z. 25 und Verso, Z. 1 vgl. BASP 50, 2013, S. 325.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Gen.</title>
+                  <biblScope type="volume">4</biblScope>
+                  <biblScope type="numbers">168</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/36013"/>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XII</biblScope>
+                  <biblScope type="pages">218</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Planche XXXI - XXXIII</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">SB XVI 12869</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.ville-ge.ch/musinfo/imageZoom/?iip=bgeiip/papyrus/pgen301-1ri.ptif"/>
+               </figure>
+               <figure>
+                  <graphic url="http://www.ville-ge.ch/musinfo/imageZoom/?iip=bgeiip/papyrus/pgen301-2ri.ptif"/>
+               </figure>
+               <figure>
+                  <graphic url="http://www.ville-ge.ch/musinfo/imageZoom/?iip=bgeiip/papyrus/pgen301-1vi.ptif"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vtaee4e9f580dd7a5cf"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta11343f3061fecf61"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta170c8941962f6590"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta4886dad547b330a9"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

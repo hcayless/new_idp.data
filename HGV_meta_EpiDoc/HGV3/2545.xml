@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv2545">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aufstellung von Pachtzinszahlungen</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">2545</idno>
+            <idno type="TM">2545</idno>
+            <idno type="ddb-perseus-style">;28;17170</idno>
+            <idno type="ddb-filename">sb.28.17170</idno>
+            <idno type="ddb-hybrid">sb;28;17170</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Cairo Inv. Nr. S.R. 3021</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Hermopolites</origPlace>
+                     <origDate notBefore="0187" notAfter="0188">187 - 188</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2720">Hermopolites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                  <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Abrechnung</term>
+               <term>Zahlungen</term>
+               <term>Pachtzins</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="1994-08-19">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+         <change when="2016-06-15" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 6: 182-183; Z. 9: 183-184; Z. 12: 184-185; Z. 14: 185-186; Z. 17: 186-187</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item>
+                  <ref>Z. 6</ref>
+                  <date type="mentioned" notBefore="0182" notAfter="0183">182 - 183</date>
+               </item>
+               <item>
+                  <ref>Z. 9</ref>
+                  <date type="mentioned" notBefore="0183" notAfter="0184">183 - 184</date>
+               </item>
+               <item>
+                  <ref>Z. 12</ref>
+                  <date type="mentioned" notBefore="0184" notAfter="0185">184 - 185</date>
+               </item>
+               <item>
+                  <ref>Z. 14</ref>
+                  <date type="mentioned" notBefore="0185" notAfter="0186">185 - 186</date>
+               </item>
+               <item>
+                  <ref>Z. 17</ref>
+                  <date type="mentioned" notBefore="0186" notAfter="0187">186 - 187</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope type="volume">28</biblScope>
+                  <biblScope type="numbers">17170</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">BACPS 1, 1985, nach S. 28</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">SB XVIII 13287</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

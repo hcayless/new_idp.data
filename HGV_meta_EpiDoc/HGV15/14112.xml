@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv14112">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Transportauftrag an den γραμματεύς der Eseltreibergilde</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">14112</idno>
+            <idno type="TM">14112</idno>
+            <idno type="ddb-perseus-style">0239;6;9112</idno>
+            <idno type="ddb-filename">sb.6.9112</idno>
+            <idno type="ddb-hybrid">sb;6;9112</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Ann Arbor</settlement>
+                  </placeName>
+                  <collection>Michigan University, Library</collection>
+                  <idno type="invNo">O.Skeat 2</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Arsinoites, Ägypten</origPlace>
+                     <origDate notBefore="0027" notAfter="0028" cert="low">27 - 28 (?)</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Auftrag</term>
+               <term n="2">Transport</term>
+               <term n="3">Esel</term>
+               <term n="4">Getreide</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-03-26T13:05:24-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2022-03-26T12:25:57-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2022-03-25T05:43:16-04:00"
+                 who="http://papyri.info/editor/users/pag">Submit - re-submission including collection details</change>
+         <change when="2022-03-24T11:22:09-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVReject - I think that you are right about this, but would you also fill in the collection details. That would mean that the information is not lost to HGV XML records.</change>
+         <change when="2022-03-24T10:07:08-04:00"
+                 who="http://papyri.info/editor/users/pag">Submit - Other publications: "O.Skeat 2" is the inventory number in the Michigan Collection and is as a publication reference identical to Youtie's ed.pr.; normally something like this is not given as another publication, so I deleted that.</change>
+         <change who="HGV" when="1993-08-01">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope n="1" type="volume">6</biblScope>
+                  <biblScope n="2" type="numbers">9112</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://quod.lib.umich.edu/a/apis/x-1190"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

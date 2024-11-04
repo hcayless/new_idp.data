@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Literary work (?), Pharaonic BCE ca. 1085-950 [BB]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0022390000</idno>
+            <idno type="controlNo">(CtY)2239</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 2239</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>The (Egyptian) Book of the Dead (?)</summary>
+                  <msItemStruct>
+                     <note type="general">A fragment that fills the gap in the top of fragment (1) is stuck to P.CtYBR inv. 2238(B)</note>
+                     <textLang mainLang="egy">Egyptian\Hieratic</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 1: 55 x 18; 2: 34 x 35; 3: 39 x 26; 4: 48 x 17; 5: 14 x 15; 6: 15 x 15; 7: 13 x 13; 8: 13 x 8 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">1, 4; 2, 3; 3, 4; 4, 4; 5, 1; 6, 2; 7, 2; 8, 1</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-1085" notAfter="-0950">Pharaonic BCE ca. 1085-950 [BB]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1945</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="egy">Egyptian\Hieratic</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Literary work (?)</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Yale inv. 1738ff + 1738gg + 1738hh + 1738ii + 1738jj + 1738kk + 1738ll + 1738mm + 1738nn + 1738oo + 1738pp</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2760780"/>
+                  <note>Images of P.CtYBR inv. 2239 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

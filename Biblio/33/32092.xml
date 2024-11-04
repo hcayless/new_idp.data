@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b32092" type="review">
+   <author>
+      <forename>François</forename>
+      <surname>Lefèvre</surname>
+   </author>
+   <date>2001</date>
+   <biblScope type="pp" from="706" to="707">706-707</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/393"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">REG</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">114</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/16493"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Ägypten in hellenistischer Zeit, 332-30 v.Chr.</title>
+         <author>HUSS, Werner</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">32092</idno>
+   <seg type="original" subtype="cr" resp="#BP">François Lefèvre, REG 114 (2001) pp. 706-707.</seg>
+</bibl>

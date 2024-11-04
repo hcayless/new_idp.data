@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Akte zur προσβολή</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">991141</idno>
+            <idno type="TM">991141</idno>
+            <idno type="ddb-filename">zpe.227.134</idno>
+            <idno type="ddb-hybrid">zpe;227;134</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>St. Petersburg</settlement>
+                  </placeName>
+                  <collection>The State Hermitage Museum</collection>
+                  <idno type="invNo">ДВ-13448</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Arsinoites</origPlace>
+                     <origDate notBefore="0001" notAfter="0200" precision="low">I - II</origDate>
+                  </origin>
+                  <provenance>
+                     <p xml:id="geoF5DCI2">
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/182 https://pleiades.stoa.org/places/736888">Arsinoites</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="https://papyri.info/biblio/96729"/>
+                  <biblScope type="pp">134</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Urkunde</term>
+               <term n="2">Übereignung</term>
+               <term n="3">Haus</term>
+               <term n="4">Darlehen</term>
+               <term n="5">Registrierung</term>
+               <term n="6">Vollstreckung</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2024-02-19T11:12:13-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2024-02-19T08:26:03-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Needs to be checked. = https://www.trismegistos.org/text/991141</change>
+         <change when="2024-01-17T04:41:20-05:00"
+                 who="http://papyri.info/editor/users/permiensis">Submit - here is my edition from the recent issue of the zpe</change>
+         <change when="2024-01-16T12:33:52-05:00" who="http://papyri.info/editor">Automated creation from template</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">ZPE</title>
+                  <biblScope n="1" type="volume">227</biblScope>
+                  <biblScope n="2" type="fascicle">(2023)</biblScope>
+                  <biblScope n="3" type="pages">S. 134</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">S. 137; S. 138</bibl>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

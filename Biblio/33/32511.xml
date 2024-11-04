@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b32511" type="review">
+   <author>
+      <forename>W.F.</forename>
+      <surname>Wyatt</surname>
+   </author>
+   <date>2004</date>
+   <biblScope type="pp" from="44" to="46">44-46</biblScope>
+   <biblScope type="no">No. 1</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/327"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">NECJ</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">31</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/17583"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Greek Epic Fragments from the Seventh to the Fifth Centuries B.C.</title>
+         <author>WEST, Martin L.</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">32511</idno>
+   <seg type="original" subtype="cr" resp="#BP">W.F. Wyatt, NECJ 31 (2004) No. 1, pp. 44-46.</seg>
+</bibl>

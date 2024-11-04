@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv14567c">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Drei fragmentarische Urkunden [Zensus-Deklaration, Abtretung, Immobilienverkauf])</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">14567c</idno>
+            <idno type="TM">14567</idno>
+            <idno type="ddb-perseus-style">0239;16;12288</idno>
+            <idno type="ddb-filename">sb.16.12288</idno>
+            <idno type="ddb-hybrid">sb;16;12288</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Ptolemais Euergetis (Arsinoites)</origPlace>
+                     <origDate when="0178-03-01">
+                        <certainty locus="value" match="../year-from-date(@when)"/>1. März 178 (Jahr unsicher)</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736948 https://www.trismegistos.org/place/327 https://www.trismegistos.org/place/1343">Ptolemais Euergetis</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Verkauf</term>
+               <term>Immobilien</term>
+               <term>Schuldenfreiheit</term>
+               <term>Sicherheitsklausel</term>
+               <term>Buße</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="1990-07-11">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Rückseite: BGU IV 1087 + BGU XIII 2280 b. Zeilenanfänge ergänzt durch die Rückseite von BGU XIII 2280 b (s. APF 40, 1994, S. 38). Gehört zu derselben Rolle wie SB XVI 12288, Kol. II.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope type="volume">16</biblScope>
+                  <biblScope type="numbers">12288</biblScope>
+                  <biblScope type="columns">Kol. II</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">IX</biblScope> 
+                  <biblScope type="pages">281</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://berlpap.smb.museum/05493/"/>
+               </figure>
+               <figure>
+                  <graphic url="http://berlpap.smb.museum/16290/"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv13459">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notice of birth</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">13459</idno>
+            <idno type="TM">13459</idno>
+            <idno type="ddb-perseus-style">0206;2;299</idno>
+            <idno type="ddb-filename">p.tebt.2.299</idno>
+            <idno type="ddb-hybrid">p.tebt;2;299</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Berkeley</settlement>
+                  </placeName>
+                  <collection>Bancroft Library</collection>
+                  <idno type="invNo">UC inv. 2234</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Tebtynis (Arsinoites, Ägypten)</origPlace>
+                     <origDate notBefore="0049" notAfter="0050">
+                        <offset n="1" type="after">nach</offset>
+                49 -
+                50
+              </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/737072 https://www.trismegistos.org/place/2287">Tebtynis</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName n="3" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Anzeige (Geburt)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-03-07T08:51:16-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2023-03-07T07:21:44-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Ok. Remove the first link, which no longer functions.</change>
+         <change when="2023-03-06T10:50:31-05:00"
+                 who="http://papyri.info/editor/users/LaviniaFerretti">Submit - Added working links to digital images</change>
+         <change when="2021-02-15T07:18:20-05:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2021-02-14T21:21:19-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Fine.</change>
+         <change when="2020-01-15T21:31:17-05:00"
+                 who="http://papyri.info/editor/users/gwschwendner">Submit - Replaced defunct columbia link with one to APIS BERKELEY DATABASE</change>
+         <change when="2020-01-15T21:31:08-05:00"
+                 who="http://papyri.info/editor/users/gwschwendner">Commit - Replaced defunct columbia link with one to APIS BERKELEY DATABASE</change>
+         <change who="HGV" when="1996-04-30">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Tebt.</title>
+                  <biblScope n="1" type="volume">2</biblScope>
+                  <biblScope n="2" type="numbers">299</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XI</biblScope>
+                  <biblScope type="pages">278</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="https://digicoll.lib.berkeley.edu/record/231524"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="https://digitalassets.lib.berkeley.edu/apis/ucb/images/7069.jpg"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

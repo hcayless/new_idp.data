@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b33244" type="review">
+   <author>
+      <forename>Maria Chiara</forename>
+      <surname>Scappaticcio</surname>
+   </author>
+   <date>2008</date>
+   <biblScope type="pp" from="251" to="257">251-257</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/83"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">ArchPF</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">54</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/20410"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Corpus dei Papiri Storici Greci e Latini. Parte B. Storici Latini 1. Autori noti. Vol. 2. Caius Sallustius Crispus. (Centro di Studi Papirologici dell'Università del Salento.)</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">33244</idno>
+   <seg type="original" subtype="cr" resp="#BP">C.R. par Maria Chiara Scappaticcio, ArchPF 54 (2008) pp. 251-257.</seg>
+</bibl>

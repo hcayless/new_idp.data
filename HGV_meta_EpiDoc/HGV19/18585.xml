@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv18585">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Privatbrief, Alexandrien</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">18585</idno>
+            <idno type="TM">18585</idno>
+            <idno type="ddb-perseus-style">0001;4;1141</idno>
+            <idno type="ddb-filename">bgu.4.1141</idno>
+            <idno type="ddb-hybrid">bgu;4;1141</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Alexandria</origPlace>
+                     <origDate notBefore="-0014" notAfter="-0013" cert="low">14 - 13 v.Chr. (?)</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/727070 https://www.trismegistos.org/place/100">Alexandria</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (privat)</term>
+               <term n="2">N.N. an N.N.</term>
+               <term n="3">Auseinandersetzungen mit Kollegen auf einem Gut</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-03-23T08:16:29-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2022-03-23T08:14:52-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Yes.</change>
+         <change when="2022-03-23T06:56:28-04:00"
+                 who="http://papyri.info/editor/users/pag">Submit - Translations: the correct publication year of “Arzt-Grabner, 2. Korinther” is 2014 (please note: I could not change that in the current data as it did not show up in the editing mode; I thus added this translation which may have lead to a double entry. If so, please delete the entry with publication year 2013). Thank you.</change>
+         <change who="HGV" when="1994-11-04">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Rückseite: BGU IV 1057. Zu Z. 11 vgl. APF 53, 2007, S. 188. Zu Z. 18 vgl. Arzt-Grabner, 2. Korinther, S. 64, Anm. 65.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">BGU</title>
+                  <biblScope n="1" type="volume">4</biblScope>
+                  <biblScope n="2" type="numbers">1141</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/18585"/>
+               </bibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">42</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">XI</biblScope>
+                  <biblScope type="pages">25</biblScope>
+               </bibl>
+               <bibl type="BL" n="3">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">31</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">Schubart, Griechische Paläographie, S. 48, Abb. 24 (Z. 32 - 45)</bibl>
+               <bibl type="illustration" n="2">Schubart, Papyri Graecae Berolinenses, 13 (Z. 10 - 49)</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="de">
+               <head xml:lang="de">Deutsch:</head>
+               <bibl type="translations" n="1">Olsson, Papyrusbriefe (1925) 9</bibl>
+               <bibl type="translations" n="2">Arzt-Grabner, 2. Korinther (2014), S. 64f.</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://berlpap.smb.museum/00523/"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

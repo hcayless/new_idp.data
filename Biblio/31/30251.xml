@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b30251" type="review">
+   <author>
+      <forename>Hans-Albert</forename>
+      <surname>Rupprecht</surname>
+   </author>
+   <date>1996</date>
+   <biblScope type="pp" from="341" to="344">341-344</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/1315"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">Gnomon</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">68</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/12294"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Les archives de Marcus Lucretius Diogenes et textes apparentés.</title>
+         <author>SCHUBERT, Paul</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">30251</idno>
+   <seg type="original" subtype="cr" resp="#BP">Hans-Albert Rupprecht, Gnomon 68 (1996) pp. 341-344.</seg>
+</bibl>

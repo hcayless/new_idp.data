@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Penthemeros certificate</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.208</idno>
+            <idno type="controlNo">(CU)208</idno>
+            <idno type="ddbdp">sb.18.13364</idno>
+            <idno type="ddb-perseus-style">0239;18;13364</idno>
+            <idno type="ddb-hybrid">sb;18;13364</idno>
+            <idno type="HGV">14746</idno>
+            <idno type="TM">14746</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0641</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Certificate that Heron, Son of Herodes has performed his five days of dike corvee.</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: left, 0.7 cm.; bottom, 2 cm.; in bottom right corner, "641"; on verso: T 481.</note>
+                     <note type="general">3rd year of the Emperor Trajanus</note>
+                     <note type="local_note">1485</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 9 x 10.5 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">8 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">On verso, traces of ink</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>6 different hands: 1 (lines 1-3), 2 (lines 3-4), and four signatures.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0099" notAfter="0100">99/100 A.D.</origDate>
+                     <persName type="asn">Heron, son of Herodes and Phimoumene, grandson of Aphrod</persName>
+                     <persName type="asn">Sarapion</persName>
+                     <persName type="asn">Aphrodeitos</persName>
+                     <persName type="asn">Ptolemaios</persName>
+                     <persName type="asn">Isidoros</persName>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T481</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Dikes (Engineering)</term>
+               <term>Polemonos meris</term>
+               <term>Tebtunis</term>
+               <term type="genre_form">Certificates</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto.</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso.</desc>
+            <graphic url="http://papyri.info/images/ac/AP01126a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="translation">
+            <ab>Year three of Imperator Caesar Nerva Trajanus Augustus Germanicus. Has performed for five days for work on dikes for the same third year in the desert canal of Polemon, (2nd h.) on behalf of Tebtunis, Heron, son of Herodes the son of Aphrod( ), his mother being Philoumene. (3rd h.) I, Sarapion, katasporeus, have signed. (4th h.) I, Aphrodeitos, have signed. (5th h.) I, Ptolemaios, have signed. (6th h.) I, Isidoros, have signed.</ab>
+         </div>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.641; SB, XVIII, no. 13364 <note>Sijpesteijn, P.J. Chr.d'Eg. v. 61 (1986), p. 289-290</note>
+               </bibl>
+               <bibl type="ddbdp">SB:18:13364</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/208">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

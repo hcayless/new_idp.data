@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b26785" type="review">
+   <author>
+      <forename>Jakob</forename>
+      <surname>Seibert</surname>
+   </author>
+   <date>1973</date>
+   <biblScope type="pp" from="422" to="426">422-426</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/1315"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">Gnomon</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">45</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7572"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Recherches sur le mariage et la condition de la femme mariée à l'époque hellénistique..</title>
+         <author>Vatin, Claude</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">26785</idno>
+   <seg type="original" subtype="cr" resp="#BP">Jakob Seibert, Gnomon 45 (1973) pp. 422-426.</seg>
+</bibl>

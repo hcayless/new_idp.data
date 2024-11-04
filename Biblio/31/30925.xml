@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b30925" type="review">
+   <author>
+      <forename>Marie-Hélène</forename>
+      <surname>Marganne</surname>
+   </author>
+   <date>1996</date>
+   <biblScope type="pp" from="354" to="358">354-358</biblScope>
+   <biblScope type="no">No. 142</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/174"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">ChrEg</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">71</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/13829"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Trattato di medicina su papiro.</title>
+         <author>ANDORLINI, Isabella</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">30925</idno>
+   <seg type="original" subtype="cr" resp="#BP">Marie-Hélène Marganne, ChrEg 71 (1996) No. 142, pp. 354-358.</seg>
+</bibl>

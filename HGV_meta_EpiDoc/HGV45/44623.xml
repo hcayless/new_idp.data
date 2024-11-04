@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv44623">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eingabe, das Dienstverhältnis eines Mädchens betreffend, und Urteil der Archonten</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">44623</idno>
+            <idno type="TM">44623</idno>
+            <idno type="ddb-perseus-style">0257;;7</idno>
+            <idno type="ddb-filename">p.polit.iud.7</idno>
+            <idno type="ddb-hybrid">p.polit.iud;;7</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Herakleopolis</origPlace>
+                     <origDate notAfter="-0134-06-14">
+                        <offset n="1" type="before">vor</offset>
+                14. Juni 134 v.Chr.
+              </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736920 https://www.trismegistos.org/place/801">Herakleopolis</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2713 https://pleiades.stoa.org/places/736921">Herakleopolites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Eingabe</term>
+               <term n="2">Archonten</term>
+               <term n="3">Pflege des kranken Schwagers</term>
+               <term n="4">Dienstverhältnis des Mädchens bei dem Petenten</term>
+               <term n="5">Schulden (?)</term>
+               <term n="6">Entfernung aus dem Dienst durch die Mutter</term>
+               <term n="7">Entscheidung der Archonten</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-08-03T09:08:45-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2023-08-03T08:49:00-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2023-08-02T11:10:19-04:00"
+                 who="http://papyri.info/editor/users/LaviniaFerretti">Submit - Added new link to digital image</change>
+         <change who="HGV" when="2002-01-02">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Vgl. Kongr. XXV, S. 387-395.</p>
+         </div>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 24: Bearbeitungsvermerk vom 14. Juni 134 v.Chr.; Z. 25: Bearbeitungsvermerk vom 16. Juni 134 v.Chr.; Z. 26: Bearbeitungsvermerk vom 13. Juli 134 v.Chr.; Z. 26: 24. Mai - 22. Juni 134 v.Chr.; Z. 28: Bearbeitungsvermerk vom 18. Juli 134 v.Chr. (Tag unsicher)</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item n="1">
+                  <ref>Z. 25</ref>
+                  <note type="comment">Bearbeitungsvermerk vom</note>
+                  <date type="mentioned" when="-0134-06-16">16. Juni 134 v.Chr.</date>
+               </item>
+               <item n="2">
+                  <ref>Z. 26</ref>
+                  <note type="comment">Bearbeitungsvermerk vom</note>
+                  <date type="mentioned" when="-0134-07-13">13. Juli 134 v.Chr.</date>
+               </item>
+               <item n="3">
+                  <ref>Z. 26</ref>
+                  <date type="mentioned" notBefore="-0134-05-24" notAfter="-0134-06-22">24. Mai 134 - 22. Juni 134 v.Chr.</date>
+               </item>
+               <item n="4">
+                  <ref>Z. 28</ref>
+                  <note type="comment">Bearbeitungsvermerk vom</note>
+                  <date type="mentioned" when="-0134-07-18">
+              18. Juli 134 v.Chr. (Tag unsicher)
+              <certainty locus="value" match="../date/day-from-date(@when)"/>
+                  </date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Polit. Iud.</title>
+                  <biblScope type="numbers">7</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XII</biblScope>
+                  <biblScope type="pages">161</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Tafel X, XI, XII</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="de">
+               <head xml:lang="de">Deutsch:</head>
+               <bibl type="translations">TUAT, N.F. 1 (2004), VII 14</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PPolitIud/PPolitIud_007.html"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="https://papyri.uni-koeln.de/stueck/tm44623"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

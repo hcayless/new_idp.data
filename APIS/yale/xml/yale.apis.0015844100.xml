@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Literary work, Byzantine [NL? GMP?] / Byzantine CE vii-viii [AG/CG]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0015844100</idno>
+            <idno type="controlNo">(CtY)1584(A)</idno>
+            <idno type="TM">244049</idno>
+            <idno type="dclp">244049</idno>
+            <idno type="dclp-hybrid">tm;;244049</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 1584(A)</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>A Greek Christian liturgical hymn written on the back of a documentary Coptic text. The Lord is praised in the initial quotation from Ps. 149:1 and in references to the Annunciation, the Nativity, and the Resurrection in a quotation from Ps. 103:2. The hymn ends with a doxology. The format of the Greek text suggests that the papyrus was intended to be used by a singer in a liturgical context. [AG/CG]</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: Top, bottom</note>
+                     <note type="general">2 cols. (col. i) 6 lines; (col. ii) 10 lines.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 160 x 120 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">10</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0600" notAfter="0799">Byzantine [NL? GMP?] / Byzantine CE vii-viii [AG/CG]</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Provenance Written: Faiyum</p>
+                  </provenance>
+                  <acquisition>
+                     <p>1935</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Literary work</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>A. Gampel &amp; C. Grassien, "A Greek Christian Liturgical Hymn (P.CtYBR inv. 1584A)" BASP 49 (2012): 31-39</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2758960"/>
+                  <note>Images of P.CtYBR inv. 1584(A) are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

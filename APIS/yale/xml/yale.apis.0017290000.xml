@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Literary work, Roman CE i [EE]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0017290000</idno>
+            <idno type="controlNo">(CtY)1729</idno>
+            <idno type="dclp">63204</idno>
+            <idno type="TM">63204</idno>
+            <idno type="dclp-hybrid">p.yale;2;105</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 1729</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Rhetorical exercise accusing a general of deserting his men after a naval battle</summary>
+                  <msItemStruct>
+                     <note type="general">Bound in glass.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0001" notAfter="0099">Roman CE i [EE]</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Thebes</p>
+                  </provenance>
+                  <acquisition>
+                     <p>1963</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Literary work</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>Egger 1862</bibl>
+               <bibl>Egger 1863: 175-96</bibl>
+               <bibl>Haeberlin 1897</bibl>
+               <bibl>Jander 1913: 63-69</bibl>
+               <bibl>Jander 1913a: 26-31</bibl>
+               <bibl>Edwards 1929: 120</bibl>
+               <bibl>Hobson 1963</bibl>
+               <bibl>D. Samuel 1965</bibl>
+               <bibl>D. Samuel 1976</bibl>
+               <bibl>Stephens 1983</bibl>
+               <bibl>P.Yale II, pp. 53-74, pls. 3, 4</bibl>
+               <bibl>Cockle 1988: 171</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Yale 105</bibl>
+               <bibl>Pack 2495</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Letter</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="controlNo">(NNC)aaa0197</idno>
+           <idno type="apisid">columbia.apis.26</idno>
+           <idno type="TM">318664</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                 <idno type="invNo">O.Col.inv. 26</idno>
+               </msIdentifier>
+               <msContents>
+                 <summary>A letter from Mouses mentioning Azarias and Philonikos and a matter regarding a solidus.</summary>
+                 <msItemStruct>
+                     <note type="general">Written on one side, 9 incomplete lines.</note>
+                     <note type="general">Part of the text is a little faded, especially on the top; the writing is irregular and crowded.</note>
+                     <note type="local_note">Registered to Sohair Ahmed until Feb. 28, 2026. After this date, please direct inquiries to the Columbia Rare Book and Manuscript Library: rbml@library.columbia.edu.</note>
+                     <textLang mainLang="cop">Coptic</textLang>
+                 </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                       <support>1 ostracon ; tan ribbed clay ; 15.5 x 7 cm</support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                    <origDate notBefore="0500" notAfter="0699">500 CE – 699 CE</origDate>
+                    <origPlace>Memnoneia - Djeme (Thebes west) ? - Egypt (U - Aegyptus) [found &amp; written]</origPlace>
+                  </origin>
+                  <provenance>
+                    <p>from Thebes? Gift of H. E. Winlock to the Metropolitan Museum, MMA inv. 24.6.2B. Sold to Columbia University in 1958. Acc. no. 2.7.</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="cop">in Coptic</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+              <term>Ostraca</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+         </div>
+      </body>
+   </text>
+</TEI>

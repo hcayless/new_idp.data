@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Petition to the komogrammateus.</title>
+            <author>Sabattaios</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.1024</idno>
+            <idno type="controlNo">(CU)1024</idno>
+            <idno type="ddbdp">zpe.216.194</idno>
+            <idno type="ddb-perseus-style">0206;3.1;800</idno>
+            <idno type="ddb-hybrid">zpe;216;194</idno>
+            <idno type="HGV">5383</idno>
+            <idno type="TM">5383</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0800</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Sabattaios petitions the komogrammateus of Samareia, complaining that his wife had been attacked and injured by another woman.</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: top, 1.1 cm.; left, 1.6 cm.; bottom, 4 cm.</note>
+                     <note type="general">28th year of Ptolemy VI Philometor or Ptolemy VIII Euergetes II, 21st of the Egyptian month Payni.</note>
+                     <note type="local_note">2158</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>2 papyri ; Frag. 1, 13.7 x 3 cm.; Frag. 2, 15.6 x 8.4 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">41 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>2 different hands: 1 (body of petition, lines 1-40), small regular cursive; 2 (endorsement, line 41), regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0153" notAfter="-0142">17 July 153 or 15 July 142 B.C.</origDate>
+                     <origPlace>Samareia?</origPlace>
+                  </origin>
+                  <provenance>
+                     <p>Mummy cartonnage at Tebtunis 80</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Assault and battery</term>
+               <term>Jews</term>
+               <term>Wives</term>
+               <term>Women</term>
+               <term>332-30 B.C.</term>
+               <term>Samareia</term>
+               <term type="genre_form">Petitions, Ptolemaic Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto</desc>
+            <graphic url="http://papyri.info/images/36/AP02478a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/be/AP02479a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="translation">
+            <ab>To N.N. komogrammateus of Samareia (?), from Sabattaios son of N.N., a Jew and one of the workmen (?) and wage-earners (?) of the said village ... � in consequence of the blows and the fall she is suffering severely and having had to take to her bed her unborn child is in danger of dying and being miscarried. I present to you this petition in order that, when you have visited the spot and observed her (?) condition, Joanna may be secured until the result is apparent and that it may not happen that Joanna in case of any untoward event goes scot-free. The 28th year, Pauni 21. (2nd hand) Registered (?) Pauni 25.</ab>
+         </div>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., III.800; CPJ v. 1, no. 133. <note>On lines 4-6, see BL v. 4, p. 99.</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:3.1:800</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/1024">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

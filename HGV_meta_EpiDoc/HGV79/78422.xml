@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv78422">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Zu Text und Interpretation Von P. IFAO III 45</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">78422</idno>
+            <idno type="TM">78422</idno>
+            <idno type="ddb-perseus-style">0139;3;45</idno>
+            <idno type="ddb-filename">zpe.211.166</idno>
+            <idno type="ddb-hybrid">zpe;211;166</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Cairo</settlement>
+                  </placeName>
+                  <collection>IFAO</collection>
+                  <idno type="invNo">P. 193</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>unbekannt</origPlace>
+                     <origDate notBefore="-0125" notAfter="-0001" precision="low">Ende II - I v.Chr.</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="papyri.info/biblio/96458"/>
+                  <biblScope type="pp">166</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Schreiben (amtlich)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-16T05:57:22-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-10-16T05:51:37-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - OK.</change>
+         <change when="2023-06-27T09:57:20-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Anpassung der Metadaten und des Textes an ZPE 211, 2019, S. 166.</change>
+         <change who="HGV" when="1991-04-12">Record created</change>
+         <change who="HGV" when="2010-09-01">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 1-2 vgl. Festschrift L. Limme, S. 219.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">ZPE</title>
+                  <biblScope n="1" type="volume">211</biblScope>
+                  <biblScope n="2" type="fascicle">(2019)</biblScope>
+                  <biblScope n="3" type="pages">S. 166</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">S. 162</bibl>
+               <bibl type="illustration" n="2">P.IFAO 3, Pl. XIX, A</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">P.IFAO 3 45</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

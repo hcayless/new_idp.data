@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b32613" type="review">
+   <author>
+      <forename>Hans Markus</forename>
+      <surname>von Kaenel</surname>
+   </author>
+   <date>2006</date>
+   <biblScope type="pp" from="185" to="185">185</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/322"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">MusHelv</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">63</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/17987"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Coinage in Roman Egypt. The Hoard Evidence.</title>
+         <author>CHRISTIANSEN, Erik</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">32613</idno>
+   <seg type="original" subtype="cr" resp="#BP">Hans Markus von Kaenel, MusHelv 63 (2006) p. 185.</seg>
+</bibl>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b26840" type="review">
+   <author>
+      <forename>Fritz</forename>
+      <surname>Uebel</surname>
+   </author>
+   <date>1973</date>
+   <biblScope type="pp" from="533" to="539">533-539</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/134"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">BJb</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">173</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7619"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Kerkeosiris. An Egyptian Village in the Ptolemaic Period. (Cambridge Classical Studies.)</title>
+         <author>Crawford, Dorothy J.</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">26840</idno>
+   <seg type="original" subtype="cr" resp="#BP">Fritz Uebel, BJb 173 (1973) pp. 533-539.</seg>
+</bibl>

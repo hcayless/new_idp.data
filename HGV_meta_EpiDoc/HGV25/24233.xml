@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv24233">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Encore Ailios Didumos</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">24233</idno>
+            <idno type="TM">24233</idno>
+            <idno type="ddb-perseus-style">0262;1;53</idno>
+            <idno type="ddb-filename">zpe.174.168</idno>
+            <idno type="ddb-hybrid">zpe;174;168</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Strasbourg</settlement>
+                  </placeName>
+                  <collection>Bibliothèque Nationale</collection>
+                  <idno type="invNo">O. gr. 1741</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Elephantine</origPlace>
+                     <origDate when="0179-06-26">26. Juni 179</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/786021 https://www.trismegistos.org/place/621">Elephantine</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="http://papyri.info/biblio/78234"/>
+                  <biblScope type="pp">168</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Quittung</term>
+               <term n="2">Steuern</term>
+               <term n="3">Geld</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-10-10T06:36:09-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2022-10-07T08:31:56-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Add SB Id details</change>
+         <change when="2022-10-07T05:16:12-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Anpassung der Metadaten an und Eingabe einer Übersetzung nach ZPE 174, 2010, S. 168.</change>
+         <change who="HGV" when="1998-10-27">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Vgl. ZPE 157, 2006, S. 154.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">ZPE</title>
+                  <biblScope n="1" type="volume">174</biblScope>
+                  <biblScope n="2" type="fascicle">(2010)</biblScope>
+                  <biblScope n="3" type="pages">S. 168</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/24233"/>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">273/274</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">O.Eleph. DAIK 53, Planche 3</bibl>
+               <bibl type="illustration" n="2">ZPE 174, 2010, S. 167</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">O.Eleph. DAIK 53</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

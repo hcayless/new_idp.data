@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b26889" type="review">
+   <author>
+      <forename>James Frank</forename>
+      <surname>Gilliam</surname>
+   </author>
+   <date>1978</date>
+   <biblScope type="pp" from="227" to="230">227-230</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/110"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">BASP</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">15</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7640"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Roman Military Records on Papyrus.</title>
+         <author>Fink, Robert O.</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">26889</idno>
+   <seg type="original" subtype="cr" resp="#BP">J.F. Gilliam, BASP 15 (1978) pp. 227-230.</seg>
+</bibl>

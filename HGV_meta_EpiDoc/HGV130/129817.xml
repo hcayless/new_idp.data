@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv129817">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Reçu de paiement</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">129817</idno>
+            <idno type="TM">129817</idno>
+            <idno type="ddb-perseus-style">0117;4;198</idno>
+            <idno type="ddb-filename">p.gen.4.198</idno>
+            <idno type="ddb-hybrid">p.gen;4;198</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Geneva</settlement>
+                  </placeName>
+                  <collection>Bibliothèque</collection>
+                  <idno type="invNo">P.Gen. inv. 150</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Arsinoiton Polis</origPlace>
+                     <origDate notBefore="0633-12-27" notAfter="0634-01-05">27. Dez. 633 - 5. Jan. 634</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p xml:id="geoHDBF5A" exclude="#geoEGD3C3">
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736948 https://www.trismegistos.org/place/327">Arsinoiton Polis</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag</term>
+               <term n="2">Aurelius Johannes bestätigt Aurelius Zacharias (clarissimus)</term>
+               <term n="3">seinem διοικητής</term>
+               <term n="4">den Rückerhalt von allem</term>
+               <term n="5">was er Zacharias zum Zeitpunkt von dessen Amtsantritt gegeben habe</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-18T06:27:12-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2023-09-18T06:04:52-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Use Arsinoiton Polis as in HGV Aquila</change>
+         <change when="2023-08-11T13:10:00-04:00"
+                 who="http://papyri.info/editor/users/matthias-stern">Submit - Added an origin in the HGV metadata because the papyrus is invisible for Arsinoe or the Arsinoites as it is. The ed. pr. says "nome arsinoite", but this should probably be Arsinoiton Polis.</change>
+         <change who="HGV" when="2010-09-12">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 9, 17 und 23 vgl. APF 59, 2013, S. 234f. Zu Z. 11 vgl. BASP 50, 2013, S. 326.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Gen.</title>
+                  <biblScope n="1" type="volume">4</biblScope>
+                  <biblScope n="2" type="numbers">198</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Planche LXIX</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="http://www.ville-ge.ch/musinfo/imageZoom/?iip=bgeiip/papyrus/pgen150-ri.ptif"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta8a0530c7b7380b37"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

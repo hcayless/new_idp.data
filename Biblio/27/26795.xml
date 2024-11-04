@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b26795" type="review">
+   <author>
+      <forename>Kurt</forename>
+      <surname>Treu</surname>
+   </author>
+   <date>1974</date>
+   <biblScope type="pp" from="305" to="306">305-306</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/83"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">ArchPF</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">22</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7581"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Alexander and the Hellenistic World.</title>
+         <author>Welles, C. Bradford</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">26795</idno>
+   <seg type="original" subtype="cr" resp="#BP">Kurt Treu, ArchPF 22-23 (1974) pp. 305-306.</seg>
+</bibl>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Iliad. Book 2, lines 339-652</title>
+            <author>Homer</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.354</idno>
+            <idno type="controlNo">(CU)354</idno>
+            <idno type="dclp">60436</idno>
+            <idno type="TM">60436</idno>
+            <idno type="dclp-hybrid">p.tebt;2;265</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0265</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Lines from Book 2 of the Iliad, with marks of punctuation, alterations, and occasional accents.</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: top, 4.7 cm.; bottom, 4 cm.; intercolumnal space: 3.3 cm.</note>
+                     <note type="local_note">1352-1354; 1880; 2217-2219</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>11 papyri ; 23.7 x 27 cm. or smaller.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">6 cols. (108 lines) on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>In large uncials (height 0.5 cm.)</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0100" notAfter="0199">2nd century A.D.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T547</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Punctuation</term>
+               <term>Accents and accentuation</term>
+               <term type="genre_form">Literary papyri, Identified authors; Epic poems; Diacritical marks</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>UC 1352 Recto.</desc>
+            <graphic url="http://papyri.info/images/1d/AP00839a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>UC 1352 Verso.</desc>
+            <graphic url="http://papyri.info/images/16/AP01290a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="3">
+         <surface n="recto">
+            <desc>UC 1353 Recto.</desc>
+            <graphic url="http://papyri.info/images/f6/AP01442a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="4">
+         <surface n="verso">
+            <desc>UC 1353 Verso.</desc>
+            <graphic url="http://papyri.info/images/4d/AP01443a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="5">
+         <surface n="recto">
+            <desc>UC 1354 Recto.</desc>
+            <graphic url="http://papyri.info/images/99/AP01444a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="6">
+         <surface n="verso">
+            <desc>UC 1354 Verso.</desc>
+            <graphic url="http://papyri.info/images/60/AP01445a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="7">
+         <surface n="recto">
+            <desc>UC 2217-2218 Recto.</desc>
+            <graphic url="http://papyri.info/images/4a/AP01446a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="8">
+         <surface n="verso">
+            <desc>UC 2217-2218 Verso.</desc>
+            <graphic url="http://papyri.info/images/c8/AP01447a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="9">
+         <surface n="recto">
+            <desc>UC 2217, 2219 Recto.</desc>
+            <graphic url="http://papyri.info/images/9e/AP01448a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="10">
+         <surface n="verso">
+            <desc>UC 2217, 2219 Verso.</desc>
+            <graphic url="http://papyri.info/images/5f/AP01449a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="11">
+         <surface n="recto">
+            <desc>UC 1358 col. ix-b Recto.</desc>
+            <graphic url="http://papyri.info/images/69/AP01450a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="12">
+         <surface n="verso">
+            <desc>UC 1353 col. ix-b Verso.</desc>
+            <graphic url="http://papyri.info/images/c6/AP01451a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.265; Plate: P.Tebt., II., pl. I <note>Pack, R.A. Greek and Latin literary texts from Greco-Roman Egypt (2nd ed.), no. 650</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:2:265</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/354">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

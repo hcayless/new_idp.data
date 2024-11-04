@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Receipt for payments in kind : copy</title>
+            <author>Sokrates</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.33</idno>
+            <idno type="controlNo">(CU)33</idno>
+            <idno type="ddbdp">p.tebt.3.2.836</idno>
+            <idno type="ddb-perseus-style">0206;3.2;836</idno>
+            <idno type="ddb-hybrid">p.tebt;3.2;836</idno>
+            <idno type="HGV">5407</idno>
+            <idno type="TM">5407</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0836</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Copy of a receipt for payment of rent and the three-choinix tax for the village of Oxyrhyncha, made by Komoapis son of Onnophris.</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: top, 3.2 cm.; left, 2.5 cm.; right, 5.8 cm.</note>
+                     <note type="general">6th year of Ptolemy IX Soter II, 8th of the Egyptian month Payni.</note>
+                     <note type="local_note">1109</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 9.5 x 17.7 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">7 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Regular cursive</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="-0111">24 June 111 B.C.</origDate>
+                     <origPlace>Eleusis</origPlace>
+                     <persName type="asn">Komoapis, Son of Onnophris</persName>
+                  </origin>
+                  <provenance>
+                     <p>Mummy cartonnage at Tebtunis 3</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Grain</term>
+               <term>Eleusis</term>
+               <term>Mouchis</term>
+               <term>Oxyrhyncha</term>
+               <term type="genre_form">Receipts, Ptolemaic period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto.</desc>
+            <graphic url="http://papyri.info/images/38/AP00496a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso.</desc>
+            <graphic url="http://papyri.info/images/8a/AP00947a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="translation">
+            <ab>Copy of a receipt for grain measured at Eleusis. 6th year, Payni 8, from Sokrates, sitologos of the granary at Mouchis. Grain measured as rent out of the produce of the said year at Eleusis for Oxyrhyncha from Komoapis son of Onnophris, for rent 17 artabas of pure wheat, for the three-choinix tax 1 1/4 art.</ab>
+         </div>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., III.836</bibl>
+               <bibl type="ddbdp">P.Tebt.:3.2:836</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/33">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

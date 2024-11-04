@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Order for arrest</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.83</idno>
+            <idno type="controlNo">(CU)83</idno>
+            <idno type="ddbdp">sb.16.12707</idno>
+            <idno type="ddb-perseus-style">0239;16;12707</idno>
+            <idno type="ddb-hybrid">sb;16;12707</idno>
+            <idno type="HGV">26742</idno>
+            <idno type="TM">26742</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0560</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Order addressed to the archephodos of Kynon kome to arrest a public farmer of the same village</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: top, 1.5 cm.; left, 2 cm.; bottom, 2.5 cm.; in top margin, in red ink "560"; on verso, in black ink: T 700 (twice).</note>
+                     <note type="local_note">1464</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 7.3 x 21.7 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">3 lines, on recto across the fibers.</ab>
+                           <ab type="recto-verso">Verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Large regular semi-uncial</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0175" notAfter="0199">Late 2nd century A.D.</origDate>
+                     <persName type="asn">Patron, Father of N.N.</persName>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T700</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Arrest</term>
+               <term>Farmers</term>
+               <term>Kynon kome</term>
+               <term type="genre_form">Business letters, Roman period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto</desc>
+            <graphic url="http://papyri.info/images/1c/AP03878a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/a5/AP03879a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.560; SB, XVI, no. 12707 <note>Pintaudi, R. ZPE v. 46 (1982), p. 265-266 with photo (Taf. XVc)</note>
+               </bibl>
+               <bibl type="ddbdp">SB:16:12707</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/83">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

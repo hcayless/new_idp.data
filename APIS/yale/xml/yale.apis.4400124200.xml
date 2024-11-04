@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>List, Roman CE 222</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.4400124200</idno>
+            <idno type="controlNo">(CtY)DP 12(B) fol</idno>
+            <idno type="HGV">44833</idno>
+            <idno type="TM">44833</idno>
+            <idno type="ddb-hybrid">p.dura;;101</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. DP 12(B) fol</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Roster of centuries, turmae, dromedarii</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: 2, top<lb/>  3, top<lb/>  4, top<lb/>  6, left and bottom<lb/>  7, bottom<lb/>  8, left, right, and bottom<lb/>  9, left, right, and bottom<lb/>  10, left, right, and bottom<lb/>  11, all<lb/>  12, all<lb/>  13, left, right, and bottom<lb/>  14, all<lb/>  
+                     </note>
+                     <note type="general">1(col. ii)b, 1(col. ii)e, 1(col. ii)i, 1(col. ii)j, 15f, 15k, 15m, 15n, 15p-s, 15w and 15y are blank. 1(col. ii)c is offset.  Traces on 15a, 15c, 15d, 15e, 15g, 15o, and 15v. 1(col. ii)d possibly contains traces. Frame 12:2: fragments of a roll, 5 cols.<lb/> Frame 12:3: fragments of roll, 5 cols.<lb/> Frame 12:4: fragments of roll, 4 cols.<lb/> Frame 12:5: fragments of roll, 4 cols., possibly upside down.<lb/> Frame 12:6: fragments of roll,  4 cols. (col. i): 13 lines; (col. ii) 24 lines; (col. iii): 29 lines; (col. iv): traces of right column.<lb/> Frame 12:7: fragments of roll, 3 cols. (col. i): 24 lines; (col. ii): 24 lines; (col. iii): 10 lines.<lb/> Frame 12:8: roll, 2 cols. (col. i): 23? lines; (col. ii): 26 lines.<lb/> Frame 12:9: roll, 2 cols. (col. i): 26 lines; (col. ii) 29 lines.<lb/> Frame 12:10: roll, 3 cols. (col. i): 26 lines; (col. ii): 26 lines; (col. iii): 31 lines.<lb/> Frame 12:11: roll, 3 cols. (col. i): 29 lines; (col. ii): 30 lines; (col. iii): 23 lines.<lb/> Frame 12:12: roll, 3 cols. (col. i): 29 lines; (col. ii): 24 lines; (col. iii): 28 lines.<lb/> Frame 12:13: 3 cols. (col. i) 31 lines; (col. ii): 29 lines; (col. iii): 26 lines.<lb/> Frame 12:14: fragments of roll, 3 cols. (col. i): 25 lines; (col. ii): 25 lines; (col. iii) 12 lines. </note>
+                     <textLang mainLang="lat">Latin</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 1(col. i): 130 x 228; 1(col. ii)a: 52 x 32; 1(col. ii)b: 32 x 21; 1(col. ii)c: 35 x 19; 1(col. ii)d: 37 x 24; 1(col. ii)e: 45 x 27; 1(col. ii)f: 55 x 28; 1(col. ii)g: 39 x 34; 1(col. ii)h: 44 x 46; 1(col. ii)i: 45 x 27; 1(col. ii)j: 38 x 7; 2: 241; 3: 241; 4: 236; 5: 222; 6: 218; 7: 202; 9: 249; 10: 256; 11: 256; 12: 256; 13: 255; 14: 256; 15a: 20 x 79; 15b: 14 x 38; 15c: 23 x 18; 15d: 37 x 21; 15e: 9 x 32; 15f: 16 x 23; 15g: 29 x 19; 15h: 44 x 8; 15i: 23 x 131; 15j: 41 x 112; 15k: 25 x 39; 15l: 48 x 57; 15m: 28 x 23; 15n: 31 x 22; 15o: 26 x 29; 15p: 51 x 38; 15q: 36 x 32; 15r: 45 x 24; 15s: 39 x 28; 15t: 39 x 79; 15u: 8 x 109; 15v: 6 x 160; 15w: 21 x 27; 15x: 13 x 13; 15y: 12 x 6; 15z: 18 x 263</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">1(col. i) 11<lb/>  1(col. ii)a, 8<lb/>  1(col. ii)f, 7<lb/>  1(col. ii)g, 4?<lb/>  1(col. ii)h, 5<lb/>  6, 29<lb/>  7, 24<lb/>  8, 26<lb/>  9, 29<lb/>  10, 31<lb/>  11, 30<lb/>  12, 29<lb/>  13, 31<lb/>  14, 25<lb/>  15b, 2<lb/>  15h, 3?<lb/>  15i, 3<lb/>  15j, 3<lb/>  15l, 3?<lb/>  15t, 4<lb/>  15u, 2<lb/>  15x, 3<lb/>  15z, 2</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>Roman CE 222</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Dura-Europos</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>List</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Dura, pp. 339-364, pl. xlv</bibl>
+               <bibl>Davies 1968: 32</bibl>
+               <bibl>Rom.Mil.Rec.: PP. 52-81</bibl>
+               <bibl>Ch.L.A. VIII: pp. 50-84, pls. 51, 52, 53, 54, 57, 59, 60, 61, 63, 65, 66, 67, 69, 71, 72, 75, 79, 81, 83</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Dura 101</bibl>
+               <bibl>Rom.Mil.Rec. 2</bibl>
+               <bibl>Ch.L.A. VIII 356</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2771526"/>
+                  <note>Images of P.CtYBR inv. DP 12(B) fol are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

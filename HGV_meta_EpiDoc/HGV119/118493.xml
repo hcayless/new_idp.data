@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv118493">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragments of a Stock-List of Quarries</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">118493</idno>
+            <idno type="TM">118493</idno>
+            <idno type="ddb-perseus-style">0020;4;841</idno>
+            <idno type="ddb-filename">o.claud.4.841</idno>
+            <idno type="ddb-hybrid">o.claud;4;841</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Qift</settlement>
+                  </placeName>
+                  <collection>Archaeological storeroom</collection>
+                  <idno type="invNo">Claud., 6969 + 7134</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Ostrakon</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Mons Claudianus</origPlace>
+                     <origDate notBefore="0150" notAfter="0154">
+                        <precision match="../@notBefore" degree="0.5"/>ca. 150 - 154</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/766348 https://www.trismegistos.org/place/2783">Mons Claudianus</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Liste</term>
+               <term>Bestand an Steinen</term>
+               <term>Angabe der Maße</term>
+               <term>Steinbruch</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="2009-05-11">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">O.Claud.</title>
+                  <biblScope type="volume">4</biblScope>
+                  <biblScope type="numbers">841</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">S. 337 - 341</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.5be69i22/738dcce71c448e35fbd31fa63495ee6a5875c552"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.bcda7o04/19ff3a41bd1d25d176b6e9a12acf10a2b340d669"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.f19b0ji6/f135077c1e60acb6552c62de0865f3f693e26f33"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.4c8a1b7w/b0ba936d89bccf5174039ab6e6362af3c3457b33"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.03e59a03/aeb9d8f9552a3b347c954695e7ec22bf4ae23c7f"/>
+               </figure>
+               <figure>
+                  <graphic url="https://api.nakala.fr/iiif/10.34847/nkl.47c28gw2/9ed5405b12d3f085334d80482d87fe4b52810db9"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

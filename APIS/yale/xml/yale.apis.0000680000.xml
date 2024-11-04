@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Literary work, Roman CE i [BPG]|Roman BCE i-CE early i [CBW] </title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0000680000</idno>
+            <idno type="controlNo">(CtY)68</idno>
+            <idno type="dclp">60297</idno>
+            <idno type="TM">60297</idno>
+            <idno type="dclp-hybrid">p.oxy;4;757</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 68</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Homer, Iliad V.578-586</summary>
+                  <msItemStruct>
+                     <note type="general">Bound in acrylic, but not yet conserved.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 43 x 32 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">9</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0001" notAfter="0099">Roman CE i [BPG]<lb/> Roman BCE i-CE early i [CBW]</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Oxyrhynchus</p>
+                  </provenance>
+                  <acquisition>
+                     <p>Acquisition Information, 1906:  Donated by the Egypt Exploration Fund, 1906. From the Egypt Exploration Fund's excavations. P.CtYBR inv. 20-27, 28 (?), 29 (?), 38, 44-49, 65-69, 2189 (?).</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Literary work</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Oxy. IV, p. 249</bibl>
+               <bibl>P.Yale I, p. 26</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Oxy. 757</bibl>
+               <bibl>P.Yale 6</bibl>
+               <bibl>Pack 756</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2756857"/>
+                  <note>Images of P.CtYBR inv. 68 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

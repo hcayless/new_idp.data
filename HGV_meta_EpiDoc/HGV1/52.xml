@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv52">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vente d’un terrain à bâtir</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">52</idno>
+            <idno type="TM">52</idno>
+            <idno type="ddb-perseus-style">0071;;5</idno>
+            <idno type="ddb-filename">p.batav.5</idno>
+            <idno type="ddb-hybrid">p.batav;;5</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Dublin</settlement>
+                  </placeName>
+                  <collection>Chester Beatty Library</collection>
+                  <idno type="invNo">2177 / 95 + P. Dem. 1 + P. Dem. 2</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Pathyris</origPlace>
+                     <origDate when="-0118-05-02">2. Mai 118 v.Chr.</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                           n="1"
+                           ref="https://pleiades.stoa.org/places/786084 https://www.trismegistos.org/place/1628">
+                           Pathyris</placeName>
+                        <placeName type="ancient" subtype="nome" n="2"
+                           ref="https://www.trismegistos.org/place/2849">Pathyrites</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p> This file encoded to comply with EpiDoc Guidelines and Schema version 8 <ref>
+            http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Verkauf (Grundstück)</term>
+               <term n="2">Steuern entrichtet</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-23T07:49:31-05:00"
+            who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2021-02-22T10:36:26-05:00"
+            who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2021-02-21T10:12:27-05:00"
+            who="http://papyri.info/editor/users/dkaltsas">Submit - Added bibliographical reference
+            under ‘Notes / Bemerkungen’ and ‘Print Illustration’.</change>
+         <change who="HGV" when="1991-03-22">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Demotisch - griechisch. Vervollständigt durch neues Fragment in T.M. Hickey – K.
+               Vandorpe, ZPE 202, 2017, S. 214–218.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Batav.</title>
+                  <biblScope n="1" type="numbers">5</biblScope>
+               </bibl>
+               <bibl>
+                  <title>DAHT</title>
+                  <biblScope>52</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">Planche III</bibl>
+               <bibl type="illustration" n="2">ZPE 202 (2017), S. 215</bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

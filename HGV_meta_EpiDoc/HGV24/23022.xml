@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv23022">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Engagement de nourrice</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">23022</idno>
+            <idno type="TM">23022</idno>
+            <idno type="ddb-perseus-style">0006;1;14</idno>
+            <idno type="ddb-filename">c.pap.gr.1.14</idno>
+            <idno type="ddb-hybrid">c.pap.gr;1;14</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oxyrhynchos</origPlace>
+                     <origDate when="0026-05-21">21. Mai 26</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736983 https://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://pleiades.stoa.org/places/736982 https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Vertrag (Arbeit)</term>
+               <term n="2">Amme</term>
+               <term n="3">Lohn</term>
+               <term n="4">Kyria - Klausel</term>
+               <term n="5">Unterschriften</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2018-08-27T05:16:18-04:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2018-08-22T05:30:12-04:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2018-08-16T02:30:51-04:00"
+                 who="http://papyri.info/users/ThomasBackhuys">Submit - updated link to digital image (p.Rein. II 103 and P.Ryl. II 178 joined in one photo)</change>
+         <change when="2018-08-16T02:30:43-04:00"
+                 who="http://papyri.info/users/ThomasBackhuys">Commit - updated link to digital image (p.Rein. II 103 and P.Ryl. II 178 joined in one photo)</change>
+         <change who="HGV" when="1993-01-21">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 5 -6 und Z. 9: 12. Mai 26</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item>
+                  <ref>Z. 5-6.9</ref>
+                  <date type="mentioned" when="0026-05-12">12. Mai 26</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Rein.</title>
+                  <biblScope n="1" type="volume">2</biblScope>
+                  <biblScope n="2" type="numbers">103</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">VIII</biblScope>
+                  <biblScope type="pages">289</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">Z. 20 - 38: P.Ryl. II, Plate 4</bibl>
+               <bibl type="illustration" n="2">CPGr I, Tavv. XVII - XVIII (Anfang der Z. 9 - 14 fehlt)</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikationen</head>
+            <listBibl>
+               <bibl type="publication" subtype="other" n="1">CPGr I 14</bibl>
+               <bibl type="publication" subtype="other" n="2">Z. 20 - 38: P.Ryl. II 178</bibl>
+               <bibl type="publication" subtype="other" n="3">SB V 7619</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="de">
+               <head xml:lang="de">Deutsch:</head>
+               <bibl type="translations">Eck &amp; Heinrichs, Sklaven und Freigelassene (1993), S. 19f., Nr. 32 (Z. 1-2. 5-9).</bibl>
+            </listBibl>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations">Johnson, Roman Egypt (1936), S. 288-289, Nr. 178.</bibl>
+            </listBibl>
+            <listBibl xml:lang="fr">
+               <head xml:lang="de">Französisch:</head>
+               <bibl type="translations">P. Collart, in: Mélanges Glotz 1 (1932), S. 244</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.papyrologie.paris-sorbonne.fr/photos/Virtualia/raccord%20Rein103-Ryl178.jpg"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

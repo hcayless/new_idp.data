@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv32144">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettre privée d’Heraïs à Agrippinus</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">32144</idno>
+            <idno type="TM">32144</idno>
+            <idno type="ddb-perseus-style">0266;1;74</idno>
+            <idno type="ddb-filename">p.gen.2.1.74</idno>
+            <idno type="ddb-hybrid">p.gen.2;1;74</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Ptolemais Euergetis (?) (Arsinoites)</origPlace>
+                     <origDate notBefore="0139" notAfter="0145">139 - 145</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   cert="low"
+                                   ref="https://pleiades.stoa.org/places/736948 https://www.trismegistos.org/place/327 https://www.trismegistos.org/place/1343">Ptolemais Euergetis</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Brief (privat)</term>
+               <term>Herais an Agrippinos</term>
+               <term>Mutter an Sohn</term>
+               <term>Bitte um Hilfe bei einer Eingabe</term>
+               <term>Sendung von Waren. Drusilla - Prozess.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="HGV" when="1997-08-27">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Gehört zum Dossier des Drusilla - Prozesses.  Zur Datierung vgl. Tyche 16, 2001, S. 102.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Gen.</title>
+                  <biblScope type="volume">1</biblScope>
+                  <biblScope type="fascicle"> (2e éd.)</biblScope>
+                  <biblScope type="numbers">74</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL-online">
+                  <ptr target="https://beehive.zaw.uni-heidelberg.de/hgv/32144"/>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XII</biblScope>
+                  <biblScope type="pages">75</biblScope>
+               </bibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XIII</biblScope>
+                  <biblScope type="pages">99</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">pl. LV</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations">Bagnall - Cribiore, Women's Letters (2006), S. 313</bibl>
+               <bibl type="translations">Bagnall - Cribiore, Women's Letters (2008), B3.9, Nr. 192</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.ville-ge.ch/musinfo/imageZoom/?iip=bgeiip/papyrus/pgen130bis-vi.ptif"/>
+               </figure>
+               <figure>
+                  <graphic url="https://archives.bge-geneve.ch/ark:/17786/vta2fe11779e825077c"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

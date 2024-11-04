@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv30696">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An account of income and expenses addressed to the gymnasiarch Aurelius Theonas</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">30696</idno>
+            <idno type="TM">30696</idno>
+            <idno type="ddb-perseus-style">0121;;101</idno>
+            <idno type="ddb-filename">ddbdp.2020.3</idno>
+            <idno type="ddb-hybrid">ddbdp;2020;3</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Göteborg</settlement>
+                  </placeName>
+                  <collection>Universitätsbibliothek</collection>
+                  <idno type="invNo">106</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>unbekannt</origPlace>
+                     <origDate n="1"
+                               xml:id="dateAlternativeX"
+                               notBefore="0226"
+                               notAfter="0300"
+                               precision="low">
+                Mitte - Ende III (Jahr unsicher)
+                <certainty locus="value" match="../year-from-date(@notBefore)"/>
+                     </origDate>
+                     <origDate n="2"
+                               xml:id="dateAlternativeY"
+                               notBefore="0251"
+                               notAfter="0300"
+                               precision="low">
+                2. Hälfte III (Jahr unsicher)
+                <certainty locus="value" match="../year-from-date(@notBefore)"/>
+                     </origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Abrechnung (privat?)</term>
+               <term n="2">Aurelius Pabeus an Aurelius Theonas</term>
+               <term n="3">Gymnasiarch</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-11-02T04:48:42-05:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2020-11-02T04:03:09-05:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2020-03-16T14:49:38-04:00"
+                 who="http://papyri.info/users/nicola.reggiani">Submit - Full edition of P.Got. 101 formerly elaborated at the 2013-14 Heidelberg Digital Papyrology Seminars. Re-sent with some ameliorations.</change>
+         <change who="HGV" when="1993-03-30">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Got.</title>
+                  <biblScope n="1" type="numbers">101</biblScope>
+                  <biblScope n="2" type="generic">(DDbDP 2020 3)</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://papyri.info/ddbdp/p.got;;101/images"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

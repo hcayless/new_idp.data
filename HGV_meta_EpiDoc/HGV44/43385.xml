@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv43385">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter to the Priests of Socnopaeus</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">43385</idno>
+            <idno type="TM">43385</idno>
+            <idno type="ddb-perseus-style">0057;2;40</idno>
+            <idno type="ddb-filename">p.amh.2.40</idno>
+            <idno type="ddb-hybrid">p.amh;2;40</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Soknopaiu Nesos (Arsinoites, Ägypten)</origPlace>
+                     <origDate notBefore="-0200" notAfter="-0101" precision="low">II v.Chr.</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/737053 https://www.trismegistos.org/place/2157">Soknopaiu Nesos</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief</term>
+               <term n="2">Epiodoros an den Oberpriester und die anderen Priester des Soknopaios</term>
+               <term n="3">Schenkung (Land)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-03-26T12:59:16-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2022-03-26T12:29:20-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Indeed. Typo. Thank you.</change>
+         <change when="2022-03-25T06:05:26-04:00"
+                 who="http://papyri.info/editor/users/pag">Submit - Inhalt: Epidoros changed to Epiodoros</change>
+         <change when="2021-12-22T17:19:30-05:00"
+                 who="http://papyri.info/editor/users/pag">Commit - Inhalt: Epidoros changed to Epiodoros</change>
+         <change who="HGV" when="1996-12-04">Record created</change>
+         <change who="HGV" when="2009-07-02">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Vgl. APF 2, 1902, S. 517</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Amh.</title>
+                  <biblScope n="1" type="volume">2</biblScope>
+                  <biblScope n="2" type="numbers">40</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://corsair.themorgan.org/cgi-bin/Pwebrecon.cgi?BBID=350246"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Return of a loan.</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.842</idno>
+            <idno type="controlNo">(CU)842</idno>
+            <idno type="ddbdp">basp.49.68</idno>
+            <idno type="ddb-hybrid">basp;49;68</idno>
+            <idno type="HGV">13596</idno>
+            <idno type="TM">13596</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0523</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Acknowledgement of the return of a loan, paid back in several instalments.</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: top, 2 cm.; left, 2 cm.; right, 6.6 cm.; bottom, 2.6 cm. In red ink in lower left corner: 523. On verso, in black ink: T 162.</note>
+                     <note type="general">2nd year of the Emperors Marcus Aurelius and Verus.</note>
+                     <note type="general">2011 BYU Summer School text</note>
+                     <note type="local_note">1454</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 23.5 x 15.7 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">25 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0161" notAfter="0162">161/162 A.D.</origDate>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T162</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Loans, Personal</term>
+               <term type="genre_form">Contracts, Roman Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto</desc>
+            <graphic url="http://papyri.info/images/69/AP02228a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/14/AP02229a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.523 (desc. only)</bibl>
+               <bibl type="ddbdp">P.Tebt.:2:523</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/842">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

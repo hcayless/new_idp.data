@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Account, Roman CE late iii [HIB]/ Roman CE c. 260</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0002304200</idno>
+            <idno type="controlNo">(CtY)230(B)</idno>
+            <idno type="HGV">30093</idno>
+            <idno type="TM">30093</idno>
+            <idno type="ddb-hybrid">sb;14;11908</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 230(B)</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>List of names, occupations, and amounts; "account of expenses, most of the payments are to vine-workers"; the column is numbered (64) [HIB]</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: Top, left</note>
+                     <note type="general">Housed, but not yet conserved.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 172 x 115 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">17</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0250" notAfter="0275">Roman CE late iii [HIB]/ Roman CE c. 260</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Oxyrhynchite Nome</p>
+                  </provenance>
+                  <acquisition>
+                     <p>1927</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Account</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>Parássoglou 1974: 249-50, pl. 10</bibl>
+               <bibl>J. David Thomas, "The Date and Provenance of SB XIV 11908", ZPE 151 (2005): 141-143</bibl>
+               <bibl>S. Stephens, ZPE 31 (1978): 145-160</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>Bell III 41</bibl>
+               <bibl>SB XIV 11908</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2756986"/>
+                  <note>Images of P.CtYBR inv. 230(B) are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

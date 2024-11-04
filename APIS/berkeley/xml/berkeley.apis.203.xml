@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tax receipt</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.203</idno>
+            <idno type="controlNo">(CU)203</idno>
+            <idno type="ddbdp">sb.20.14137</idno>
+            <idno type="ddb-perseus-style">0239;20;14137</idno>
+            <idno type="ddb-hybrid">sb;20;14137</idno>
+            <idno type="HGV">14816</idno>
+            <idno type="TM">14816</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0633</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Receipt for poll tax paid by Kronion (son of Kronion)</summary>
+                  <msItemStruct>
+                     <note type="general">Top margin: 2cm.; in top right corner, in red ink, "633"; on verso, in black ink: T 587.</note>
+                     <note type="general">3rd year of the Emperor Antoninus Pius, 15th of the Egyptian month Pachon</note>
+                     <note type="local_note">1484</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 8.5x 6.2cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">7 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">verso empty</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Small regular cursive</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="0140">10 May 140 A.D.</origDate>
+                     <persName type="asn">Kronion, Son of Kronion</persName>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T587</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Poll tax</term>
+               <term type="genre_form">Receipts, Roman period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto.</desc>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso.</desc>
+            <graphic url="http://papyri.info/images/e1/AP01121a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="translation">
+            <ab>Year 3 of Imperator Caesar Titus Aelius Hadrianus Antoninus Augustus Pius, Pachon 15 for the arithmesis of Phamenoth. Paid by Kronion son of Kronion son of Pakebkis, his mother being Sarap( ) as poll-tax of the third year in the Linypheia district twenty drachmas, that is, 20, with additional payments of ten bronze obols.</ab>
+         </div>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.633; SB, XX, no. 14137 <note>Sijpesteijn, P.J. Aegyptus v. 71 (1991), p. 29</note>
+               </bibl>
+               <bibl type="ddbdp">SB:20:14137</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/203">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

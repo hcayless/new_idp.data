@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv140172">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter of Hymenaeus to Dionysius</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">140172</idno>
+            <idno type="TM">140172</idno>
+            <idno type="ddb-perseus-style">;76;5100</idno>
+            <idno type="ddb-filename">p.oxy.76.5100</idno>
+            <idno type="ddb-hybrid">p.oxy;76;5100</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oxyrhynchos</origPlace>
+                     <origDate when="0136" cert="low" precision="medium">ca. 136 (?)</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736983 https://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://pleiades.stoa.org/places/736982 https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (privat)</term>
+               <term n="2">Hymenaios an Dionysios</term>
+               <term n="3">Bitte um die Weiterleitung eines für Theon</term>
+               <term n="4">den Strategen des Prosopites</term>
+               <term n="5">bestimmten Briefs</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-03-23T11:44:37-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2022-03-23T11:16:41-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Yes.</change>
+         <change when="2022-03-23T08:00:52-04:00"
+                 who="http://papyri.info/editor/users/pag">Submit - Added German translation with correct publication year 2014 (note: this translation had already been entered into HGV but with wrong publication year 2013)</change>
+         <change who="HGV" when="2012-01-03">Record created</change>
+         <change who="HGV" when="2012-03-16">Record last modified</change>
+         <change when="2012-03-28" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Tag: 18 Mai. Zu Z. 3 vgl. ZPE 185, 2013, S. 200.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Oxy.</title>
+                  <biblScope n="1" type="volume">76</biblScope>
+                  <biblScope n="2" type="numbers">5100</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://doi.org/10.25446/oxford.21180976"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <listBibl xml:lang="de">
+               <bibl type="translations">Arzt-Grabner, 2. Korinther (2014), S. 144</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

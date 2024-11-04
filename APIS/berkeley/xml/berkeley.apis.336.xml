@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Grammar</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.336</idno>
+            <idno type="controlNo">(CU)336</idno>
+            <idno type="dclp">63740</idno>
+            <idno type="TM">63740</idno>
+            <idno type="dclp-hybrid">p.tebt;2;270</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0270</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Possibly a fragment of a grammar; lines 2-6 contain a quotation from the Odyssey, book 18, line 130.</summary>
+                  <msItemStruct>
+                     <note type="general">Top margin: 4.3 cm.; on verso, in black ink: T 80.</note>
+                     <note type="local_note">2226</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 6.8 x 6.2 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">6 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Small upright uncials.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0200" notAfter="0299">3rd century A.D.</origDate>
+                     <persName type="asn">Homer. Odyssey. Book 18, line 130</persName>
+                  </origin>
+                  <provenance>
+                     <p>House at Tebtunis T80</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Greek language</term>
+               <term type="genre_form">Sub-literary papyri; Epic poems</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>UC 2226 Recto.</desc>
+            <graphic url="http://papyri.info/images/5c/AP00799a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>UC 2226 Verso.</desc>
+            <graphic url="http://papyri.info/images/a6/AP01250a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., II.270; Korte, A. Archiv fur papyrusforschung, v. 6 (1913-1920), p. 259, no. 492 (lines 2-6 only). <note>Pack, R.A. Greek and Latin literary texts from Greco-Roman Egypt (2nd ed.), no. 2156.</note>
+               </bibl>
+               <bibl type="ddbdp">P.Tebt.:2:270</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/336">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

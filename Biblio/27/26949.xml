@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b26949" type="review">
+   <author>
+      <forename>B.A.</forename>
+      <surname>Pearson</surname>
+   </author>
+   <date>1972</date>
+   <biblScope type="pp" from="57" to="58">57-58</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/185"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">CW</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">66</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7695"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Origins of Astrology.</title>
+         <author>Lindsay, Jack</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">26949</idno>
+   <seg type="original" subtype="cr" resp="#BP">B. A. Pearson, CW 66 (1972) pp. 57-58.</seg>
+</bibl>

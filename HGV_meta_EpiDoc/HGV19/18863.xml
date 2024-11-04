@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv18863">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Petition to the Prefect</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">18863</idno>
+            <idno type="TM">18863</idno>
+            <idno type="ddb-perseus-style">0239;3;7206</idno>
+            <idno type="ddb-filename">p.nekr.19</idno>
+            <idno type="ddb-hybrid">p.nekr;;19</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Oxford</settlement>
+                  </placeName>
+                  <collection>Sackler Library</collection>
+                  <idno type="invNo">Papyrology Rooms 89B/34(b) + Paris, Sorbonne, Inv. Sorb. 679 + 678</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oasis Magna, Ägypten</origPlace>
+                     <origDate when="0284-03-07">7. März 284</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/619 https://pleiades.stoa.org/places/776210">Oasis Magna</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Eingabe</term>
+               <term n="2">Aurelius Tmersis und N.N. an den praeses Ianuarianus ...</term>
+               <term n="3">Konkurrenz im Gewerbe der νεκροτάφοι</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-06-26T12:52:24-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go.</change>
+         <change when="2020-06-12T13:12:10-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - Accept - Make appropriate changes to the keywords</change>
+         <change when="2020-06-12T10:34:31-04:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - Accept - This is fine. Update digital image link to the following: http://www.papyrologie.paris-sorbonne.fr/photos/PNekr/P.Nekr.19.jpeg</change>
+         <change when="2020-06-12T10:01:32-04:00"
+                 who="http://papyri.info/editor/users/sofiatorallas">Submit - Updated metadata following republication in P.Nekr., entered as part of Heidelberg’s Digital Papyrology Webinar, summer 2020.</change>
+         <change when="2019-02-06T17:22:03-05:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2019-02-06T07:00:18-05:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2019-02-06T04:38:44-05:00"
+                 who="http://papyri.info/users/ValentinB.">Submit - image ajoutée</change>
+         <change who="HGV" when="1995-02-02">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zur Datierung vgl. BL V, S. 99 und Altmayer, Herrschaft des Carus, S. 404, Anm. 20.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Nekr.</title>
+                  <biblScope type="numbers">19</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL" n="1">
+                  <biblScope type="volume">IX</biblScope>
+                  <biblScope type="pages">246</biblScope>
+               </bibl>
+               <bibl type="BL" n="2">
+                  <biblScope type="volume">X</biblScope>
+                  <biblScope type="pages">187</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.papyrologie.paris-sorbonne.fr/photos/Documentaires/2010679.jpg"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">SB III 7206</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="translations"/>
+      </body>
+  </text>
+</TEI>

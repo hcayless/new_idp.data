@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv15315a">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Miscellaneous fragments</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">15315a</idno>
+            <idno type="TM">15315</idno>
+            <idno type="ddb-perseus-style">0154;5;1860</idno>
+            <idno type="ddb-filename">p.lond.5.1860</idno>
+            <idno type="ddb-hybrid">p.lond;5;1860</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Syene</origPlace>
+                     <origDate notBefore="0551" notAfter="0600" precision="low">2. Hälfte VI</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/786123 https://www.trismegistos.org/place/2207">Syene</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Erklärung</term>
+               <term n="2">Vergleich</term>
+               <term n="3">Streit? (Erbschaft)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-12-10T06:43:52-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go</change>
+         <change when="2022-12-10T06:25:11-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - Ok</change>
+         <change when="2022-12-10T04:27:42-05:00"
+                 who="http://papyri.info/editor/users/anetaskalec">Submit -  I added a link to the digital image..</change>
+         <change when="2022-12-10T04:27:31-05:00"
+                 who="http://papyri.info/editor/users/anetaskalec">Commit -  I added a link to the digital image..</change>
+         <change who="HGV" when="1995-09-20">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Descr. Gehört vielleicht zu P.Münch. I 7. Gehört zum Patermuthis - Archiv.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Lond.</title>
+                  <biblScope n="1" type="volume">5</biblScope>
+                  <biblScope n="2" type="numbers">1860</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">P.Münch. I, S. 78</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Papyrus_1819"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="https://www.digitale-sammlungen.de/en/view/bsb00112137?page=,1"/>
+               </figure>
+               <figure>
+                  <graphic url="https://access.bl.uk/item/viewer/ark:/81055/vdc_100147466519.0x000001"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

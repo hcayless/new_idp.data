@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Document, Roman-Byzantine</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0036930000</idno>
+            <idno type="controlNo">(CtY)3693 qua</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 3693 qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Unrelated fragments</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: 1, top; 5, top; 10, left; 13, left; 15, bottom; 17, bottom; 19, top; 24, bottom; 25, left</note>
+                     <note type="general">Versos 1, 2, 5, 8-11, 14-18, 20, 21, and 24-26 are blank. Traces on versos 3, 23 and 27. Verso 12 is bent over.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus Fragments: 1: 25 x 54; 2: 36 x 28; 3: 50 x 17; 4: 40 x 18; 5: 40 x 25; 6: 44 x 19; 7: 31 x 14; 8: 30 x 15; 9: 24 x 13; 10: 25 x 21; 11: 24 x 24; 12: 19 x 18; 13: 28 x 20; 14: 35 x 15; 15: 18 x 29; 16: 32 x 29; 17: 18 x 17; 18: 14 x 30; 19: 17 x 21; 20: 12 x 11; 21: 38 x 20; 22: 40 x 11; 23: 37 x 25; 24: 29 x 32; 25: 19 x 30; 26: 28 x 16; 27: 17 x 20 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto 1, 1; Recto 2, 3; Recto 3, 5; Recto 4, 6; Verso 4, 3; Recto 5, 2; Recto 6, 6; Verso 6, 5; Recto 7, 4; Verso 7, 1; Recto 8, 4; Recto 9, 4; Recto 10, 3; Recto 11, 4; Recto 12, 3; Verso 12, 3; Recto 13, 4; Verso 13, 4; Recto 14, 5; Recto 15, 1; Recto 16, 2; Recto 17, 1; Recto 18, 3; Recto 19, 1; Verso 19, 1; Recto 20, 3; Recto 21, 2; Recto 22, 4; Verso 22, 5; Recto 23, 5; Recto 24, 3; Recto 25, 1; Recto 26, 3; Recto 27, 3</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0200" notAfter="0699">Roman-Byzantine</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1965a</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Document</term>
+               <term>Papyri Fragments</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <p>No citations.</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2764758"/>
+                  <note>Images of P.CtYBR inv. 3693 qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

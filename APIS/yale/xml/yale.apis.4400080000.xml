@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter, Roman CE 208</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.4400080000</idno>
+            <idno type="controlNo">(CtY)DP 8 fol</idno>
+            <idno type="HGV">44776</idno>
+            <idno type="TM">44776</idno>
+            <idno type="ddb-hybrid">rom.mil.rec;1;99</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. DP 8 fol</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>From governor of Syria Coele, Marius Maximus, to provincial headquarters; probatio and assignment of horses to cavalrymen of Palmyrene cohort</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: a, top and left<lb/>  d, top</note>
+                     <note type="general">Traces on recto e. Versos d-g are blank. h not listed. Several unmounted scraps with writing, set aside in box ii.</note>
+                     <textLang mainLang="lat">Latin</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus Fragments: a: 210 x 255<lb/>  b: 95 x 214<lb/>  c: 92 x 226<lb/>  d: 45 x 28<lb/>  e: 28 x 30<lb/>  f: 43 x 22<lb/>  g: 47 x 14<lb/>  h: 30 x 39 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">Recto a, 9<lb/>  Verso a, 2<lb/>  Recto b, 8<lb/>  Verso b, 2<lb/>  Recto c, 6<lb/>  Verso c, 2<lb/>  Recto d, 1<lb/>  Recto f, 1<lb/>  Recto g, 1</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="0208">Roman CE 208</origDate>
+                  </origin>
+                  <provenance>
+                     <p>(a) Antioch<lb/> (b) Hieropolis<lb/> (c) Antioch</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Letter</term>
+               <term>Papyri Fragments</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Dura, pp. 217-218, pls. xxxiii, 1-2, xxxi</bibl>
+               <bibl>Rom.Mil.Rec.: pp. 403-405</bibl>
+               <bibl>Seider, Pal.Lat.Pap. I, 1972: (a), (A): no. 43, pp. 102-103, pl. 23; (b), (B): no. 54, pp. 117-118, pl. 29</bibl>
+               <bibl>Ch.L.A. VI: pp. 15-20, pls. 16, 17, 18, 20</bibl>
+               <bibl>Crisci 1996: 144</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Dura 56</bibl>
+               <bibl>Rom.Mil.Rec. 99</bibl>
+               <bibl>Ch.L.A. VI 311</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2771675"/>
+                  <note>Images of P.CtYBR inv. DP 8 fol are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

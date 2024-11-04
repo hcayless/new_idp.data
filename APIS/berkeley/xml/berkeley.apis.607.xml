@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Official account or list of contributors to a fund.</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.607</idno>
+            <idno type="controlNo">(CU)607</idno>
+            <idno type="ddbdp">p.tebt.1.180</idno>
+            <idno type="ddb-perseus-style">0206;1;180</idno>
+            <idno type="ddb-hybrid">p.tebt;1;180</idno>
+            <idno type="HGV">3813</idno>
+            <idno type="TM">3813</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0180</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>List of contributors for the entertainment of an official visitor, the agent of the general coming to bank up (revet?) the canal with brushwood, with amounts contributed for a total of 4 talents 130 drachmas.</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: top, 2.5 cm.; left, 3.1 cm.; right, 6 cm.; Space between col. I and II, 2 cm.; between col. II and III, 1 cm.; in top margin, in red ink: 180. Lower right corner of recto has traces of ink, possibly of earlier erased text (palimpsest).</note>
+                     <note type="general">22nd year of Ptolemy X Alexandros or Ptolemy XII Neos Dionusos</note>
+                     <note type="general">Muhs &amp; Hoogendijk</note>
+                     <note type="local_note">1764</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 23 x 26 cm.</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">3 cols. (82 lines) on recto along the fibers.</ab>
+                           <ab type="recto-verso">Verso empty.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Small regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0092" notAfter="-0059">92 or 59 B.C.</origDate>
+                     <persName type="asn">[H]euremon</persName>
+                  </origin>
+                  <provenance>
+                     <p>Crocodile cartonnage at Tebtunis 19.2</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Canals</term>
+               <term type="genre_form">Official accounts, Ptolemaic Period; Palimpsests</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto.</desc>
+            <graphic url="http://papyri.info/images/fc/AP01928a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso.</desc>
+            <graphic url="http://papyri.info/images/21/AP01929a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., I.180 (desc. only)</bibl>
+               <bibl type="ddbdp">P.Tebt.:1:180</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/607">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

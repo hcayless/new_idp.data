@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Receipt, Roman CE 186</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0000140000</idno>
+            <idno type="controlNo">(CtY)14</idno>
+            <idno type="ddbdp">p.yale.1.73</idno>
+            <idno type="ddb-perseus-style">0228;1;73</idno>
+            <idno type="ddb-hybrid">p.yale;1;73</idno>
+            <idno type="HGV">16845</idno>
+            <idno type="TM">16845</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 14</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>For poll tax</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: All</note>
+                     <note type="general">Bound in acrylic, but not yet conserved.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 73 x 106 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">5</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="0186">Roman CE 186</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Theadelphia, Arsinoite nome</p>
+                  </provenance>
+                  <acquisition>
+                     <p>Acquisition Information, 1901: Donated by the Egypt Exploration Fund, January 1901. From the Egypt Exploration Fund's excavations. Horde includes P.CtYBR inv. 1, 7, 8, 14-16, 30-33, 35, 37, 40-43, 2190.</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Receipt</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Fay., p. 315</bibl>
+               <bibl>P.Yale I, p. 236</bibl>
+               <bibl>P.Mich. XV, p. 23 n. 6</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Fay. 351 descr.</bibl>
+               <bibl>P.Yale 73</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2756794"/>
+                  <note>Images of P.CtYBR inv. 14 are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

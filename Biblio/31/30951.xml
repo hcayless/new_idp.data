@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b30951" type="review">
+   <author>
+      <forename>Rosa</forename>
+      <surname>Otranto</surname>
+   </author>
+   <date>1996</date>
+   <biblScope type="pp" from="225" to="233">225-233</biblScope>
+   <biblScope type="no">No. 43</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/375"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">QS</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">22</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/13882"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Volumen. Aspetti della tipologia del rotolo librario antico.</title>
+         <author>CAPASSO, Mario</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">30951</idno>
+   <seg type="original" subtype="cr" resp="#BP">Rosa Otranto, QS 22 (1996) No. 43, pp. 225-233.</seg>
+</bibl>

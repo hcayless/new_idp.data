@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv977098">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Anzeige wegen Diebstahls</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">977098</idno>
+            <idno type="TM">977098</idno>
+            <idno type="ddb-filename">p.koelnsarapion.1</idno>
+            <idno type="ddb-hybrid">p.koelnsarapion;;1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Cologne</settlement>
+                  </placeName>
+                  <collection>Papyrussammlung</collection>
+                  <idno type="invNo">Inv. 22302</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Memphites ?, Ägypten</origPlace>
+                     <origDate when="-0190-08-12">12. Aug. 190 v.Chr.</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   subtype="nome"
+                                   cert="low"
+                                   ref="https://www.trismegistos.org/place/2714 https://pleiades.stoa.org/places/736964">Memphites</placeName>
+                        <placeName n="2" type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Anzeige</term>
+               <term n="2">Schiffsreise</term>
+               <term n="3">Diebstahl</term>
+               <term n="4">Schmuck</term>
+               <term n="5">Geld</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-21T06:08:42-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-09-21T06:07:01-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - Looks good.</change>
+         <change when="2023-09-21T05:35:20-04:00"
+                 who="http://papyri.info/editor/users/LaviniaFerretti">Submit - changed link to permalink</change>
+         <change who="HGV" when="2023-03-02">Xwalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.KölnSarapion</title>
+                  <biblScope type="numbers">1</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Tafel I</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="https://papyri.uni-koeln.de/stueck/tm977098"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

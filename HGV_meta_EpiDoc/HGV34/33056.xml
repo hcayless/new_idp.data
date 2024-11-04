@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv33056">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Der Privatbrief BGU IV 1044</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">33056</idno>
+            <idno type="TM">33056</idno>
+            <idno type="ddb-perseus-style">0001;4;1044</idno>
+            <idno type="ddb-filename">zpe.212.197</idno>
+            <idno type="ddb-hybrid">zpe;212;197</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Berlin</settlement>
+                  </placeName>
+                  <collection>Ägyptisches Museum und Papyrussammlung</collection>
+                  <idno type="invNo">P. 7939</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>unbekannt</origPlace>
+                     <origDate notBefore="0301" notAfter="0400" precision="low">IV</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl type="SB">
+                  <ptr target="papyri.info/biblio/96459"/>
+                  <biblScope type="pp">197</biblScope>
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Brief (privat)</term>
+               <term n="2">N.N. an Aion, Kornelios, Sarapammon und Apphus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-10-16T06:12:20-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Finalized - Ready.</change>
+         <change when="2023-10-16T06:05:25-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Vote - HGVAccept - OK.</change>
+         <change when="2023-06-28T05:09:54-04:00"
+                 who="http://papyri.info/editor/users/paulpeters">Submit - Anpassung von Metadaten und Text an sowie Eingabe einer Übersetzung nach ZPE 212, 2019, S. 197.</change>
+         <change who="HGV" when="1994-10-26">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 1-3 vgl. Arzt-Grabner, 2. Korinther, S. 207, Anm. 116.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">ZPE</title>
+                  <biblScope n="1" type="volume">212</biblScope>
+                  <biblScope n="2" type="fascicle">(2019)</biblScope>
+                  <biblScope n="3" type="pages">S. 197</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration" n="1">Schubart, Papyri Graecae Berolinenses, 41</bibl>
+               <bibl type="illustration" n="2">Février, Histoire de l'écriture, pl. X, Nr. 2 (nach S. 432, Ausschnitt)</bibl>
+            </p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://berlpap.smb.museum/02340/"/>
+               </figure>
+            </p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <listBibl>
+               <bibl type="publication" subtype="other">BGU 4 1044</bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b25954" type="review">
+   <author>
+      <forename>Jean</forename>
+      <surname>Vezin</surname>
+   </author>
+   <date>1968</date>
+   <biblScope type="pp" from="445" to="446">445-446</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/396"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">REL</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">46</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7080"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Buchhandel und Verlagswesen in der Antike. Aus dem Schwedischen übersetzt von Ernst Zunker.</title>
+         <author>Kleberg, Tönnes</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">25954</idno>
+   <seg type="original" subtype="cr" resp="#BP">Jean Vezin, REL 46 (1968) pp. 445-446.</seg>
+</bibl>

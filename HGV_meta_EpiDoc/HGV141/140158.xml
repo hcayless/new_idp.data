@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv140158">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>List of Origins of Transported Grain</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">140158</idno>
+            <idno type="TM">140158</idno>
+            <idno type="ddb-perseus-style">;20;817</idno>
+            <idno type="ddb-filename">p.mich.20.817</idno>
+            <idno type="ddb-hybrid">p.mich;20;817</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Mich. inv. 4028b</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Oxyrhynchos</origPlace>
+                     <origDate xml:id="dateAlternativeX"
+                               notBefore="0357"
+                               notAfter="0358"
+                               cert="low">
+                        <precision match="../@notBefore" degree="0.5"/>ca. 357 - 358 (?)</origDate>
+                     <origDate xml:id="dateAlternativeY"
+                               notBefore="0372"
+                               notAfter="0373"
+                               cert="low">
+                        <precision match="../@notBefore" degree="0.5"/>ca. 372 - 373 (?)</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736983 https://www.trismegistos.org/place/1524">Oxyrhynchos</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://pleiades.stoa.org/places/736982 https://www.trismegistos.org/place/2722">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                  <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term>Aufstellung über die Herkunft von zu transportierendem Getreide</term>
+               <term>Fragment</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-11-14T21:36:31-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Finalized - This is good to go</change>
+         <change when="2022-11-14T21:31:05-05:00"
+                 who="http://papyri.info/editor/users/Mike%20Sampson">Vote - HGVAccept - The new image link is correct; the APIS file contains two sets of idnos, one of which needs to be deleted to undo the mistaken aggregation.</change>
+         <change when="2021-09-15T12:25:11-04:00"
+                 who="http://papyri.info/editor/users/ngonis">Submit - michigan.apis.4364 refers to P.Mich. 20 817 and 811 but this only applies to 817. The number of 811 is 10548. I've corrected the link to the digital image of 801, but the problem is bigger than that. </change>
+         <change who="HGV" when="2011-12-19">Record created</change>
+         <change who="HGV" when="2012-03-16">Record last modified</change>
+         <change when="2012-03-28" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Alternativdatierung: 372 - 273.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Mich.</title>
+                  <biblScope type="volume">20</biblScope>
+                  <biblScope type="numbers">817</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://quod.lib.umich.edu/a/apis/x-4364"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

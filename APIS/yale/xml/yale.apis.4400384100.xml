@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>List, Roman CE ca. 224</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.4400384100</idno>
+            <idno type="controlNo">(CtY)DP 38(A)</idno>
+            <idno type="HGV">44835</idno>
+            <idno type="TM">44835</idno>
+            <idno type="ddb-hybrid">p.dura;;103</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. DP 38(A)</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Cavalrymen</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: a, left and bottom<lb/>  c, bottom</note>
+                     <textLang mainLang="lat">Latin</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus Fragments: a: 50 x 42<lb/>  b: 108 x 48<lb/>  c: 145 x 43 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">a, 1<lb/>  b, 9<lb/>  c, 7</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate>Roman CE ca. 224</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Dura-Europos</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>List</term>
+               <term>Papyri Fragments</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Dura, pp. 371-372</bibl>
+               <bibl>Rom.Mil.Rec.: p. 149</bibl>
+               <bibl>Ch.L.A. IX: p. 28, pl. 28</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>P.Dura 103</bibl>
+               <bibl>Rom.Mil.Rec. 26</bibl>
+               <bibl>Ch.L.A. IX 358</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2771856"/>
+                  <note>Images of P.CtYBR inv. DP 38(A) are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

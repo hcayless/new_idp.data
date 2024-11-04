@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv8084">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Petition of Demetrius</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">8084</idno>
+            <idno type="TM">8084</idno>
+            <idno type="ddb-perseus-style">0110;;11</idno>
+            <idno type="ddb-filename">p.fay.11</idno>
+            <idno type="ddb-hybrid">p.fay;;11</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Theadelphia (Arsinoites, Ägypten)</origPlace>
+                     <origDate notBefore="-0116">
+                        <offset n="1" type="after">nach</offset>
+                116 v.Chr.
+              </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1"
+                                   type="ancient"
+                                   ref="https://pleiades.stoa.org/places/737081 https://www.trismegistos.org/place/2349">Theadelphia</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Eingabe</term>
+               <term n="2">Enteuxis</term>
+               <term n="3">Demetrios an die Könige</term>
+               <term n="4">Rückgabe eines Darlehens (Getreide)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-01-05T10:54:00-05:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2019-01-05T10:43:21-05:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2019-01-04T08:51:26-05:00"
+                 who="http://papyri.info/users/dkaltsas">Submit - Corrected typo in title. </change>
+         <change who="HGV" when="1996-10-11">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Zu Z. 4 vgl. Scheuble-Reiter, Katökenreiter, S. 75 mit Anm. 102.</p>
+         </div>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 5: 21. Dez. 121 - 19. Jan. 120 v. Chr. (vgl. BL I, S. 127); Z. 9: 19. Febr. - 20. März 120 v. Chr. (vgl. BL I, S. 127); Z. 11: 22. Okt. - 20. Nov. 120 v. Chr.</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item n="1">
+                  <ref>Z. 11</ref>
+                  <date type="mentioned" notBefore="-0120-10-22" notAfter="-0120-11-20">22. Okt. 120 - 20. Nov. 120 v.Chr.</date>
+               </item>
+               <item n="2">
+                  <ref>Z. 5</ref>
+                  <date type="mentioned" notBefore="-0121-12-21" notAfter="-0120-01-19">21. Dez. 121 - 19. Jan. 120 v.Chr.</date>
+               </item>
+               <item n="3">
+                  <ref>Z. 9</ref>
+                  <date type="mentioned" notBefore="-0120-02-19" notAfter="-0120-03-20">19. Feb. 120 - 20. März 120 v.Chr.</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Fay.</title>
+                  <biblScope type="numbers">11</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>keine</p>
+         </div>
+         <div type="bibliography" subtype="otherPublications">
+            <head>Andere Publikation</head>
+            <listBibl>
+               <bibl type="publication" subtype="other">M.Chr. 14</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://ipap.csad.ox.ac.uk/4DLink4/4DACTION/IPAPwebquery?vPub=P.Fay.&amp;vVol=&amp;vNum=11"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Official letter from Herodoros.</title>
+            <author>Herodoros</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">berkeley.apis.973</idno>
+            <idno type="controlNo">(CU)973</idno>
+            <idno type="ddbdp">p.tebt.3.1.753</idno>
+            <idno type="ddb-perseus-style">0206;3.1;753</idno>
+            <idno type="ddb-hybrid">p.tebt;3.1;753</idno>
+            <idno type="HGV">5354</idno>
+            <idno type="TM">5354</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.Tebt.0753</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Herodoros informs Adamas about his actions.</summary>
+                  <msItemStruct>
+                     <note type="general">Verso published.</note>
+                     <note type="general">Margins: top, 2.7 cm.; left, 1 cm.; right, 0.4 cm.</note>
+                     <note type="general">9th year of Ptolemy Philometor or Ptolemy Epiphanes, 12th of the Egyptian month Thoth.</note>
+                     <note type="general">Adamas papers</note>
+                     <note type="local_note">1233</note>
+                     <note type="local_note">Bancroft Library, Univ. of Calif., Berkeley</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papyri">
+                        <support>1 papyrus ; 31 x 6.9 cm.</support>
+                        <condition>
+                           <ab type="conservation">Remains of plaster on verso</ab>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <ab type="lines">30 lines, on recto along the fibers.</ab>
+                           <ab type="recto-verso">On verso, across the fibers: address.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>Regular cursive.</p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="-0197" notAfter="-0173">197 or 173 B.C.</origDate>
+                     <persName type="asn">Adamas</persName>
+                  </origin>
+                  <provenance>
+                     <p>Mummy cartonnage at Tebtunis 48 and 53</p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Theogonis</term>
+               <term>Oxyrhyncha</term>
+               <term>Ibion</term>
+               <term>Kaminoi</term>
+               <term type="genre_form">Business letters, Ptolemaic Period</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp n="1">
+         <surface n="recto">
+            <desc>Recto</desc>
+            <graphic url="http://papyri.info/images/9e/AP03015a"/>
+         </surface>
+      </surfaceGrp>
+      <surfaceGrp n="2">
+         <surface n="verso">
+            <desc>Verso</desc>
+            <graphic url="http://papyri.info/images/7a/AP03016a"/>
+         </surface>
+      </surfaceGrp>
+   </facsimile>
+   <text>
+      <body>
+         <div type="translation">
+            <ab>Herodoros to Adamas, greeting. After I had set out with Ammonios, having taken the animals from Oxyrhyncha, when we had carried down the wheat from Ibion and �, [finding] the bridge fallen we returned to Oxyrhyncha with nothing to do. I was unable to separate from Herakleides so as to go up because he said that we would proceed to Kaminoi �; � and send even now a man to be here in order that I myself may sail to the people at Theogonis and the other villages and see to my holding. Goodbye. The 9th year, Thoth 12. (Addressed on the verso) To Adamas.</ab>
+         </div>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>P.Tebt., III.753</bibl>
+               <bibl type="ddbdp">P.Tebt.:3.1:753</bibl>
+            </listBibl>
+            <p>
+               <ref target="http://sunsite.berkeley.edu/cgi-bin/apisdb/record/973">Original record</ref>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

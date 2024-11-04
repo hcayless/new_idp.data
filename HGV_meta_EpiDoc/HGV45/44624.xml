@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv44624">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An die Archonten wegen eines Darlehens</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">44624</idno>
+            <idno type="TM">44624</idno>
+            <idno type="ddb-perseus-style">0257;;8</idno>
+            <idno type="ddb-filename">p.polit.iud.8</idno>
+            <idno type="ddb-hybrid">p.polit.iud;;8</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>Cologne</settlement>
+                  </placeName>
+                  <collection>Papyrussammlung</collection>
+                  <idno type="invNo">P. 21041</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Herakleopolis</origPlace>
+                     <origDate when="-0133-03-15">15. März 133 v.Chr.</origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName type="ancient"
+                                   ref="https://pleiades.stoa.org/places/736920 https://www.trismegistos.org/place/801">Herakleopolis</placeName>
+                        <placeName type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/2713 https://pleiades.stoa.org/places/736921">Herakleopolites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Eingabe</term>
+               <term n="2">Archonten</term>
+               <term n="3">Darlehen</term>
+               <term n="4">Rückzahlung</term>
+               <term n="5">Soldat</term>
+               <term n="6">Hypothek</term>
+               <term n="7">Weingarten</term>
+               <term n="8">Teilzahlungen</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-09-27T10:30:06-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Finalized - Ready.</change>
+         <change when="2023-09-27T09:41:09-04:00"
+                 who="http://papyri.info/editor/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2023-09-27T03:32:38-04:00"
+                 who="http://papyri.info/editor/users/LaviniaFerretti">Submit - Added link to new Koeln database</change>
+         <change who="HGV" when="2002-01-20">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="mentionedDates">
+            <head>Erwähnte Daten</head>
+            <note type="original">Z. 1: Bearbeitungsvermerk vom 15.-22. März 133 v.Chr.; Z. 10: 138-137; Z. 19 137-136; Z. 20: 22. Aug. - 20. Sept. 135 v.Chr.; Z. 22: 23. Juli - 21. Aug. 134 v.Chr.; Z. 27: 22. Aug. - 20. Sept. 134 v.Chr.; Z. 28: 21. Aug. - 19. Sept. 133 v.Chr.</note>
+            <note type="source">MentionedDates.fp7</note>
+            <list>
+               <item n="1">
+                  <ref>Z. 10</ref>
+                  <date type="mentioned" notBefore="-0138" notAfter="-0137">138 - 137 v.Chr.</date>
+               </item>
+               <item n="2">
+                  <ref>Z. 19</ref>
+                  <date type="mentioned" notBefore="-0137" notAfter="-0136">137 - 136 v.Chr.</date>
+               </item>
+               <item n="3">
+                  <ref>Z. 20</ref>
+                  <date type="mentioned" notBefore="-0135-08-22" notAfter="-0135-09-20">22. Aug. 135 - 20. Sept. 135 v.Chr.</date>
+               </item>
+               <item n="4">
+                  <ref>Z. 22</ref>
+                  <date type="mentioned" notBefore="-0134-07-23" notAfter="-0134-08-21">23. Juli 134 - 21. Aug. 134 v.Chr.</date>
+               </item>
+               <item n="5">
+                  <ref>Z. 27</ref>
+                  <date type="mentioned" notBefore="-0134-08-22" notAfter="-0134-09-20">22. Aug. 134 - 20. Sept. 134 v.Chr.</date>
+               </item>
+               <item n="6">
+                  <ref>Z. 28</ref>
+                  <date type="mentioned" notBefore="-0133-08-21" notAfter="-0133-09-19">21. Aug. 133 - 19. Sept. 133 v.Chr.</date>
+               </item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">P.Polit. Iud.</title>
+                  <biblScope type="numbers">8</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XII</biblScope>
+                  <biblScope type="pages">161</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">Tafel XIII, XIV, XVII b</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="de">
+               <head xml:lang="de">Deutsch:</head>
+               <bibl type="translations">TUAT, N.F. 1 (2004), VII 17</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure n="1">
+                  <graphic url="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PPolitIud/PPolitIud_008.html"/>
+               </figure>
+               <figure n="2">
+                  <graphic url="https://papyri.uni-koeln.de/stueck/tm44624"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b26796" type="review">
+   <author>
+      <forename>Édouard</forename>
+      <surname>Will</surname>
+   </author>
+   <date>1972</date>
+   <biblScope type="pp" from="218" to="218">218</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/393"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">REG</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">85</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/7581"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Alexander and the Hellenistic World.</title>
+         <author>Welles, C. Bradford</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">26796</idno>
+   <seg type="original" subtype="cr" resp="#BP">Édouard Will, REG 85 (1972) p. 218.</seg>
+</bibl>

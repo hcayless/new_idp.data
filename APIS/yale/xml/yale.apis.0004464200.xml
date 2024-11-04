@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Literary work, Roman CE mid-i  [HMH]</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>APIS</authority>
+            <idno type="apisid">yale.apis.0004464200</idno>
+            <idno type="controlNo">(CtY)446(B) qua</idno>
+            <idno type="dclp">63207</idno>
+            <idno type="TM">63207</idno>
+            <idno type="dclp-hybrid">tm;;63207</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">P.CtYBR inv. 446(B) qua</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Grammatical work (perhaps an epitome of a treatise by Camanus)</summary>
+                  <msItemStruct>
+                     <note type="general">Margins: Top, bottom</note>
+                     <note type="general">2 cols. (col. i) 35 lines; (col. ii) 28 lines.</note>
+                     <textLang mainLang="grc">Greek</textLang>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Papyrus: 236 x 196 mm</support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <ab type="lines">35</ab>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="0050" notAfter="0075">Roman CE mid-i  [HMH]</origDate>
+                  </origin>
+                  <acquisition>
+                     <p>1931a</p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="apis">
+               <desc>APIS keywords are controlled locally at the institution level. They are not necessarily consistent.</desc>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#apis">
+               <term>Literary work</term>
+               <term>Papyri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography" subtype="citations">
+            <listBibl>
+               <bibl>Hubbell 1933: 189-98</bibl>
+               <bibl>P.Yale I, pp. 51-55, pl. 3</bibl>
+               <bibl>Solmsen 1945: 115-116</bibl>
+               <bibl>Di Benedetto 1958: 169-210, esp. p. 186</bibl>
+               <bibl>Wells 1965: 93-104</bibl>
+               <bibl>Wouters 1979: 47-60</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="references">
+            <listBibl>
+               <bibl>Rost. a100</bibl>
+               <bibl>Pack 2138</bibl>
+               <bibl>P.Yale 25</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://hdl.handle.net/10079/digcoll/2775860"/>
+                  <note>Images of P.CtYBR inv. 446(B) qua are available at Yale University Library's Digital Collections website</note>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

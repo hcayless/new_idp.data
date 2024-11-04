@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hgv4258">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quittung über Schiffmietzins</title>
+         </titleStmt>
+         <publicationStmt>
+            <idno type="filename">4258</idno>
+            <idno type="TM">4258</idno>
+            <idno type="ddb-perseus-style">0239;14;11716</idno>
+            <idno type="ddb-filename">sb.14.11716</idno>
+            <idno type="ddb-hybrid">sb;14;11716</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>
+                     <settlement>unbekannt</settlement>
+                  </placeName>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papyrus</material>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Ghoran (Arsinoites, Ägypten)</origPlace>
+                     <origDate n="1"
+                               xml:id="dateAlternativeX"
+                               notBefore="-0236-03-13"
+                               notAfter="-0236-04-11">
+                13. März - 11. Apr. 236 v.Chr. (Jahr unsicher)
+                <certainty locus="value" match="../year-from-date(@notBefore)"/>
+                     </origDate>
+                     <origDate n="2"
+                               xml:id="dateAlternativeY"
+                               notBefore="-0233-03-09"
+                               notAfter="-0233-05-07">
+                9. März - 7. Mai 233 v.Chr. (Jahr unsicher)
+                <certainty locus="value" match="../year-from-date(@notBefore)"/>
+                     </origDate>
+                  </origin>
+                  <provenance type="located">
+                     <p>
+                        <placeName n="1" type="ancient">Ghoran</placeName>
+                        <placeName n="2"
+                                   type="ancient"
+                                   subtype="nome"
+                                   ref="https://www.trismegistos.org/place/332 https://pleiades.stoa.org/places/736893">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region">Ägypten</placeName>
+                     </p>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+            <language ident="en">Englisch</language>
+            <language ident="de">Deutsch</language>
+            <language ident="it">Italienisch</language>
+            <language ident="es">Spanisch</language>
+            <language ident="la">Latein</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="hgv">
+               <term n="1">Quittung</term>
+               <term n="2">Miete</term>
+               <term n="3">Schiff</term>
+               <term n="4">Zins</term>
+               <term n="5">Geld</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-02-11T04:58:09-05:00"
+                 who="http://papyri.info/users/james.cowey">Finalized - Ready.</change>
+         <change when="2019-02-10T12:56:41-05:00"
+                 who="http://papyri.info/users/james.cowey">Vote - HGVAccept - Fine</change>
+         <change when="2019-02-06T06:35:47-05:00"
+                 who="http://papyri.info/users/ValentinB.">Submit - image ajoutée</change>
+         <change who="HGV" when="1990-09-19">Record created</change>
+         <change who="HGV" when="2011-04-19">Record last modified</change>
+         <change when="2011-04-20" who="IDP">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="commentary" subtype="general">
+            <p>Alternativdatierung: 9. März - 7. Mai 233 v. Chr. Zur Datierung vgl. BL XI, S. 214.</p>
+         </div>
+         <div type="bibliography" subtype="principalEdition">
+            <listBibl>
+               <bibl type="publication" subtype="principal">
+                  <title level="s" type="abbreviated">SB</title>
+                  <biblScope n="1" type="volume">14</biblScope>
+                  <biblScope n="2" type="numbers">11716</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="corrections">
+            <head>BL-Einträge nach BL-Konkordanz</head>
+            <listBibl>
+               <bibl type="BL">
+                  <biblScope type="volume">XI</biblScope>
+                  <biblScope type="pages">214</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations">
+            <p>
+               <bibl type="illustration">BASP 15, 1977, nach S. 183</bibl>
+            </p>
+         </div>
+         <div type="bibliography" subtype="translations">
+            <head xml:lang="de">Übersetzungen</head>
+            <listBibl xml:lang="en">
+               <head xml:lang="de">Englisch:</head>
+               <bibl type="translations">J. Scherer, BASP 15, 1978, S. 96</bibl>
+            </listBibl>
+         </div>
+         <div type="figure">
+            <p>
+               <figure>
+                  <graphic url="http://www.papyrologie.paris-sorbonne.fr/photos/Documentaires/2012395.jpg"/>
+               </figure>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="b32324" type="review">
+   <author>
+      <forename>B.</forename>
+      <surname>Clarot</surname>
+   </author>
+   <date>2004</date>
+   <biblScope type="pp" from="142" to="143">142-143</biblScope>
+   <relatedItem type="appearsIn">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/206"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="j" type="short-BP">EtCl</title>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <biblScope type="issue">72</biblScope>
+   <relatedItem type="reviews" n="1">
+      <bibl>
+         <ptr target="https://papyri.info/biblio/17085"/>
+         <!--ignore - start, i.e. SoSOL users may not edit this-->
+         <title level="m" type="main">Antiphon the Sophist. The Fragments.</title>
+         <author>PENDRICK, Gerard J.</author>
+         <!--ignore - stop-->
+      </bibl>
+   </relatedItem>
+   <idno type="pi">32324</idno>
+   <seg type="original" subtype="cr" resp="#BP">C.R. par B. Clarot, EtCl 72 (2004) pp. 142-143.</seg>
+</bibl>
