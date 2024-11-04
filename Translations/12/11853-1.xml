@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/8.13/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader type="text">
       <fileDesc>
@@ -54,7 +54,7 @@
                   <milestone n="8" unit="line"/>und für ... 68 Dr., Zuschläge 6 Dr. 4½ Ob. 2 Ch., macht  74 Dr. 4½ Ob. 2 Ch.
                   <milestone n="9" unit="line"/>an Abgaben für den Dorfschreiber mit ... 95 Dr., Zuschläge 6 Dr., macht   101 Dr.
                   <milestone n="11" unit="line"/>und für die Steuer für Mörser in der Ölmühle des Soknopaios von Soknopaiu
-                  Nesos 142 Dr. 2 Ob., Zuschläge 9 Dr. 1½/ Ob., macht 151 Dr. 3½0b.
+                  Nesos 142 Dr. 2 Ob., Zuschläge 9 Dr. 1½ Ob., macht 151 Dr. 3½0b.
                </p>
             </div>
             <div type="textpart" xml:id="col_2">
