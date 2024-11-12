@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.16/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.6/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
   xml:lang="en">
   <teiHeader>
@@ -17,12 +17,6 @@
         <p/>
       </sourceDesc>
     </fileDesc>
-    <encodingDesc>
-      <listPrefixDef>
-        <prefixDef matchPattern="([a-zA-Z]+)" replacementPattern="http://purl.org/dc/terms/$1" ident="dc"></prefixDef>
-        <prefixDef matchPattern="([-a-zA-Z]+)" replacementPattern="https://papyri.info/charDecl.xml#$1" ident="c"></prefixDef>
-      </listPrefixDef>
-    </encodingDesc>
     <profileDesc>
       <langUsage>
         <language ident="en">English</language>
@@ -35,7 +29,12 @@
   </teiHeader>
   <text>
     <body>
-      <head about="https://papyri.info/static/chr.wilck/92">Chr.Wilck 92 = <seg about="#col_1" property="dc:replaces" resource="https://papyri.info/static/chr.wilck/92#col_1">BGU 1 337 (Col. 1)</seg> = <seg about="#col_2" property="dc:replaces" resource="https://papyri.info/static/chr.wilck/92#col_1">BGU 1 1 (Col. 2)</seg> = <seg property="dc:isReplacedBy" resource="https://papyri.info/static/p.louvre/1/4">P.Louvre 1 4</seg></head>
+      <head>
+        <ref type="self">Chr.Wilck 92</ref> = 
+        <ref type="update" target="https://papyri.info/pub/p.louvre/1/4">P.Louvre 1 4 (col. 1-2)</ref> =
+        <ref type="update" target="https://papyri.info/pub/zpe/165/150-156">ZPE 165 (2008) pp. 150–156 (col. 1-2)</ref> =
+        <ref type="curated" target="https://papyri.info/ddbdp/11853#col_1 https://papyri.info/ddbdp/11853#col_2">DDbDP 11853 (col. 1-2)</ref>
+      </head>
       <div type="edition" facs="https://papyri.info/images/bgu/1/337">
         <div type="textpart" xml:id="col_1"></div>
         <div type="textpart" xml:id="col_2"></div>
